@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:evoker",
+    "display": {
+        "title": "advancements.vampires.inquisitor.title",
+        "description": "advancements.vampires.inquisitor.description",
+        "icon": {
+            "item": "irons_spellbooks:scroll"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecells:inquisitor": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecells:inquisitor"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "minecells:inquisitor"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

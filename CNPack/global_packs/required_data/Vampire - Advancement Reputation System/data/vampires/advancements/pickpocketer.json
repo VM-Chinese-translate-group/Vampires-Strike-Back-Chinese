@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:01_first_blood",
+    "display": {
+        "title": "advancements.vampires.pickpocketer.title",
+        "description": "advancements.vampires.pickpocketer.description",
+        "icon": {
+            "item": "jaams_weaponry:sharp_stone_blade"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enemyexpansion:goblin": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "enemyexpansion:goblin"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "enemyexpansion:goblin"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

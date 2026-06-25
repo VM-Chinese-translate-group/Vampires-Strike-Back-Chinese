@@ -1,0 +1,7 @@
+{
+    "name": "power.origins.vampire_hud.name",
+    "description": "power.origins.vampire_hud.description",
+    "hidden": true,
+    "type": "origins:status_bar_texture",
+    "texture": "minecraft:gui/icons_vampire.png"
+}

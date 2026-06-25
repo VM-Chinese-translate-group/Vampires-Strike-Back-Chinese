@@ -1,0 +1,12 @@
+{
+    "name": "power.origins.no_wings.name",
+    "description": "power.origins.no_wings.description",
+    "hidden": true,
+    "type": "origins:restrict_armor",
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:elytra"
+        }
+    }
+}

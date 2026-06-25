@@ -1,0 +1,11 @@
+{
+    "name": "power.origins.step_height_increase.name",
+    "description": "power.origins.step_height_increase.description",
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Higher Step Height",
+        "attribute": "forge:step_height_addition",
+        "value": 1.26,
+        "operation": "addition"
+    }
+}

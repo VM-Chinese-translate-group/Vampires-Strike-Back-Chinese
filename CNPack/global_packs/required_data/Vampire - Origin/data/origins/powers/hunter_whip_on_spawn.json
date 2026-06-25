@@ -1,0 +1,11 @@
+{
+	"name": "power.origins.hunter_whip_on_spawn.name",
+	"description": "power.origins.hunter_whip_on_spawn.description",
+	"type": "origins:starting_equipment",
+	"stack": {
+		"item": "infernalexp:blindsight_tongue_whip",
+		"tag": "{Enchantments:[{id:\"minecraft:smite\",lvl:3s},{id:\"allurement:reforming\",lvl:1s}]} 1",
+		"slot": 0
+	},
+	"recurrent": true
+}

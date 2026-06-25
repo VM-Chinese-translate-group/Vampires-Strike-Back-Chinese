@@ -1,0 +1,25 @@
+{
+    "parent": "vampires:30_rampager",
+    "display": {
+        "title": "advancements.vampires.40_monster.title",
+        "description": "advancements.vampires.40_monster.description",
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionEffects:[{Id:23,Amplifier:0,Duration:2}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_advancement_reputation_system.blood_vial\",\"color\":\"red\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "has_40_kills": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "has_40_kills"
+        ]
+    ]
+}

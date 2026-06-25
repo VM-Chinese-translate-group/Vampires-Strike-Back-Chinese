@@ -1,0 +1,10 @@
+{
+    "name": "power.origins.healing_kill.name",
+    "description": "power.origins.healing_kill.description",
+    "hidden": true,
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 2
+    }
+}

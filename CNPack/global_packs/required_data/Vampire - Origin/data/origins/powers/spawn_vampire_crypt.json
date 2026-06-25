@@ -1,0 +1,8 @@
+{
+    "name": "power.origins.spawn_vampire_crypt.name",
+    "hidden": true,
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "structure": "vampires:vampire_crypt",
+    "spawn_strategy": "center"
+}

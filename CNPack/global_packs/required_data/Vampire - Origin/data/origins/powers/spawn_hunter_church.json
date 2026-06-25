@@ -1,0 +1,8 @@
+{
+    "name": "power.origins.spawn_hunter_church.name",
+    "hidden": true,
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "structure": "vampires:hunter_church",
+    "spawn_strategy": "center"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "power.origins.out_of_shape.name",
+    "description": "power.origins.out_of_shape.description",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -6.0,
+        "operation": "addition"
+    }
+}

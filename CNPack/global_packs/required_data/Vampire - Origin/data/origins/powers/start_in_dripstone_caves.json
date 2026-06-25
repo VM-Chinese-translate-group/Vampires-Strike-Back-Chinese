@@ -1,0 +1,8 @@
+{
+    "name": "power.origins.start_in_dripstone_caves.name",
+    "description": "power.origins.start_in_dripstone_caves.description",
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:dripstone_caves",
+    "spawn_strategy": "center"
+}

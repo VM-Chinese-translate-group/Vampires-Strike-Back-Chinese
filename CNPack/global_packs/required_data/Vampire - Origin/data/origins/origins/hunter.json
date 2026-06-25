@@ -1,0 +1,23 @@
+{
+	"loading_priority": 2,
+	"name": "origin.origins.hunter.name",
+	"description": "origin.origins.hunter.description",
+	"icon": {
+		"item": "minecraft:player_head"
+	},
+	"powers": [
+		"origins:out_of_shape",
+		"origins:3_rolls",
+		"origins:bad_omen_day",
+		"origins:hunter_whip_on_spawn",
+		"origins:random_weapon_on_spawn_hunter",
+		"origins:spawn_hunter_church",
+		"origins:healing_kill",
+		"origins:no_way",
+		"origins:no_wings",
+		"origins:bloodlust_human",
+		"origins:no_block_drops"
+	],
+	"order": 999,
+	"impact": 2
+}

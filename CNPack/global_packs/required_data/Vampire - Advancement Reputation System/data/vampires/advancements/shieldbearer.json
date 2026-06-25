@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:pillager",
+    "display": {
+        "title": "advancements.vampires.shieldbearer.title",
+        "description": "advancements.vampires.shieldbearer.description",
+        "icon": {
+            "item": "shieldexp:iron_shield"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecells:shieldbearer": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecells:shieldbearer"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "minecells:shieldbearer"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

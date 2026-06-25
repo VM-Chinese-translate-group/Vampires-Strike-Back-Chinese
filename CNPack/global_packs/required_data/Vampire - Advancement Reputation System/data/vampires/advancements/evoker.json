@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:raid_drill",
+    "display": {
+        "title": "advancements.vampires.evoker.title",
+        "description": "advancements.vampires.evoker.description",
+        "icon": {
+            "item": "species:cranktrap"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:evoker": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:evoker"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:evoker"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

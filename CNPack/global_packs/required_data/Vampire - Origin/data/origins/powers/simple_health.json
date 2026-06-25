@@ -1,0 +1,5 @@
+{
+    "name": "power.origins.simple_health.name",
+    "description": "power.origins.simple_health.description",
+    "type": "origins:simple"
+}

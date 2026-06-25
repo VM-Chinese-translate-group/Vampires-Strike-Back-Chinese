@@ -1,0 +1,18 @@
+{
+    "type": "origins:action_over_time",
+    "name": "power.origins.hold_breath.name",
+    "description": "power.origins.hold_breath.description",
+    "interval": 20,
+    "rising_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:water_breathing",
+            "duration": 200,
+            "amplifier": 0
+        }
+    },
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    }
+}

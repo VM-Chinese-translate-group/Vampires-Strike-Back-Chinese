@@ -1,0 +1,38 @@
+{
+    "name": "power.origins.low_rider.name",
+    "hidden": true,
+    "description": "power.origins.low_rider.description",
+    "type": "apoli:action_over_time",
+    "interval": 9,
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "minecraft:textures/mob_effect/speed.png",
+            "text": "Below depths of 60, you gain Speed."
+        }
+    ],
+    "entity_action": {
+        "type": "apoli:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "apoli:in_block",
+                    "block_condition": {
+                        "type": "apoli:height",
+                        "comparison": "<",
+                        "compare_to": 60
+                    }
+                },
+                "action": {
+                    "type": "apoli:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:speed",
+                        "show_icon": true,
+                        "show_particles": false,
+                        "duration": 210
+                    }
+                }
+            }
+        ]
+    }
+}

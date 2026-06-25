@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:legioner",
+    "display": {
+        "title": "advancements.vampires.golem_of_last_resort.title",
+        "description": "advancements.vampires.golem_of_last_resort.description",
+        "icon": {
+            "item": "raidsenhanced:handcannon"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "raidsenhanced:golem_of_last_resort": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "raidsenhanced:golem_of_last_resort"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "raidsenhanced:golem_of_last_resort"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:50_destroyer",
+    "display": {
+        "title": "advancements.vampires.raid_blimp.title",
+        "description": "advancements.vampires.raid_blimp.description",
+        "icon": {
+            "item": "raidsenhanced:player_blimp"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "raidsenhanced:raid_blimp": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "raidsenhanced:raid_blimp"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "raidsenhanced:raid_blimp"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

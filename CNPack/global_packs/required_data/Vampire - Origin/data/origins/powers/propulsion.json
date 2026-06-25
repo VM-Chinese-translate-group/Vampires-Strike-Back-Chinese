@@ -1,0 +1,162 @@
+{
+	"name": "power.origins.propulsion.name",
+	"description": "power.origins.propulsion.description",
+	"hidden": true,
+	"type": "origins:multiple",
+	"resource": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 1,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"activate": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:add_velocity",
+					"z": 2,
+					"space": "local"
+				},
+				{
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:speed",
+						"duration": 8,
+						"amplifier": 2
+					}
+				},
+				{
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:resistance",
+						"duration": 10,
+						"amplifier": 4
+					}
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.phantom.ambient"
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.phantom.flap"
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_resource",
+					"change": 1
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 16,
+					"action": {
+						"type": "origins:change_resource",
+						"resource": "*:*_resource",
+						"change": 0,
+						"operation": "set"
+					}
+				}
+			]
+		},
+		"cooldown": 100,
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+			"bar_index": 23
+		},
+		"key": {
+			"key": "key.origins.primary_active"
+		}
+	},
+	"hit": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:area_of_effect",
+			"radius": 1,
+			"bientity_action": {
+				"type": "origins:and",
+				"actions": [
+					{
+						"type": "origins:damage",
+						"amount": 6,
+						"source": {
+							"name": "generic.player",
+							"bypasses_armor": true
+						}
+					},
+					{
+						"type": "origins:add_velocity",
+						"z": 1.6,
+						"y": 0.4,
+						"space": "local_horizontal"
+					},
+					{
+						"type": "origins:target_action",
+						"action": {
+							"type": "origins:and",
+							"actions": [
+								{
+									"type": "origins:play_sound",
+									"sound": "minecraft:block.anvil.land",
+									"volume": 0.2,
+									"pitch": 1.5
+								},
+								{
+									"type": "origins:play_sound",
+									"sound": "minecraft:entity.zombie.attack_iron_door",
+									"volume": 0.7,
+									"pitch": 2
+								}
+							]
+						}
+					},
+					{
+						"type": "origins:actor_action",
+						"action": {
+							"type": "origins:change_resource",
+							"resource": "*:*_resource",
+							"change": 0,
+							"operation": "set"
+						}
+					}
+				]
+			},
+			"bientity_condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:can_see"
+					},
+					{
+						"type": "origins:target_condition",
+						"condition": {
+							"type": "origins:living"
+						}
+					}
+				]
+			}
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": ">",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:command",
+					"command": "execute if entity @e[distance=..1.5,sort=nearest,limit=1]",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			]
+		}
+	}
+}

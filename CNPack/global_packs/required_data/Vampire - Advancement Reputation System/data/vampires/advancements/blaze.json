@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:golem_of_last_resort",
+    "display": {
+        "title": "advancements.vampires.blaze.title",
+        "description": "advancements.vampires.blaze.description",
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:blaze": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:blaze"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:blaze"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

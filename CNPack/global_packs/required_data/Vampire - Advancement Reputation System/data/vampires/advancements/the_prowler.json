@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:raid_blimp",
+    "display": {
+        "title": "advancements.vampires.the_prowler.title",
+        "description": "advancements.vampires.the_prowler.description",
+        "icon": {
+            "item": "cataclysm:meat_shredder"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cataclysm:the_prowler": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "cataclysm:the_prowler"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "cataclysm:the_prowler"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

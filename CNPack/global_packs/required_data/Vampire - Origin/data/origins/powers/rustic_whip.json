@@ -1,0 +1,11 @@
+{
+	"name": "power.origins.rustic_whip.name",
+	"description": "power.origins.rustic_whip.description",
+	"type": "origins:starting_equipment",
+	"stack": {
+		"item": "jaams_weaponry:rustic_whip",
+		"tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:5s},{id:\"sortilege:soulbound\",lvl:1s}]} 1",
+		"slot": 0
+	},
+	"recurrent": false
+}

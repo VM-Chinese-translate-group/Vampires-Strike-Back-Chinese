@@ -1,0 +1,495 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:wooden_sword", "weight": 100 },
+        { "type": "minecraft:item", "name": "minecraft:wooden_axe", "weight": 100 },
+        { "type": "minecraft:item", "name": "minecraft:wooden_pickaxe", "weight": 100 },
+        { "type": "minecraft:item", "name": "minecraft:wooden_shovel", "weight": 100 },
+        { "type": "minecraft:item", "name": "minecraft:wooden_hoe", "weight": 100 },
+
+        { "type": "minecraft:item", "name": "jaams_weaponry:broom", "weight": 100, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:gauntlet", "weight": 100, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:sharp_stone_blade", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:flint_hammer", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:nunchaku", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:tessen", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:pronged_kunai", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:giant_shuriken", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:hunters_boomerang", "weight": 100 },
+
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_battle_axe", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_broadsword", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_buster_sword", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_butterfly_sword", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_claw", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_cleaver", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_dagger", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_greathammer", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_greatsword", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_hammer", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_hook_sword", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_kama", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_katana", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_katar", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_knuckle", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_longsword", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_machete", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_ring", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_saw_cleaver", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_scythe", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_sickle", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_spear", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_twinblade", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:wooden_zweihander", "weight": 100 },
+
+        { "type": "minecraft:item", "name": "minecraft:stone_sword", "weight": 80 },
+        { "type": "minecraft:item", "name": "minecraft:stone_axe", "weight": 80 },
+        { "type": "minecraft:item", "name": "minecraft:stone_pickaxe", "weight": 80 },
+        { "type": "minecraft:item", "name": "minecraft:stone_shovel", "weight": 80 },
+        { "type": "minecraft:item", "name": "minecraft:stone_hoe", "weight": 80 },
+
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_battle_axe", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_broadsword", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_buster_sword", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_butterfly_sword", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_claw", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_cleaver", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_dagger", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_greathammer", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_greatsword", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_hammer", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_hook_sword", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_kama", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_katana", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_katar", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_knuckle", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_longsword", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_machete", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_ring", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_saw_cleaver", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_scythe", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_sickle", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_spear", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_twinblade", "weight": 80 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:stone_zweihander", "weight": 80 },
+                
+        { "type": "minecraft:item", "name": "mowziesmobs:naga_fang_dagger", "weight": 80 },
+
+        { "type": "minecraft:item", "name": "clash:spear", "weight": 80 },
+        { "type": "minecraft:item", "name": "clash:greatblade", "weight": 40 },
+        { "type": "minecraft:item", "name": "clash:echoing_spear", "weight": 20 },
+        
+        { "type": "minecraft:item", "name": "species:spectralibur", "weight": 20 },
+
+        { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 60 },
+        { "type": "minecraft:item", "name": "minecraft:iron_axe", "weight": 60 },
+        { "type": "minecraft:item", "name": "minecraft:iron_pickaxe", "weight": 60 },
+        { "type": "minecraft:item", "name": "minecraft:iron_shovel", "weight": 60 },
+        { "type": "minecraft:item", "name": "minecraft:iron_hoe", "weight": 60 },
+
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_battle_axe", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_broadsword", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_buster_sword", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_butterfly_sword", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_claw", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_cleaver", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_dagger", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_greathammer", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_greatsword", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_hammer", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_hook_sword", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_kama", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_katana", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_katar", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_knuckle", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_longsword", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_machete", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_ring", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_saw_cleaver", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_scythe", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_sickle", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_spear", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_twinblade", "weight": 60 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:iron_zweihander", "weight": 60 },
+
+
+        { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:diamond_axe", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:diamond_pickaxe", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:diamond_shovel", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:diamond_hoe", "weight": 10 },
+        
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_battle_axe", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_broadsword", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_buster_sword", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_butterfly_sword", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_claw", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_cleaver", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_dagger", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_greathammer", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_greatsword", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_hammer", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_hook_sword", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_kama", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_katana", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_katar", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_knuckle", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_longsword", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_machete", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_ring", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_saw_cleaver", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_scythe", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_sickle", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_spear", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_twinblade", "weight": 10 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:diamond_zweihander", "weight": 10 },
+        
+        { "type": "minecraft:item", "name": "minecraft:netherite_sword", "weight": 20 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_axe", "weight": 20 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_pickaxe", "weight": 20 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_shovel", "weight": 20 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_hoe", "weight": 20 },
+        
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_battle_axe", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_broadsword", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_buster_sword", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_butterfly_sword", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_claw", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_cleaver", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_dagger", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_greathammer", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_greatsword", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_hammer", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_hook_sword", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_kama", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_katana", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_katar", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_knuckle", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_longsword", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_machete", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_saw_cleaver", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_scythe", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_sickle", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_spear", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_twinblade", "weight": 20 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:netherite_zweihander", "weight": 20 },
+        
+        { "type": "minecraft:item", "name": "caverns_and_chasms:necromium_pickaxe", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:necromium_shovel", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:necromium_axe", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:necromium_hoe", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:necromium_sword", "weight": 11 },
+        
+        { "type": "minecraft:item", "name": "caverns_and_chasms:silver_pickaxe", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:silver_shovel", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:silver_axe", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:silver_hoe", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:silver_sword", "weight": 11 },
+        
+        { "type": "minecraft:item", "name": "cataclysm:black_steel_pickaxe", "weight": 11 },
+        { "type": "minecraft:item", "name": "cataclysm:black_steel_shovel", "weight": 11 },
+        { "type": "minecraft:item", "name": "cataclysm:black_steel_axe", "weight": 11 },
+        { "type": "minecraft:item", "name": "cataclysm:black_steel_hoe", "weight": 11 },
+        { "type": "minecraft:item", "name": "cataclysm:black_steel_sword", "weight": 11 },
+        
+        { "type": "minecraft:item", "name": "minecraft:golden_hoe", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "minecraft:golden_sword", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "minecraft:golden_axe", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "minecraft:golden_pickaxe", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "minecraft:golden_shovel", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "minecraft:golden_hoe", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+      
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_battle_axe", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_broadsword", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_buster_sword", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_butterfly_sword", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_claw", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_cleaver", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_dagger", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_greathammer", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_greatsword", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_hammer", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_hook_sword", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_kama", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_katana", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_katar", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_knuckle", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_longsword", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_machete", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_ring", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_saw_cleaver", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_scythe", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_sickle", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_spear", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_twinblade", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_zweihander", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+
+        { "type": "minecraft:item", "name": "mace_port:mace", "weight": 22, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        
+        { "type": "minecraft:item", "name": "cataclysm:the_annihilator", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:soul_render", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:void_forge", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:wither_assault_shoulder_weapon", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:void_assault_shoulder_weapon", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:gauntlet_of_bulwark", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:coral_spear", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:tidal_claws", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:laser_gatling", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:ancient_spear", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:gauntlet_of_maelstrom", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:blazing_grips", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:wrath_of_the_desert", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:the_immolator", "weight": 3 },
+        { "type": "minecraft:item", "name": "cataclysm:chitin_claw", "weight": 3 }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:leather_helmet", "weight": 100 },
+        { "type": "minecraft:item", "name": "minecraft:leather_leggings", "weight": 100 },
+        { "type": "minecraft:item", "name": "minecraft:leather_boots", "weight": 100 },
+
+        { "type": "minecraft:item", "name": "minecraft:chainmail_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "minecraft:chainmail_leggings", "weight": 60 },
+        { "type": "minecraft:item", "name": "minecraft:chainmail_boots", "weight": 60 },
+
+        { "type": "minecraft:item", "name": "minecraft:iron_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "minecraft:iron_leggings", "weight": 60 },
+        { "type": "minecraft:item", "name": "minecraft:iron_boots", "weight": 60 },
+
+        { "type": "minecraft:item", "name": "irons_spellbooks:pumpkin_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:pyromancer_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:electromancer_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:archevoker_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:cultist_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:cryomancer_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:shadowwalker_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:priest_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:plagued_helmet", "weight": 60 },
+        
+        { "type": "minecraft:item", "name": "irons_spellbooks:speed_boots", "weight": 33 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:infernal_sorcerer_chestplate", "weight": 10 },
+
+        { "type": "minecraft:item", "name": "minecraft:diamond_helmet", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:diamond_leggings", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:diamond_boots", "weight": 10 },
+      
+        { "type": "minecraft:item", "name": "minecraft:golden_helmet", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "minecraft:golden_leggings", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "minecraft:golden_boots", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+
+        { "type": "minecraft:item", "name": "minecraft:netherite_helmet", "weight": 20 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_leggings", "weight": 20 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_boots", "weight": 20 },
+        
+        { "type": "minecraft:item", "name": "caverns_and_chasms:necromium_boots", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:necromium_helmet", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:necromium_leggings", "weight": 11 },
+      
+        { "type": "minecraft:item", "name": "caverns_and_chasms:sanguine_boots", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:sanguine_helmet", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:sanguine_leggings", "weight": 11 },
+      
+        { "type": "minecraft:item", "name": "caverns_and_chasms:silver_boots", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:silver_helmet", "weight": 11 },
+        { "type": "minecraft:item", "name": "caverns_and_chasms:silver_leggings", "weight": 11 }
+
+      ],
+    "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "shieldexp:wooden_shield", "weight": 80 },
+        { "type": "minecraft:item", "name": "shieldexp:iron_shield", "weight": 10 },
+        { "type": "minecraft:item", "name": "shieldexp:diamond_shield", "weight": 10 },
+        { "type": "minecraft:item", "name": "shieldexp:netherite_shield", "weight": 1 }
+      ],
+    "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:empty", "weight": 1200 },
+
+        { "type": "minecraft:item", "name": "archeryexp:wooden_bow", "weight": 100 },
+        { "type": "minecraft:item", "name": "archeryexp:iron_bow", "weight": 50 },
+        { "type": "minecraft:item", "name": "archeryexp:diamond_bow", "weight": 25 },
+        { "type": "minecraft:item", "name": "archeryexp:gold_bow", "weight": 25, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "archeryexp:netherite_bow", "weight": 10 },
+
+        { "type": "minecraft:item", "name": "species:crankbow", "weight": 60 },
+
+        { "type": "minecraft:item", "name": "jaams_weaponry:short_bow", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:flat_bow", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:hunters_bow", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:hunters_crossbow", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:compound_bow", "weight": 100 },
+        { "type": "minecraft:item", "name": "jaams_weaponry:great_crossbow", "weight": 100 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:empty", "weight": 90},
+        { "type": "minecraft:item", "name": "minecraft:arrow", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 8.0, "max": 16.0 } } ] },
+
+        { "type": "minecraft:item", "name": "archeryexp:iron_arrow", "weight": 6, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4.0, "max": 8.0 } } ] },
+        { "type": "minecraft:item", "name": "archeryexp:gold_arrow", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 6.0, "max": 12.0 } } ] },
+        { "type": "minecraft:item", "name": "archeryexp:diamond_arrow", "weight": 2, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2.0, "max": 4.0 } } ] },
+        { "type": "minecraft:item", "name": "archeryexp:netherite_arrow", "weight": 1, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 } } ] },
+
+        { "type": "minecraft:item", "name": "jaams_weaponry:dynamite", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 8.0 } } ] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:kunai", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 8.0, "max": 16.0 } } ] },
+        { "type": "minecraft:item", "name": "species:birt_egg", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 } } ] },
+        
+        { "type": "minecraft:item", "name": "minecraft:firework_rocket", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 } } ] }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "species:birtday_cake_slice", "weight": 1, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 } } ] },
+        { "type": "minecraft:item", "name": "species:birtday_cake", "weight": 1 },
+        { "type": "minecraft:empty", "weight": 364}
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "functions": [
+            {
+              "function": "irons_spellbooks:randomize_spell",
+              "quality": {
+                "min": 0.1,
+                "max": 0.95
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "summonerscrolls:zombie_summoner_scroll", "weight": 3 },
+        { "type": "minecraft:item", "name": "summonerscrolls:husk_summoner_scroll", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "summonerscrolls:bee_summoner_scroll", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "summonerscrolls:spider_summoner_scroll", "weight": 3 },
+        { "type": "minecraft:item", "name": "summonerscrolls:cave_spider_summoner_scroll", "weight": 2 },
+        { "type": "minecraft:item", "name": "summonerscrolls:spider_jockey_summoner_scroll", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "summonerscrolls:creeper_summoner_scroll", "weight": 3 },
+        { "type": "minecraft:item", "name": "summonerscrolls:charged_creeper_summoner_scroll", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "summonerscrolls:enderman_summoner_scroll", "weight": 1 },
+        { "type": "minecraft:item", "name": "summonerscrolls:shulkerman_summoner_scroll", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "summonerscrolls:enhancement_scroll", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "summonerscrolls:piglin_summoner_scroll", "weight": 3 },
+        { "type": "minecraft:item", "name": "summonerscrolls:piglin_brute_summoner_scroll", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "summonerscrolls:skeleton_summoner_scroll", "weight": 3 },
+        { "type": "minecraft:item", "name": "summonerscrolls:stray_summoner_scroll", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "summonerscrolls:iron_golem_summoner_scroll", "weight": 1 }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
+        
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sustained_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
+              
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_super_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
+
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sustained_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
+        
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sonic_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
+
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:0,Duration:2100}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_resistance\",\"color\":\"purple\"}'}}" } ], "weight": 50 },
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:1,Duration:1200}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_resistance_ii\",\"color\":\"purple\"}'}}" } ], "weight": 10 },
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:2,Duration:600}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_resistance_iii\",\"color\":\"purple\"}'}}" } ], "weight": 30 },
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:3,Duration:100}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_resistance_iv\",\"color\":\"purple\"}'}}" } ], "weight": 20 },
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:4,Duration:200}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_invulnerability\",\"color\":\"purple\"}'}}" } ], "weight": 10 },
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:13,Duration:600}],CustomPotionColor:1675920,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_flame_retardancy\",\"color\":\"orange\"}'}}" } ], "weight": 10 },
+
+        { "type": "minecraft:item", "name": "minecraft:splash_potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:weakness\",CustomPotionColor:4738376,display:{Name:'{\"translate\":\"item.vampire_origin.splash_potion_of_weakness\",\"color\":\"green\"}'}}" } ], "weight": 60 },
+              
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:23,Amplifier:0,Duration:2}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_origin.blood_vial\",\"color\":\"red\"}'}}" } ], "weight": 100 },
+              
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:23,Amplifier:10,Duration:12}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_origin.potent_blood_vial\",\"color\":\"red\"}'}}" } ], "weight": 100 },
+              
+
+        { "type": "minecraft:item", "name": "minecraft:experience_bottle", "weight": 100 },
+
+              
+        { "type": "minecraft:item", "name": "minecraft:emerald", "weight": 100 },      
+        { "type": "minecraft:item", "name": "sortilege:limitite", "weight": 100 },
+        { "type": "minecraft:item", "name": "healpgood:crystal_heart", "weight": 100 },
+        { "type": "minecraft:item", "name": "artifacts:cloud_in_a_bottle", "weight": 20 },
+        { "type": "minecraft:item", "name": "minecraft:torch", "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 0.0, "max": 4.0 } } ] },
+
+        { "type": "minecraft:item", "name": "assassin_backstab:gold_dagger", "weight": 30,
+          "functions": [ { "function": "irons_spellbooks:randomize_spell",
+              "quality": { "min": 0.2, "max": 0.35 } },
+            { "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 11.0, "max": 33.0 }, "treasure": true }] },
+              
+        { "type": "minecraft:item", "name": "assassin_backstab:diamond_dagger", "weight": 25,
+          "functions": [ { "function": "irons_spellbooks:randomize_spell",
+              "quality": { "min": 0.2, "max": 0.55 } },
+            { "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 22.0, "max": 66.0 }, "treasure": true }] },
+
+        { "type": "minecraft:item", "name": "assassin_backstab:netherite_dagger", "weight": 20,
+          "functions": [ { "function": "irons_spellbooks:randomize_spell",
+              "quality": { "min": 0.2, "max": 0.95 } },
+            { "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 44.0, "max": 99.0 }, "treasure": true }] }
+      ]
+    }
+  ]
+}

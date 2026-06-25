@@ -1,0 +1,11 @@
+{
+	"name": "power.origins.regenerating_wings.name",
+	"description": "power.origins.regenerating_wings.description",
+	"type": "origins:starting_equipment",
+	"stack": {
+		"item": "minecraft:elytra",
+		"tag": "{Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"allurement:reforming\",lvl:1s}]} 1",
+		"slot": 38
+	},
+	"recurrent": true
+}

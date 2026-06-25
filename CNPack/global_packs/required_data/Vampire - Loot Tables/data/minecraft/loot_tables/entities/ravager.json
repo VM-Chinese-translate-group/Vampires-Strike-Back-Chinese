@@ -1,0 +1,165 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:empty", "weight": 300 },
+        { "type": "minecraft:item", "name": "minecraft:totem_of_undying", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "artifacts:umbrella", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:plastic_drinking_hat", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:snorkel", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:scarf_of_invisibility", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:cross_necklace", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:panic_necklace", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:shock_pendant", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:flame_pendant", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:thorn_pendant", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:cloud_in_a_bottle", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:obsidian_skull", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:antidote_vessel", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:universal_attractor", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:crystal_heart", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:helium_flamingo", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:chorus_totem", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:feral_claws", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:power_glove", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:fire_gauntlet", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:pocket_piston", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:vampiric_glove", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:golden_hook", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:onion_ring", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:aqua_dashers", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:bunny_hoppers", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:kitty_slippers", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:running_shoes", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:steadfast_spikes", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:flippers", "weight": 1 },
+        { "type": "minecraft:item", "name": "artifacts:rooted_boots", "weight": 1},
+        
+        { "type": "minecraft:item", "name": "uniqueaccessories:accessory_box", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:ancient_chisel", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:all_purpose_seasoning", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:amplifier_stone", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:anklet_of_fortune", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:black_belt", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:bloody_knife", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:burning_soul", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:championship_belt", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:devils_eyeball", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:durable_spring", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:fossil_shark_tooth", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:hero_emblem", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:large_paddle", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:life_jacket_belt", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:magick_quiver", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:master_ninja_tabi", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:moon_stone", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:ninjutsu_manual", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:rocket_shoes", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:rose_of_temptation", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:royal_honeycomb", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:sharp_fishing_hook", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:shiny_stone", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:silver_cat_tail", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:small_propulsion_device", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:soul_gem", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:starved_wolf_skull", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:still_beating_heart", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:strong_sticky_slime_ball", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:sun_stone", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:supreme_meat", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:survival_belt", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:suspicious_mushroom", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:tabi", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:tool_belt", "weight": 1 },
+        { "type": "minecraft:item", "name": "uniqueaccessories:waist_warmer", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "oddaccessories:loaded_dice", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:oxygen_rock", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:villager_mask", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:secondhand_gas_mask", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:fiberglass_cloak", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:collectible_meal_toy", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:rusted_nail", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:old_cross", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:pelmen", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:crown_of_nails", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:old_sock", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:homunculus", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:pork_effigy", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:malice", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:flaying_tool", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:harmony", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:heartfelt_confession", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:anomalous_mirror", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:malicious_ring", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:broken_telephone", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:clean_tablet", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:regret_of_a_salaryman", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:enlightening_tablet", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:pungent_flower", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:armored_knight_doll", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:enlightening_ring", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:emergency_parachute", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:tick", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:clay_vessel", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:guts", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:malicious_tablet", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:piece_of_love", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:hourglass", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:unconditional_love", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:discipline_rod", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:portable_tv", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:suspicious_bag", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:mimic_ring", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:rotgut", "weight": 1 },
+        { "type": "minecraft:item", "name": "oddaccessories:tattered_belt", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "minecells:phaser", "weight": 1 }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:emerald", "weight": 6 },
+        { "type": "minecraft:item", "name": "sortilege:limitite", "weight": 2 }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "healpgood:heart_container", "weight": 1 }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_loot_tables.potion_of_super_strength\",\"color\":\"red\"}'}}" } ], "weight": 15 },
+              
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:4,Duration:600}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_loot_tables.potion_of_sustained_invulnerability\",\"color\":\"purple\"}'}}" } ], "weight": 5 },
+
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:23,Amplifier:20,Duration:22}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_loot_tables.potent_blood_vial\",\"color\":\"red\"}'}}" } ], "weight": 5 }
+      ]
+    }
+  ]
+}

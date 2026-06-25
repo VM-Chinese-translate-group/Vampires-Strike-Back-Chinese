@@ -1,0 +1,21 @@
+{
+    "name": "power.origins.quest_vampire.name",
+    "description": "power.origins.quest_vampire.description",
+    "hidden": true,
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:execute_command",
+        "command": "questlog trigger questlog:v01_vampire_introduction @s",
+        "permission_level": 4
+    },
+    "entity_action_added": {
+        "type": "origins:execute_command",
+        "command": "questlog trigger questlog:v01_vampire_introduction @s",
+        "permission_level": 4
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "questlog progress reset questlog:v01_vampire_introduction @s",
+        "permission_level": 4
+    }
+}
