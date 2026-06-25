@@ -1,8 +1,12 @@
 {
     "parent": "vampires:01_first_blood",
     "display": {
-        "title": "advancements.vampires.pillager.title",
-        "description": "advancements.vampires.pillager.description",
+        "title": {
+            "translate": "advancements.vampires.pillager.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.pillager.description"
+        },
         "icon": {
             "item": "minecraft:iron_sword"
         },

@@ -1,8 +1,12 @@
 {
     "parent": "vampires:20_assassin",
     "display": {
-        "title": "advancements.vampires.vindicator.title",
-        "description": "advancements.vampires.vindicator.description",
+        "title": {
+            "translate": "advancements.vampires.vindicator.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.vindicator.description"
+        },
         "icon": {
             "item": "minecraft:iron_axe"
         },

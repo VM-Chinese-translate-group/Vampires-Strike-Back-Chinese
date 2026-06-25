@@ -1,8 +1,12 @@
 {
     "parent": "vampires:skirmisher",
     "display": {
-        "title": "advancements.vampires.ghast.title",
-        "description": "advancements.vampires.ghast.description",
+        "title": {
+            "translate": "advancements.vampires.ghast.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.ghast.description"
+        },
         "icon": {
             "item": "raidsenhanced:blimp_parts"
         },

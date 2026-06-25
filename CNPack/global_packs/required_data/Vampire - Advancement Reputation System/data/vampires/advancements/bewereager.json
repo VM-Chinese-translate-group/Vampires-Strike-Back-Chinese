@@ -1,8 +1,12 @@
 {
     "parent": "vampires:ghast",
     "display": {
-        "title": "advancements.vampires.bewereager.title",
-        "description": "advancements.vampires.bewereager.description",
+        "title": {
+            "translate": "advancements.vampires.bewereager.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.bewereager.description"
+        },
         "icon": {
             "item": "species:bewereager_head"
         },

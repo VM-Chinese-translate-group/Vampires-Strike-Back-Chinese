@@ -1,8 +1,12 @@
 {
     "parent": "vampires:raid_drill",
     "display": {
-        "title": "advancements.vampires.evoker.title",
-        "description": "advancements.vampires.evoker.description",
+        "title": {
+            "translate": "advancements.vampires.evoker.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.evoker.description"
+        },
         "icon": {
             "item": "species:cranktrap"
         },

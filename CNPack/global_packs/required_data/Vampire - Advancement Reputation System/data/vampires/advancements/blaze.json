@@ -1,8 +1,12 @@
 {
     "parent": "vampires:golem_of_last_resort",
     "display": {
-        "title": "advancements.vampires.blaze.title",
-        "description": "advancements.vampires.blaze.description",
+        "title": {
+            "translate": "advancements.vampires.blaze.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.blaze.description"
+        },
         "icon": {
             "item": "minecraft:blaze_powder"
         },

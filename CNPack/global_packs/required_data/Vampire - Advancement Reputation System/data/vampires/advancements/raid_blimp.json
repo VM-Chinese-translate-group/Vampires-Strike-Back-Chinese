@@ -1,8 +1,12 @@
 {
     "parent": "vampires:50_destroyer",
     "display": {
-        "title": "advancements.vampires.raid_blimp.title",
-        "description": "advancements.vampires.raid_blimp.description",
+        "title": {
+            "translate": "advancements.vampires.raid_blimp.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.raid_blimp.description"
+        },
         "icon": {
             "item": "raidsenhanced:player_blimp"
         },

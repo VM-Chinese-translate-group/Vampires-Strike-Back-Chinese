@@ -1,8 +1,12 @@
 {
     "parent": "vampires:pillager",
     "display": {
-        "title": "advancements.vampires.shieldbearer.title",
-        "description": "advancements.vampires.shieldbearer.description",
+        "title": {
+            "translate": "advancements.vampires.shieldbearer.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.shieldbearer.description"
+        },
         "icon": {
             "item": "shieldexp:iron_shield"
         },

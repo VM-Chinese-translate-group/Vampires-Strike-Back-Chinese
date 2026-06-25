@@ -1,8 +1,12 @@
 {
     "parent": "vampires:30_rampager",
     "display": {
-        "title": "advancements.vampires.raid_drill.title",
-        "description": "advancements.vampires.raid_drill.description",
+        "title": {
+            "translate": "advancements.vampires.raid_drill.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.raid_drill.description"
+        },
         "icon": {
             "item": "takesapillage:ravager_horn"
         },

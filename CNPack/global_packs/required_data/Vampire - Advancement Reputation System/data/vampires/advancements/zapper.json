@@ -1,8 +1,12 @@
 {
     "parent": "vampires:the_prowler",
     "display": {
-        "title": "advancements.vampires.zapper.title",
-        "description": "advancements.vampires.zapper.description",
+        "title": {
+            "translate": "advancements.vampires.zapper.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.zapper.description"
+        },
         "icon": {
             "item": "raidsenhanced:zapper_staff"
         },

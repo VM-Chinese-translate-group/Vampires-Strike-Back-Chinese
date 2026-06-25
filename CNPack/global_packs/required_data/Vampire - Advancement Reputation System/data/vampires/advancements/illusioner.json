@@ -1,8 +1,12 @@
 {
     "parent": "vampires:witch",
     "display": {
-        "title": "advancements.vampires.illusioner.title",
-        "description": "advancements.vampires.illusioner.description",
+        "title": {
+            "translate": "advancements.vampires.illusioner.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.illusioner.description"
+        },
         "icon": {
             "item": "summonerscrolls:summon_bow"
         },

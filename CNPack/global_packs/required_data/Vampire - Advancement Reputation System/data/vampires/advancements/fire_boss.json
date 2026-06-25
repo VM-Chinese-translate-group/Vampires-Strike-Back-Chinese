@@ -1,8 +1,12 @@
 {
     "parent": "vampires:50_destroyer",
     "display": {
-        "title": "advancements.vampires.fire_boss.title",
-        "description": "advancements.vampires.fire_boss.description",
+        "title": {
+            "translate": "advancements.vampires.fire_boss.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.fire_boss.description"
+        },
         "icon": {
             "item": "irons_spellbooks:hellrazor"
         },

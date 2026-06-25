@@ -1,8 +1,12 @@
 {
     "parent": "vampires:raid_blimp",
     "display": {
-        "title": "advancements.vampires.the_prowler.title",
-        "description": "advancements.vampires.the_prowler.description",
+        "title": {
+            "translate": "advancements.vampires.the_prowler.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.the_prowler.description"
+        },
         "icon": {
             "item": "cataclysm:meat_shredder"
         },

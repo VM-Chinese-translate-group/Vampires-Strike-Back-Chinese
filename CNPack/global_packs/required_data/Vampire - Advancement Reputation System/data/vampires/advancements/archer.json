@@ -1,8 +1,12 @@
 {
     "parent": "vampires:pickpocketer",
     "display": {
-        "title": "advancements.vampires.archer.title",
-        "description": "advancements.vampires.archer.description",
+        "title": {
+            "translate": "advancements.vampires.archer.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.archer.description"
+        },
         "icon": {
             "item": "minecraft:bow"
         },

@@ -1,8 +1,12 @@
 {
     "parent": "vampires:vindicator",
     "display": {
-        "title": "advancements.vampires.witch.title",
-        "description": "advancements.vampires.witch.description",
+        "title": {
+            "translate": "advancements.vampires.witch.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.witch.description"
+        },
         "icon": {
             "item": "minecraft:potion"
         },

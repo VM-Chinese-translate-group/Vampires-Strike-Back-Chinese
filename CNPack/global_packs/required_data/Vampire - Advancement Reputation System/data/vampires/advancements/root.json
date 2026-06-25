@@ -3,8 +3,12 @@
         "icon": {
             "item": "minecraft:elytra"
         },
-        "title": "advancements.vampires.root.title",
-        "description": "advancements.vampires.root.description",
+        "title": {
+            "translate": "advancements.vampires.root.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.root.description"
+        },
         "background": "minecraft:textures/block/deepslate_top.png",
         "frame": "goal",
         "show_toast": false,

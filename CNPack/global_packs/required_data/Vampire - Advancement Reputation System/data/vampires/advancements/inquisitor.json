@@ -1,8 +1,12 @@
 {
     "parent": "vampires:evoker",
     "display": {
-        "title": "advancements.vampires.inquisitor.title",
-        "description": "advancements.vampires.inquisitor.description",
+        "title": {
+            "translate": "advancements.vampires.inquisitor.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.inquisitor.description"
+        },
         "icon": {
             "item": "irons_spellbooks:scroll"
         },
