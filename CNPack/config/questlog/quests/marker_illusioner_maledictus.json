@@ -1,0 +1,31 @@
+{
+  "title": "quest.vampires.marker_illusioner_maledictus.title",
+  "description": "quest.vampires.marker_illusioner_maledictus.description",
+  "icon": {
+    "item": "cataclysm:soul_render"
+  },
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "vampires:20_assassin"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "icon": "summonerscrolls:summon_bow",
+      "entity": "minecraft:illusioner",
+      "total": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "I See The Prison",
+      "auto_claim": true,
+      "command": "function vampires:marker_illusioner",
+      "permission_level": 4
+    }
+  ],
+  "translatable": true
+}

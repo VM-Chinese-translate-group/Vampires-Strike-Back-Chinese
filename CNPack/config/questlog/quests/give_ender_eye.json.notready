@@ -1,0 +1,33 @@
+{
+  "title": "quest.vampires.give_ender_eye.title",
+  "description": "...",
+  "icon": {
+    "item": "minecraft:ender_eye"
+  },
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "vampires:50_destroyer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "icon": "minecraft:ender_eye",
+      "entity": "cataclysm:ignis",
+      "retroactive": false,
+      "total": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "Theos Soul",
+      "auto_claim": true,
+      "command": "function vampires:give_ender_eye",
+      "permission_level": 4
+    }
+  ],
+  "hidden": true,
+  "translatable": true
+}

@@ -1,0 +1,31 @@
+{
+  "title": "quest.vampires.marker_electrocutioner_scylla.title",
+  "description": "quest.vampires.marker_electrocutioner_scylla.description",
+  "icon": {
+    "item": "cataclysm:ceraunus"
+  },
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "vampires:50_destroyer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "icon": "raidsenhanced:zapper_staff",
+      "entity": "raidsenhanced:zapper",
+      "total": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "I See The Acropolis",
+      "auto_claim": true,
+      "command": "function vampires:marker_electrocutioner",
+      "permission_level": 4
+    }
+  ],
+  "translatable": true
+}

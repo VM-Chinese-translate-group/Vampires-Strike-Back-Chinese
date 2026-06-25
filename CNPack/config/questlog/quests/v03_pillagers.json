@@ -1,0 +1,45 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:entity_kill",
+          "entity": "minecraft:pillager",
+          "total": 1
+        },
+        {
+          "type": "questlog:entity_kill",
+          "entity": "enemyexpansion:goblin",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "type": "questlog:item_equip",
+      "total": 1,
+      "item": "minecraft:elytra",
+      "slot": "chest"
+    }
+  ],
+  "objectives": [],
+  "rewards": [],
+  "title": "quest.vampires.v03_pillagers.title",
+  "description": "quest.vampires.v03_pillagers.description",
+  "icon": {
+    "item": "minecraft:crossbow"
+  },
+  "peripheral_texture": "questlog:textures/gui/quest_peripherals_vampire.png",
+  "overlay": "questlog:textures/gui/quest_page_vampire.png",
+  "overlay_width": 1024,
+  "overlay_height": 512,
+  "overlay_x_offset": -375,
+  "overlay_y_offset": -174,
+  "sort_order": "1",
+  "title_color": "#212121",
+  "text_color": "#1F1E1E",
+  "completed_text_color": "#fcba03",
+  "toast_on_unlock": false,
+  "toast_on_complete": false,
+  "translatable": true
+}

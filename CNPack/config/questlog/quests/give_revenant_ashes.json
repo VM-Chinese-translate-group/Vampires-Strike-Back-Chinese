@@ -1,0 +1,31 @@
+{
+  "title": "quest.vampires.give_revenant_ashes.title",
+  "description": "quest.vampires.give_revenant_ashes.description",
+  "icon": {
+    "item": "cataclysm:burning_ashes"
+  },
+  "requirements": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "icon": "cataclysm:burning_ashes",
+      "entity": "cataclysm:ignited_revenant",
+      "total": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "Burning Ashes",
+      "auto_claim": true,
+      "command": "function vampires:give_revenant_ashes",
+      "permission_level": 4
+    }
+  ],
+  "hidden": true,
+  "translatable": true
+}

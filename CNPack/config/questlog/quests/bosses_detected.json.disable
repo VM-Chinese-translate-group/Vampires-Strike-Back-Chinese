@@ -1,0 +1,31 @@
+{
+  "title": "quest.vampires.bosses_detected.title",
+  "description": "quest.vampires.bosses_detected.description",
+  "icon": {
+    "item": "minecraft:ender_eye"
+  },
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "vampires:50_destroyer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "icon": "raidsenhanced:zapper_staff",
+      "entity": "raidsenhanced:zapper",
+      "total": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "I see it all...",
+      "auto_claim": true,
+      "command": "function vampires:markers",
+      "permission_level": 4
+    }
+  ],
+  "translatable": true
+}

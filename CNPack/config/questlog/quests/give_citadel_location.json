@@ -1,0 +1,36 @@
+{
+  "title": "quest.vampires.give_citadel_location.title",
+  "description": "quest.vampires.give_citadel_location.description",
+  "icon": {
+    "item": "sortilege:mantlediver"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "sortilege:mantlediver",
+      "total": 1
+    }
+  ],
+  "objectives": [
+    {
+      "name": "Visit The Mantle",
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:the_nether",
+      "total": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "Citadel Location",
+      "auto_claim": true,
+      "command": "function vampires:mantledive",
+      "permission_level": 4
+    }
+  ],
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false,
+  "right_panel_width": 133,
+  "translatable": true
+}

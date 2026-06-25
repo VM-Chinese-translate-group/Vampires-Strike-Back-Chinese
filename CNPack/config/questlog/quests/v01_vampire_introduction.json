@@ -1,0 +1,28 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:item_equip",
+      "total": 1,
+      "item": "minecraft:elytra",
+      "slot": "chest"
+    }
+  ],
+  "rewards": [],
+  "title": "quest.vampires.v01_vampire_introduction.title",
+  "description": "quest.vampires.v01_vampire_introduction.description",
+  "icon": {
+    "item": "minecraft:elytra"
+  },
+  "peripheral_texture": "questlog:textures/gui/quest_peripherals_vampire.png",
+  "overlay": "questlog:textures/gui/quest_page_narrator.png",
+  "overlay_width": 1024,
+  "overlay_height": 512,
+  "overlay_x_offset": -375,
+  "overlay_y_offset": -174,
+  "sort_order": "1",
+  "title_color": "#212121",
+  "text_color": "#2F2D2D",
+  "completed_text_color": "#fcba03",
+  "toast_on_complete": false,
+  "translatable": true
+}

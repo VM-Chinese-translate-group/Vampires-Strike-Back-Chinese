@@ -1,0 +1,31 @@
+{
+  "title": "quest.vampires.marker_pyreillager_ignis.title",
+  "description": "quest.vampires.marker_pyreillager_ignis.description",
+  "icon": {
+    "item": "cataclysm:the_incinerator"
+  },
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "vampires:40_monster"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "icon": "minecraft:blaze_powder",
+      "entity": "minecraft:blaze",
+      "total": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "I See The Tower",
+      "auto_claim": true,
+      "command": "function vampires:marker_blaze",
+      "permission_level": 4
+    }
+  ],
+  "translatable": true
+}

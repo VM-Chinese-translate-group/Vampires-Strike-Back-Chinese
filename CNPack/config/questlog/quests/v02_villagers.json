@@ -1,0 +1,42 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:entity_approach",
+      "total": 1,
+      "entity": "minecraft:villager",
+      "range": 4
+    },
+    {
+      "type": "questlog:item_equip",
+      "total": 1,
+      "item": "minecraft:elytra",
+      "slot": "chest"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "minecraft:villager",
+      "total": 1
+    }
+  ],
+  "rewards": [],
+  "title": "quest.vampires.v02_villagers.title",
+  "description": "quest.vampires.v02_villagers.description",
+  "icon": {
+    "item": "minecraft:potion"
+  },
+  "peripheral_texture": "questlog:textures/gui/quest_peripherals_vampire.png",
+  "overlay": "questlog:textures/gui/quest_page_vampire.png",
+  "overlay_width": 1024,
+  "overlay_height": 512,
+  "overlay_x_offset": -375,
+  "overlay_y_offset": -174,
+  "sort_order": "1",
+  "title_color": "#212121",
+  "text_color": "#1F1E1E",
+  "completed_text_color": "#fcba03",
+  "toast_on_complete": false,
+  "disable_details_button": true,
+  "translatable": true
+}
