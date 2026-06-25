@@ -1,0 +1,11 @@
+{
+    "name": "power.origins.random_weapon_on_spawn_dhampir.name",
+    "description": "power.origins.random_weapon_on_spawn_dhampir.description",
+    "hidden": false,
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:execute_command",
+        "command": "loot give @s loot origins:chests/random_weapon_supire",
+        "permission_level": 4
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:50_destroyer",
+    "display": {
+        "title": "advancements.vampires.fire_boss.title",
+        "description": "advancements.vampires.fire_boss.description",
+        "icon": {
+            "item": "irons_spellbooks:hellrazor"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "irons_spellbooks:fire_boss": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "irons_spellbooks:fire_boss"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "irons_spellbooks:fire_boss"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "power.origins.not_hungry.name",
+    "description": "power.origins.not_hungry.description",
+    "type": "origins:multiple",
+    "no_eating_food": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:food"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:01_first_blood",
+    "display": {
+        "title": "advancements.vampires.pillager.title",
+        "description": "advancements.vampires.pillager.description",
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:pillager": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:pillager"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:pillager"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

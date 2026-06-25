@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:20_assassin",
+    "display": {
+        "title": "advancements.vampires.vindicator.title",
+        "description": "advancements.vampires.vindicator.description",
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:vindicator": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:vindicator"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:vindicator"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

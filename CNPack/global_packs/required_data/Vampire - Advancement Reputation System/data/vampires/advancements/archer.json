@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:pickpocketer",
+    "display": {
+        "title": "advancements.vampires.archer.title",
+        "description": "advancements.vampires.archer.description",
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "takesapillage:archer": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "takesapillage:archer"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "takesapillage:archer"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

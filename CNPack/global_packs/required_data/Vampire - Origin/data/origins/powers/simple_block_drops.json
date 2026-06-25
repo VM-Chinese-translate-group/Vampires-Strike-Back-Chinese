@@ -1,0 +1,5 @@
+{
+    "name": "power.origins.simple_block_drops.name",
+    "description": "power.origins.simple_block_drops.description",
+    "type": "origins:simple"
+}

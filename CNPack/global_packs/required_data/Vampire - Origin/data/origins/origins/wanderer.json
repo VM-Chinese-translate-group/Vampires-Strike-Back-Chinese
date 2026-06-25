@@ -1,0 +1,17 @@
+{
+	"loading_priority": 2,
+	"name": "origin.origins.wanderer.name",
+	"description": "origin.origins.wanderer.description",
+	"icon": {
+		"item": "irons_spellbooks:wandering_magician_helmet"
+	},
+	"powers": [
+		"origins:middle_of_the_road",
+		"origins:no_way",
+		"origins:hoodie",
+		"origins:bloodlust_human",
+		"origins:simple_block_drops"
+	],
+	"order": 999,
+	"impact": 3
+}

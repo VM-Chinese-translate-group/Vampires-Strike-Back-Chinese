@@ -1,0 +1,28 @@
+{
+	"loading_priority": 1,
+	"name": "origin.origins.dhampir.name",
+	"description": "origin.origins.dhampir.description",
+	"icon": {
+		"item": "minecraft:potion"
+	},
+	"powers": [
+		"origins:simple_health",
+		"origins:bloodlust_alt",
+		"origins:lifeleech",
+		"origins:healing_kill",
+		"origins:propulsion",
+		"origins:groundpound",
+		"origins:regenerating_wings",
+		"origins:used_to_falling",
+		"origins:low_rider",
+		"origins:step_height_increase",
+		"origins:bad_omen_always",
+		"origins:spawn_vampire_crypt",
+		"origins:random_weapon_on_spawn_dhampir",
+		"origins:vampire_skin",
+		"origins:quest_vampire",
+		"origins:way"
+	],
+	"order": 2,
+	"impact": 1
+}

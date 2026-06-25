@@ -1,0 +1,10 @@
+{
+    "name": "power.origins.3_rolls.name",
+    "description": "power.origins.3_rolls.description",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "combatroll:count",
+        "value": 2,
+        "operation": "addition"
+    }
+}

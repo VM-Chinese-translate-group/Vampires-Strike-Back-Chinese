@@ -1,0 +1,12 @@
+{
+    "name": "power.origins.bloodlust.name",
+    "hidden": true,
+    "description": "power.origins.bloodlust.description",
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 2,
+        "saturation": 1.2
+    },
+    "cooldown": 2
+}

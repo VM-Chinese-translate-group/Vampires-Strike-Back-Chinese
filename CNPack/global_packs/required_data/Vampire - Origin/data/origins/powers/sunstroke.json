@@ -1,0 +1,50 @@
+{
+    "name": "power.origins.sunstroke.name",
+    "description": "power.origins.sunstroke.description",
+    "type": "apoli:action_over_time",
+    "interval": 18,
+    "entity_action": {
+        "type": "apoli:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:exposed_to_sun"
+                        },
+                        {
+                            "type": "origins:gamemode",
+                            "gamemode": "survival"
+                        }
+                    ]
+                },
+                "action": {
+                    "type": "apoli:and",
+                    "actions": [
+                        {
+                            "type": "apoli:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:hunger",
+                                "amplifier": 10,
+                                "show_icon": true,
+                                "show_particles": false,
+                                "duration": 19
+                            }
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "particle minecraft:lava",
+                            "permission_level": 4
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "playsound minecraft:block.furnace.fire_crackle ambient @s",
+                            "permission_level": 4
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

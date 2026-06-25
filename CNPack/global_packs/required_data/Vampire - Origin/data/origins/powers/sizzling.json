@@ -1,0 +1,41 @@
+{
+    "name": "power.origins.sizzling.name",
+    "description": "power.origins.sizzling.description",
+    "hidden": true,
+    "type": "apoli:action_over_time",
+    "interval": 200,
+    "entity_action": {
+        "type": "apoli:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:exposed_to_sun"
+                        },
+                        {
+                            "type": "origins:gamemode",
+                            "gamemode": "survival"
+                        }
+                    ]
+                },
+                "action": {
+                    "type": "apoli:and",
+                    "actions": [
+                        {
+                            "type": "origins:execute_command",
+                            "command": "particle minecraft:lava ~ ~ ~ 0.1 1 0.1 0.1 20",
+                            "permission_level": 4
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "playsound minecraft:block.fire.ambient ambient @s",
+                            "permission_level": 4
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:ghast",
+    "display": {
+        "title": "advancements.vampires.bewereager.title",
+        "description": "advancements.vampires.bewereager.description",
+        "icon": {
+            "item": "species:bewereager_head"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "species:bewereager": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "species:bewereager"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "species:bewereager"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

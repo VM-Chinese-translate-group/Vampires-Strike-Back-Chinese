@@ -1,0 +1,23 @@
+{
+    "name": "power.origins.lifeleech.name",
+    "description": "power.origins.lifeleech.description",
+    "hidden": false,
+    "type": "apoli:action_over_time",
+    "interval": 18,
+    "entity_action": {
+        "type": "apoli:if_else_list",
+        "actions": [
+            {
+                "action": {
+                    "type": "apoli:apply_effect",
+                    "effect": {
+                        "effect": "lifeleech:lifeleech",
+                        "show_icon": false,
+                        "show_particles": false,
+                        "duration": 19
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:40_monster",
+    "display": {
+        "title": "advancements.vampires.legioner.title",
+        "description": "advancements.vampires.legioner.description",
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "takesapillage:legioner": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "takesapillage:legioner"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "takesapillage:legioner"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:witch",
+    "display": {
+        "title": "advancements.vampires.illusioner.title",
+        "description": "advancements.vampires.illusioner.description",
+        "icon": {
+            "item": "summonerscrolls:summon_bow"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:illusioner": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:illusioner"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:illusioner"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

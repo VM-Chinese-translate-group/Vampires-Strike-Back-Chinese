@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:the_prowler",
+    "display": {
+        "title": "advancements.vampires.zapper.title",
+        "description": "advancements.vampires.zapper.description",
+        "icon": {
+            "item": "raidsenhanced:zapper_staff"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "raidsenhanced:zapper": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "raidsenhanced:zapper"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "raidsenhanced:zapper"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

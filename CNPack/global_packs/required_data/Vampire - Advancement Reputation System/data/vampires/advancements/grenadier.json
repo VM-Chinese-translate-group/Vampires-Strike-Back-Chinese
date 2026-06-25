@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:shieldbearer",
+    "display": {
+        "title": "advancements.vampires.grenadier.title",
+        "description": "advancements.vampires.grenadier.description",
+        "icon": {
+            "item": "jaams_weaponry:dynamite"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecells:grenadier": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecells:grenadier"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "minecells:grenadier"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

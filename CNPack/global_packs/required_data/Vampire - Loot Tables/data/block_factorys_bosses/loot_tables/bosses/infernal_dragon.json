@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:13,Duration:6000}],CustomPotionColor:16753920,display:{Name:'{\"translate\":\"item.vampire_loot_tables.enduring_potion_of_flame_retardancy\",\"color\":\"orange\"}'}}" } ], "weight": 50 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:fireward_ring", "weight": 40 }            
+      ]
+    }
+  ]
+}

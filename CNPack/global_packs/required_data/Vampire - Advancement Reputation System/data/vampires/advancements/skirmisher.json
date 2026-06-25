@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:10_notoriety",
+    "display": {
+        "title": "advancements.vampires.skirmisher.title",
+        "description": "advancements.vampires.skirmisher.description",
+        "icon": {
+            "item": "jaams_weaponry:iron_ring"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "takesapillage:skirmisher": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "takesapillage:skirmisher"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "takesapillage:skirmisher"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

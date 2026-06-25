@@ -1,0 +1,10 @@
+{
+    "name": "power.origins.soft_skin.name",
+    "description": "power.origins.soft_skin.description",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -14.0,
+        "operation": "addition"
+    }
+}

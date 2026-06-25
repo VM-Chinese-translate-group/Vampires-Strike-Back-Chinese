@@ -1,0 +1,36 @@
+{
+    "parent": "vampires:skirmisher",
+    "display": {
+        "title": "advancements.vampires.ghast.title",
+        "description": "advancements.vampires.ghast.description",
+        "icon": {
+            "item": "raidsenhanced:blimp_parts"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:ghast": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:ghast"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:ghast"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

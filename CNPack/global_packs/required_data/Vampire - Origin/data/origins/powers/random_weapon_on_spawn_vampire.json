@@ -1,0 +1,11 @@
+{
+	"name": "power.origins.random_weapon_on_spawn_vampire.name",
+	"description": "power.origins.random_weapon_on_spawn_vampire.description",
+	"type": "origins:starting_equipment",
+	"stack": {
+		"item": "minecraft:chest",
+		"tag": "{BlockEntityTag:{LootTable:\"origins:chests/random_weapon_vampire\"}} chest{display:{Name:'{\"translate\":\"item.vampire_origin.weapon_chest\"}} 1",
+		"slot": 0
+	},
+	"recurrent": true
+}

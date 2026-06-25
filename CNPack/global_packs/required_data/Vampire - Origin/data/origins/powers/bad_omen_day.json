@@ -1,0 +1,40 @@
+{
+    "name": "power.origins.bad_omen_day.name",
+    "description": "power.origins.bad_omen_day.description",
+    "type": "apoli:action_over_time",
+    "interval": 9,
+    "entity_action": {
+        "type": "apoli:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:exposed_to_sun"
+                        },
+                        {
+                            "type": "origins:gamemode",
+                            "gamemode": "survival"
+                        }
+                    ]
+                },
+                "action": {
+                    "type": "apoli:and",
+                    "actions": [
+                        {
+                            "type": "apoli:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:bad_omen",
+                                "amplifier": 10,
+                                "show_icon": true,
+                                "show_particles": false,
+                                "duration": 210
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

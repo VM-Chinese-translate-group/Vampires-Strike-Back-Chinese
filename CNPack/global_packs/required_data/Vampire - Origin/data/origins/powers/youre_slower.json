@@ -1,0 +1,10 @@
+{
+    "name": "power.origins.youre_slower.name",
+    "description": "power.origins.youre_slower.description",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.01,
+        "operation": "addition"
+    }
+}
