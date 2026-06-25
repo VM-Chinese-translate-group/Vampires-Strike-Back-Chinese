@@ -99,5 +99,20 @@
     "power.origins.way.description": "You can sense your way to other Vampires and Humans (in Multiplayer).",
     "power.origins.youre_slower.name": "Slowpoke",
     "power.origins.youre_slower.description": "You're a bit slower than someone with a pulse.",
-    "item.vampire_origin.weapon_chest": "Weapon Chest"
+    "item.vampire_origin.weapon_chest": "Weapon Chest",
+    "item.vampire_origin.potion_of_strength": "Potion of Strength",
+    "item.vampire_origin.potion_of_sustained_strength": "Potion of Sustained Strength",
+    "item.vampire_origin.potion_of_super_strength": "Potion of Super Strength",
+    "item.vampire_origin.potion_of_speed": "Potion of Speed",
+    "item.vampire_origin.potion_of_sustained_speed": "Potion of Sustained Speed",
+    "item.vampire_origin.potion_of_sonic_speed": "Potion of Sonic Speed",
+    "item.vampire_origin.potion_of_resistance": "Potion of Resistance",
+    "item.vampire_origin.potion_of_resistance_ii": "Potion of Resistance II",
+    "item.vampire_origin.potion_of_resistance_iii": "Potion of Resistance III",
+    "item.vampire_origin.potion_of_resistance_iv": "Potion of Resistance IV",
+    "item.vampire_origin.potion_of_invulnerability": "Potion of Invulnerability",
+    "item.vampire_origin.potion_of_flame_retardancy": "Potion of Flame Retardancy",
+    "item.vampire_origin.splash_potion_of_weakness": "Splash Potion of Weakness",
+    "item.vampire_origin.blood_vial": "Blood Vial",
+    "item.vampire_origin.potent_blood_vial": "Potent Blood Vial"
 }
