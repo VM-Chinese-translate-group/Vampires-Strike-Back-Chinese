@@ -52,7 +52,7 @@
   "quest.vampires.give_revenant_ashes.description": "Defeat the Ignited Revenant and claim its Burning Ashes.",
   "quest.vampires.h01_hunter_introduction.title": "I'll Do What I Must",
   "quest.vampires.h01_hunter_introduction.description": "\"This land is falling into darkness... I can feel it. Although the supernatural have been pushed back to the caves, mankind have only taken their place in their monstrosity.\"\n\n\"The Empire's cruelty knows no bounds... And even with it, they fail to see the threat growing beneath their feet.\"\n\n\"A §4§oVampire§r is on the loose. They were supposed to be extinct...\"\n\n\"I have to stop it, no matter the cost. It matters not if these people would treat §oit§r and §oI§r the same: I WILL save them.\"\n\n\"I can cut off this infection from the source... I must find the §4§oAbyssal Lord§r. I'm certain one of the acclaimed Mages of the Illager Clan would know where to find them.\"\n\n\"I don't want to, but with their vendetta against me... §oIt looks like I'll have to find out the hard way§r.\"\n\n",
-  "quest.vampires.marker_electrocutioner_scylla.title": "Slay the Electrocutioner",
+  "quest.vampires.marker_electrocutioner_scylla.title": "击杀轰雷师",
   "quest.vampires.marker_electrocutioner_scylla.description": "With the Electrocutioner slain, the path to the Acropolis will be clear...",
   "quest.vampires.marker_illusioner_maledictus.title": "Slay the Illusioner",
   "quest.vampires.marker_illusioner_maledictus.description": "With the Illusioner slain, the path to the Frosted Prison will be clear...",
@@ -63,5 +63,18 @@
   "quest.vampires.v02_villagers.title": "You Salivate...",
   "quest.vampires.v02_villagers.description": "\"I was asleep for so long... §cI'm starving.\"§r\n\n\"These §c§ohumans§r will make for a fine meal to feast upon. If I'm lucky, I can even extract their §l§dHeart Crystals§r to §cgrow stronger...§r\" \n\n\"Hell knows I could use it. My body has grown particuarly weak during my slumber.\n\nIf I §cstrike§r their §cbacks§r, I have an especially good chance of killing them quickly... The less time I leave myself vulnerable, the better.\n\nI should try and pace myself in how many of the docile ones I feast upon... I can obtaining both §l§dHeart Crystals§r §oand§r §l§cweaponry§r from humanity's §oarmed§r forces.\n\nI wonder how strong they've gotten whilst I've slept...?\"",
   "quest.vampires.v03_pillagers.title": "The Army",
-  "quest.vampires.v03_pillagers.description": "\"§4These§r are your footmen? §4§oPathetic.§r How fortunate for me... Your own §cweapons§r will become your undoing.\" \n\n\"Though the gap in our power is obvious, I should still remain cautious...\"\n\n\"Without breath or a pulse, I can do well in §csneaking up on my prey from behind.§r And if that doesn't work, I can always attack or retreat with a §cdash§r, or knock them away with a §4groundpound§r should I find myself surrounded...\""
+  "quest.vampires.v03_pillagers.description": "\"§4These§r are your footmen? §4§oPathetic.§r How fortunate for me... Your own §cweapons§r will become your undoing.\" \n\n\"Though the gap in our power is obvious, I should still remain cautious...\"\n\n\"Without breath or a pulse, I can do well in §csneaking up on my prey from behind.§r And if that doesn't work, I can always attack or retreat with a §cdash§r, or knock them away with a §4groundpound§r should I find myself surrounded...\"",
+  "vampires.fancymenu.pause.abandon_world": "< Abandon This World >",
+  "vampires.fancymenu.pause.abandon_world.hover": "< And move on to the next... >",
+  "vampires.fancymenu.pause.seek_allies": "Seek Allies",
+  "vampires.fancymenu.pause.seek_allies.hover": "(Open to LAN)",
+  "vampires.fancymenu.pause.progression": "Progression",
+  "vampires.fancymenu.pause.progression.hover": "(Advancements)",
+  "vampires.fancymenu.pause.leave": "< Leave >",
+  "vampires.fancymenu.pause.leave.hover": "(Return to Title Screen)",
+  "vampires.fancymenu.credits.title": "Credits",
+  "vampires.fancymenu.credits.text": "Nekomaster\nPack Assembly\nShader Configuration\nCustom Textures\n\nSnappytoiletpaperroll, deepacat, waccyy\nKubeJS Scripting\n\nCalcyon\nTutorial Structures\nDragon Tower Redesign\n\nFermineFabulous, HowardTheFlamingo, Snappytoiletpaperroll\nAlpha/Beta Playtesting\n\nEvanbones, JustDoom, DeadlyDiamond98\nAdding features to their mods specifically for this pack\n\nMrBysco, Hoshin1\nMaking new mods specifically for the pack\n\nYou\nFor Playing!",
+  "vampires.fancymenu.credits.back": "Back",
+  "vampires.fancymenu.title.multiplayer": "Multiplayer",
+  "vampires.fancymenu.title.credits": "Credits"
 }

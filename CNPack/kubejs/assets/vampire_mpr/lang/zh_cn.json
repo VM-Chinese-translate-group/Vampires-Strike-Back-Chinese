@@ -1,9 +1,9 @@
 {
-    "item.vampire_mpr.potion_of_super_strength": "Potion of Super Strength",
-    "item.vampire_mpr.potion_of_sonic_speed": "Potion of Sonic Speed",
-    "item.vampire_mpr.potion_of_sustained_invulnerability": "Potion of Sustained Invulnerability",
-    "item.vampire_mpr.potion_of_fire_retardancy": "Potion of Fire Retardancy",
-    "item.vampire_mpr.potent_blood_vial": "Potent Blood Vial",
-    "vampires.title.the_overworld": "The Overworld",
-    "vampires.title.the_mantle": "The Mantle"
+    "item.vampire_mpr.potion_of_super_strength": "超级力量药水",
+    "item.vampire_mpr.potion_of_sonic_speed": "音速药水",
+    "item.vampire_mpr.potion_of_sustained_invulnerability": "持久无敌药水",
+    "item.vampire_mpr.potion_of_fire_retardancy": "阻燃药水",
+    "item.vampire_mpr.potent_blood_vial": "强效血饮瓶",
+    "vampires.title.the_overworld": "主世界",
+    "vampires.title.the_mantle": "地幔"
 }
