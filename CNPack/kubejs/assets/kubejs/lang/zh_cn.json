@@ -2,7 +2,7 @@
   "item.kubejs.scrap_metal": "金属碎片",
   "item.kubejs.diamond_shard": "钻石碎片",
   "item.kubejs.emerald_shard": "绿宝石碎片",
-  "tooltip.kubejs.mantlediver": "§e[RIGHT-CLICK]§r to dive into the Mantle and locate the §cCitadel.§r",
+  "tooltip.kubejs.mantlediver": "§e[右击]§r以潜入地幔，并显示§c城堡§r的位置。",
   "tooltip.kubejs.cinderous_soulcaller": "§e[RIGHT-CLICK]§r in the center of the Citadel to summon the §cAbyssal Lord.§r",
   "tooltip.kubejs.hold_shift": "Hold §e[SHIFT]§r for more information",
   "tooltip.kubejs.scroll": "§eCRAFT§r with §fLimitite§r to §bduplicate§r the spell!",

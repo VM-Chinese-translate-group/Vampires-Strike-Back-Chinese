@@ -42,7 +42,7 @@
   "aquaculture.neptunium_staff.tooltip.desc": "Conjures water at your foes, even in hot environments",
 
   "sortilege.staff.experience_cost": "消耗 %s 经验",
-  "sortilege.staff.cooldown": "%ss Cooldown",
+  "sortilege.staff.cooldown": "%s秒冷却时间",
 
   "attribute.name.generic.staff_damage": "魔法伤害",
   "attribute.name.generic.staff_pierce": "穿透",
