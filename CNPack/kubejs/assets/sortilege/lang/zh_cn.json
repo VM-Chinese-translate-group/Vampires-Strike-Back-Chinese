@@ -1,7 +1,7 @@
 {
-  "item.sortilege.mantlediver": "Mantle Diver",
-  "item.sortilege.mantleborer": "Mantle Borer",
-  "item.sortilege.vampiric_effigy": "Vampiric Effigy",
+  "item.sortilege.mantlediver": "地幔潜入杖",
+  "item.sortilege.mantleborer": "地幔突破钻",
+  "item.sortilege.vampiric_effigy": "血族象征",
   "tooltip.press_shift.left": "按 [",
   "tooltip.press_shift.center": "Shift",
   "tooltip.press_shift.right": "]",
@@ -10,9 +10,9 @@
 
   "sortilege.crafting.requires_level": "至少需要%s级！",
   "sortilege.crafting.requires_advancement": "需要完成成就%s！",
-  "sortilege.crafting.emi.locked_recipe": "Locked recipe",
+  "sortilege.crafting.emi.locked_recipe": "锁定的配方",
 
-  "sortilege.enchanting.requires_catalyst": "You must use a catalyst!",
+  "sortilege.enchanting.requires_catalyst": "你必须使用触媒！",
 
   "sortilege.enchantments": "附魔条目",
   "item.sortilege.catalyst.desc": "When used to Enchant:",

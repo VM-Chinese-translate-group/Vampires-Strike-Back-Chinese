@@ -1,6 +1,6 @@
 {
-    "item.vampire_loot_tables.enduring_potion_of_flame_retardancy": "Enduring Potion of Flame Retardancy",
-    "item.vampire_loot_tables.potion_of_super_strength": "Potion of Super Strength",
-    "item.vampire_loot_tables.potion_of_sustained_invulnerability": "Potion of Sustained Invulnerability",
-    "item.vampire_loot_tables.potent_blood_vial": "Potent Blood Vial"
+    "item.vampire_loot_tables.enduring_potion_of_flame_retardancy": "持久阻燃药水",
+    "item.vampire_loot_tables.potion_of_super_strength": "超级力量药水",
+    "item.vampire_loot_tables.potion_of_sustained_invulnerability": "持久无敌药水",
+    "item.vampire_loot_tables.potent_blood_vial": "强效血饮瓶"
 }
