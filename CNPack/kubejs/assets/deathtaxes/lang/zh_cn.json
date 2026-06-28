@@ -1,0 +1,12 @@
+{
+  "item.deathtaxes.scavenger_spawn_egg": "幽魂侍从刷怪蛋",
+  "entity.deathtaxes.scavenger": "幽魂侍从",
+  "subtitles.deathtaxes.entity.scavenger.ambient": "幽魂侍从：喃喃自语",
+  "subtitles.deathtaxes.entity.scavenger.death": "幽魂侍从：死亡",
+  "subtitles.deathtaxes.entity.scavenger.hurt": "幽魂侍从：受伤",
+  "subtitles.deathtaxes.entity.scavenger.yes": "幽魂侍从：同意",
+  "subtitles.deathtaxes.entity.scavenger.no": "幽魂侍从：拒绝",
+  "subtitles.deathtaxes.entity.scavenger.trade": "幽魂侍从：交易",
+  "subtitles.deathtaxes.misc.teleport": "某物：传送",
+  "subtitles.deathtaxes.misc.flies": "苍蝇：嗡嗡"
+}

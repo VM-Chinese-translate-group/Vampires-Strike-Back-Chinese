@@ -1,0 +1,14 @@
+{
+    "entity.minecells.runner": "双持卫士",
+    "item.minecells.runner_spawn_egg": "双持卫士刷怪蛋",
+
+    "entity.minecells.concierge": "国王之手",
+    "entity.minecells.concierge_respawn_rune": "国王之手复活符文",
+    
+    "entity.minecells.conjunctivius": "暴怒国王",
+    "entity.minecells.conjunctivius_obelisk": "暴怒国王生成方尖碑",
+    "entity.minecells.conjunctivius_projectile": "暴怒国王弹射物",
+    "item.minecells.tentacle": "暴怒国王触手",
+    
+    "item.minecells.hattoris_katana": "冲刺武士刀"
+}

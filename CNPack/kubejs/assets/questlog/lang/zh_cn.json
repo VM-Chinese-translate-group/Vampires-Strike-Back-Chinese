@@ -1,0 +1,18 @@
+{
+    "key.questlog.open": "查看你的故事",
+    "key.questlog.category": "故事",
+    "questlog.toast.quest_completed": "故事已完成……",
+    "questlog.toast.quest_added": "故事已添加！",
+    "questlog.quest.completed": "已完成",
+    "questlog.quest.uncollected": "领取奖励",
+    "questlog.objective.completed": "已完成",
+    "questlog.objective.in_progress_singular": "未完成",
+    "questlog.objective.in_progress": "%s/%s",
+    "questlog.reward.collect": "领取奖励",
+    "questlog.reward.collected": "已领取",
+    "questlog.reward.uncollected": "未领取",
+    "questlog.gui.open": "查看故事",
+    "questlog.objective.default": "未命名项",
+    "questlog.reward.default": "未命名奖励",
+    "questlog.no_quests": "暂无可用任务"
+}

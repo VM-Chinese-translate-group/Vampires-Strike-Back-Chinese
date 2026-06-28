@@ -1,0 +1,21 @@
+{
+	"semihardcore:player_get_lives_left": "%s还剩下：%s次生命",
+	"semihardcore:player_set_lives_left": "已将%s的剩余生命设为%s",
+	"semihardcore:player_add_lives_left": "已将%s次生命添加给%s",
+	"semihardcore:player_get_health": "%s的基础生命值：%s",
+	"semihardcore:player_set_health": "已将%s的基础生命值设为%s",
+	"semihardcore:player_add_health": "已将%s点基础生命值添加给%s",
+	"semihardcore:life_lost": "你失去了一次生命",
+	"semihardcore:lives_remaining": "还剩下%s次生命",
+	"semihardcore:life_remaining": "这是最后一次生命了，务必留意！",
+	"semihardcore:life_lost_lose": "你失去了一次生命。已耗尽全部生命，下次好运。",
+	"semihardcore:max_health_lost": "你失去了%s点最大生命值",
+	"semihardcore:max_health_gained": "你获得了%s点最大生命值",
+	"semihardcore:player_life_lost": "%s失去了一次生命。还剩下%s次生命。",
+	"semihardcore:player_no_lives_remaining": "%s失去了一次生命。该玩家已耗尽全部生命，输入F表示敬意。",
+	"semihardcore:opt_out": "已禁用生命数与最大生命值的变化",
+	"semihardcore:opt_in": "已启用生命数与最大生命值的变化",
+	"semihardcore:gg_wp": "下次好运",
+	"semihardcore:no_lives_remaining": "你失去了全部生命",
+	"semihardcore:command_fail": "执行命令失败"
+}
