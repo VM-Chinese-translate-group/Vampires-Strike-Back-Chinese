@@ -41,17 +41,17 @@
   "structure.vampires.vampire_crypt.book.glide.page1": "在空中按下[空格]可以滑翔。\n\n在空中按下潜行键[Shift]可以停止滑翔。这有助于节省翅膀的耐久。\n\n在滑翔时按下冲刺键[CTRL]可以大幅提高速度！",
   "structure.vampires.hunter_church.book.roll.page1": "按下[CTRL]可以翻滚！\n\n你至多可以连续翻滚3次。",
   "quest.vampires.bosses_detected.title": "轰雷师",
-  "quest.vampires.bosses_detected.description": "That mage... I need to end him if I'm to find the locations of the Guardians.",
+  "quest.vampires.bosses_detected.description": "那位法师……我必须了结他，才能找到卫城的位置。",
   "quest.vampires.chest_particles.title": "可重复领取的箱子",
   "quest.vampires.chest_particles.description": "",
   "quest.vampires.give_citadel_location.title": "寻找城堡",
   "quest.vampires.give_citadel_location.description": "地幔潜入杖……有了这个工具，我就能钻进地底，找到城堡的位置了。我的最终试炼就在那里等着我……",
   "quest.vampires.give_ender_eye.title": "神明之魂",
   "quest.vampires.give_ender_eye.description": "……",
-  "quest.vampires.give_revenant_ashes.title": "Burning Ashes",
-  "quest.vampires.give_revenant_ashes.description": "Defeat the Ignited Revenant and claim its Burning Ashes.",
-  "quest.vampires.h01_hunter_introduction.title": "I'll Do What I Must",
-  "quest.vampires.h01_hunter_introduction.description": "\"This land is falling into darkness... I can feel it. Although the supernatural have been pushed back to the caves, mankind have only taken their place in their monstrosity.\"\n\n\"The Empire's cruelty knows no bounds... And even with it, they fail to see the threat growing beneath their feet.\"\n\n\"A §4§oVampire§r is on the loose. They were supposed to be extinct...\"\n\n\"I have to stop it, no matter the cost. It matters not if these people would treat §oit§r and §oI§r the same: I WILL save them.\"\n\n\"I can cut off this infection from the source... I must find the §4§oAbyssal Lord§r. I'm certain one of the acclaimed Mages of the Illager Clan would know where to find them.\"\n\n\"I don't want to, but with their vendetta against me... §oIt looks like I'll have to find out the hard way§r.\"\n\n",
+  "quest.vampires.give_revenant_ashes.title": "炽燃余烬",
+  "quest.vampires.give_revenant_ashes.description": "击败炽燃遗魂，取得它的炽燃余烬。",
+  "quest.vampires.h01_hunter_introduction.title": "做我必须做的事情",
+  "quest.vampires.h01_hunter_introduction.description": "“我能感受到……这片大地将要堕入黑暗。尽管那些超自然怪物已被赶回了山洞，但人类却以自己的残暴取代了它们的位置。”\n\n“帝国的残暴永远没有上限……尽管如此，他们也没能注意到来自他们脚下的威胁。”\n\n“有一只§4§o吸血鬼§r正四处作乱，这一种族原本应该灭绝了才对……”\n\n“我必须不惜一切代价杀死它。即便那些人会像对待§o吸血鬼§r一样对待§o我§r，我也必须拯救人类。”\n\n“我要切断感染源……必须找到§4§o深渊领主§r。我很确定，那些享誉盛名的灾厄部族法师知道他在哪里。”\n\n“我本不想这么做，但鉴于他们实在仇视我……§o我也只能用强硬的方法去向他们打听了。§r”\n\n",
   "quest.vampires.marker_electrocutioner_scylla.title": "击杀轰雷师",
   "quest.vampires.marker_electrocutioner_scylla.description": "随着轰雷师被击杀，通往卫城的路逐渐明晰……",
   "quest.vampires.marker_illusioner_maledictus.title": "击杀幻术师",
@@ -59,7 +59,7 @@
   "quest.vampires.marker_pyreillager_ignis.title": "击杀劫火徒",
   "quest.vampires.marker_pyreillager_ignis.description": "随着劫火徒被击杀，通往飞龙之塔的路逐渐明晰……",
   "quest.vampires.v01_vampire_introduction.title": "已经过了多久？",
-  "quest.vampires.v01_vampire_introduction.description": "在深埋地底的墓穴中，你自棺木之中醒来。\n\n时光侵蚀了一切；你不记得自己为何在这里，甚至不记得自己是谁了……\n你只记得，你是大自然的畸形异类——§o§l§4吸血鬼§r。\n\n不知为何，你能感受到自己是孤独的……\n\n不仅在墓穴中如此，在整个§o世界§r中也如此。\n\n你曾有……一位§o§l主人§r，对吧？\n\n他去哪了？\n他怎能容许这一切发生……？\n\n你不知道自己究竟沉睡了多久，但§o你知道§r接下来必须要做什么……\n\n去觐见§4§o§l深渊之主§r，赢得祂的恩宠，然后征服主世界。\n\n该醒了，去面对残酷的现实吧。",
+  "quest.vampires.v01_vampire_introduction.description": "在深埋地底的墓穴中，你自棺木之中醒来。\n\n时光侵蚀了一切；你不记得自己为何在这里，甚至不记得自己是谁了……\n你只记得，你是大自然的畸形异类——§o§l§4吸血鬼§r。\n\n不知为何，你能感受到自己是孤独的……\n\n不仅在墓穴中如此，在整个§o世界§r中也如此。\n\n你曾有……一位§o§l主人§r，对吧？\n\n他去哪了？\n他怎能容许这一切发生……？\n\n你不知道自己究竟沉睡了多久，但§o你知道§r接下来必须要做什么……\n\n去觐见§4§o§l深渊领主§r，赢得祂的恩宠，然后征服主世界。\n\n该醒了，去面对残酷的现实吧。",
   "quest.vampires.v02_villagers.title": "令你垂涎……",
   "quest.vampires.v02_villagers.description": "“我沉睡了太久……§c我无比饥饿§r。”\n\n“这些§c§o人类§r很适合成为一道佳肴。幸运的话，我还能提取出他们的§l§d生命水晶§r，从而§c变得更强……§r”\n\n“我非常需要生命水晶。在沉睡期间，我的躯体已变得十分虚弱。\n\n只要从§c背部§r对他们展开§c袭击§r，我就有很大的把握快速解决掉他们……暴露在危险中的时间越短越好。\n\n有些人类十分温顺，我也许该省着点吃他们……至于那些配有§o武装§r的人类，我可以从他们那里掠取§l§d生命水晶§r§o和§r§l§c武器§r。\n\n真想知道，在我沉睡期间，他们变得有多强了……”",
   "quest.vampires.v03_pillagers.title": "军队",
@@ -76,5 +76,107 @@
   "vampires.fancymenu.credits.text": "Nekomaster\n整合包组装\n光影配置\n纹理制作\n\nSnappytoiletpaperroll, deepacat, waccyy\nKubeJS脚本\n\nCalcyon\n教程建筑建造\n飞龙之塔重设计\n\nFermineFabulous, HowardTheFlamingo, Snappytoiletpaperroll\n游戏测试\n\nEvanbones, JustDoom, DeadlyDiamond98\n专门修改了他们的Mod，以适配本整合包\n\nMrBysco, Hoshin1\n为本整合包制作了新的Mod\n\n还有你\n感谢游玩！",
   "vampires.fancymenu.credits.back": "返回",
   "vampires.fancymenu.title.multiplayer": "多人游戏",
-  "vampires.fancymenu.title.credits": "制作人员"
+  "vampires.fancymenu.title.credits": "制作人员",
+  "item.minecraft.elytra": "Vampire Wings",
+
+  "quickplay.error.title": "Backstory",
+  "quickplay.error.invalid_identifier": "§7The Age of Man is coming to an end.\n\nDeep beneath the earth, the last Vampire awakens.\n\n§fThat vampire is you.§r\n\n\n§7Steal the humans' weapons. Absorb their power to grow your own.\n\nThen, when you're ready, eliminate their guardians.\n\nIt's time to take your rightful place as ruler of a new era.\n\n\nIt's time... to §fStrike Back.§r\n\n---\n\nWelcome to Vampires Strike Back!\n\n§7In this modpack, you'll play as either a Vampire or a Hunter, and will have to slay human enemies to progress.\n\nBut be warned! The more humans you slay, the more powerful the enemies that will appear!\n\nKilling humans will result in them dropping health upgrades, weapons, armour, potions, spells and even Curios!\n\nKilling great Mage enemies may even reveal the locations of certain boss structures...\n\nSlay any one of these bosses for their Soulcaller, and with it, dive deep into the Mantle for your final challenge.\n\nMake sure to check the Story tab in your inventory for more information as you play!\n\n§7Join the §cInfernal Studios Discord§r §7for updates and support too!\n\nAlso, please §fleave a review§r §7on §aModDex.gg!§r \n\n§fThanks, and have fun!",
+  "gui.toWorld": "Go forth...",
+  
+  "selectWorld.warning.experimental.title": "Backstory",
+  "selectWorld.warning.experimental.question": "§7The Age of Man is coming to an end.\n\nDeep beneath the earth, the last Vampire awakens.\n\n§fThat vampire is you.§r\n\n\n§7Steal the humans' weapons. Absorb their power to grow your own.\n\nThen, when you're ready, eliminate their guardians.\n\nIt's time to take your rightful place as ruler of a new era.\n\n\nIt's time... to §fStrike Back.§r\n\n---\n\nWelcome to Vampires Strike Back!\n\n§7In this modpack, you'll play as either a Vampire or a Hunter, and will have to slay human enemies to progress.\n\nBut be warned! The more humans you slay, the more powerful the enemies that will appear!\n\nKilling humans will result in them dropping health upgrades, weapons, armour, potions, spells and even Curios!\n\nKilling great Mage enemies may even reveal the locations of certain boss structures...\n\nSlay any one of these bosses for their Soulcaller, and with it, dive deep into the Mantle for your final challenge.\n\nMake sure to check the Story tab in your inventory for more information as you play!\n\n§7Join the §cInfernal Studios Discord§r §7for updates and support too!\n\nAlso, please §fleave a review§r §7on §aModDex.gg!§r \n\n§fThanks, and have fun!",
+  
+  "semihardcore:gg_wp": "And so,",
+  "semihardcore:no_lives_remaining": "none remained...",
+  
+  
+  "key.origins.view_origin": "View Character",
+  "origins.gui.view_origin.empty": "You can not chose who you are.",
+  "layer.origins.origin.name": "Story",
+  "origin.origins.empty.description": "You do not have an story.",
+  "origins.gui.waiting_for_powers": "Waiting for powers to resolve",
+  
+  "effect.minecraft.hero_of_the_village": "One Man Army",
+  
+  
+  "block.minecraft.ender_chest": "Void Chest",
+  
+  "item.infernalexp.blindsight_tongue_whip": "Hunter's Whip",
+  
+  "item.caverns_and_chasms.kunai": "Throwing Knives",
+  
+  "item.jaams_weaponry.pronged_kunai": "Throwable Tooth",
+  
+  
+  "entity.minecraft.ender_dragon": "The Primal Lord",
+  "item.minecraft.ender_dragon_spawn_egg": "Primal Lord Spawn Egg",
+  
+  "subtitles.entity.ender_dragon.ambient": "Primal Lord roars",
+  "subtitles.entity.ender_dragon.death": "Primal Lord dies",
+  "subtitles.entity.ender_dragon.flap": "Primal Lord flies",
+  "subtitles.entity.ender_dragon.growl": "Primal Lord growls",
+  "subtitles.entity.ender_dragon.hurt": "Primal Lord hurts",
+  "subtitles.entity.ender_dragon.shoot": "Primal Lord shoots",
+  
+  
+  "item.minecraft.end_crystal": "Rejuvination Crystal",
+  "item.minecraft.ender_eye": "Theos Soul",
+  "item.minecraft.ender_pearl": "Void Pearl",
+  
+  
+  "entity.minecraft.enderman": "Famished Vampire",
+  "item.minecraft.enderman_spawn_egg": "Famished Vampire Spawn Egg",
+  
+  
+  "entity.minecraft.blaze": "Pyreillager",
+  "item.minecraft.blaze_spawn_egg": "Pyreillager Spawn Egg",
+  
+  
+  "entity.minecraft.ghast": "Patrol Blimp",
+  "item.minecraft.ghast_spawn_egg": "Patrol Blimp Spawn Egg",
+  "item.minecraft.ghast_tear": "Healing Tear",
+  
+  "subtitles.entity.ghast.ambient": "Blimpillager murmurs",
+  "subtitles.entity.ghast.death": "Patrol Blimp bursts",
+  "subtitles.entity.ghast.hurt": "Blimpillager wails",
+  "subtitles.entity.ghast.shoot": "Patrol Blimp shoots",
+  
+  
+  "entity.mowziesmobs.naga": "Feral Vampire",
+  "item.mowziesmobs.naga_spawn_egg": "Feral Vampire Spawn Egg",
+  
+  
+  "entity.enemyexpansion.goblin": "Pickpocketer",
+  "item.enemyexpansion.goblin_spawn_egg": "Pickpocketer Spawn Egg",
+  
+  
+  "entity.raidsenhanced.zapper": "Electrocutioner",
+  "item.raidsenhanced.zapper_staff": "Electrocutioner Staff",
+  
+  "entity.raidsenhanced.golem_of_last_resort": "Breaker Golem",
+  "item.raidsenhanced.handcannon": "Handcannon",
+  
+  "entity.raidsenhanced.raid_blimp": "Raid Blimp",
+  "entity.raidsenhanced.raid_drill": "Raid Drill",
+  
+  "raidsenhanced.item_description.handcannon": "Use to fire a powerful explosive.",
+  "raidsenhanced.item_description.zapper_staff": "Use to release a ball lightning. If used while looking on ground, casts lightning around the user.",
+  "raidsenhanced.item_description.blimp_parts": "Craft with any boat to convert it into a blimp.",
+  
+  "group.assassin_backstab": "Assassin: Backstab",
+  "item.assassin_backstab.wood_dagger": "Wooden Staff",
+  "item.assassin_backstab.stone_dagger": "Stone Staff",
+  "item.assassin_backstab.iron_dagger": "Iron Staff",
+  "item.assassin_backstab.gold_dagger": "Golden Staff",
+  "item.assassin_backstab.diamond_dagger": "Amethyst Staff",
+  "item.assassin_backstab.netherite_dagger": "Paragon Staff",
+  "death.attack.backstab": "%1$s was blasted by %2$s",
+  "death.attack.backstab.item": "%1$s was blasted by %2$s using %3$s",
+  
+  "common": "Not bad.",
+  "epic": "This will do nicely.",
+  "legendary": "Just what I needed.",
+  "rare": "Impressive... Very nice.",
+  "uncommon": "Alright!",
+  "mythic": "Now that's what I'm talking about."
 }
