@@ -1,11 +1,11 @@
 {
   //这是一条为避免忘记修改而写的注释，如何修改请查看Readme文件。
-  "packId": 130,
-  "packName": "FTB StoneBlock 4",
-  "versionPattern": "FTB StoneBlock 4 {version}",
+  "packId": 1555758,
+  "packName": "Vampires Strike Back",
+  "versionPattern": "Vampires Strike Back {version}",
   "mcVersion": "1.20.1", 
   "loader": "forge",
-  "updateMethod": "cursethebeast",
+  "updateMethod": "api",
   "infoFilePath": "CNPack/modpackinfo.json",
   "sourceDir": "Source",
   "attentionList": {
