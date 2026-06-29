@@ -42,13 +42,13 @@
 
   "death.attack.empty_heart_container": "%s Didn't have enough hearts to spare",
 
-  "healpgood.main.config.seasonalHearts": "Heart Look",
-  "healpgood.main.enum.seasonalHearts.VANILLA": "Dynamic",
-  "healpgood.main.enum.seasonalHearts.NOSEASON": "Default",
-  "healpgood.main.enum.seasonalHearts.CHRISTMAS": "Christmas",
-  "healpgood.main.enum.seasonalHearts.PRIDE": "Pride Month",
-  "healpgood.main.enum.seasonalHearts.APRIL": "April Fools",
-  "healpgood.main.enum.seasonalHearts.HALLOWEEN": "Halloween",
+  "healpgood.main.config.seasonalHearts": "心外观",
+  "healpgood.main.enum.seasonalHearts.VANILLA": "动态",
+  "healpgood.main.enum.seasonalHearts.NOSEASON": "默认",
+  "healpgood.main.enum.seasonalHearts.CHRISTMAS": "圣诞节",
+  "healpgood.main.enum.seasonalHearts.PRIDE": "骄傲月",
+  "healpgood.main.enum.seasonalHearts.APRIL": "愚人节",
+  "healpgood.main.enum.seasonalHearts.HALLOWEEN": "万圣节",
   "healpgood.main.config.seasonalHearts.desc": "This selection will determine the appearance of §dHeart pickups§r.\n\n§2Dynamic§r makes Hearts change based on Seasons.\n\n§2Default§r keeps hearts at their regular look.\n\nAll other options enable seasonal textures year-round",
 
   "healpgood.main.config.category": "Healing Pretty Good",
