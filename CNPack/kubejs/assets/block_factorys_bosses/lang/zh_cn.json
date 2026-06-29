@@ -97,8 +97,8 @@
   "item.block_factorys_bosses.pile_of_bones_spawn_egg": "Pile Of Bones Spawn Egg",
   "subtitles.knight_attack_voiceline": "",
   "block.block_factorys_bosses.dragon_flag": "Dragon Banner",
-  "entity.block_factorys_bosses.big_cage": "Cage",
-  "entity.block_factorys_bosses.cage_skelly": "Cage",
+  "entity.block_factorys_bosses.big_cage": "牢笼",
+  "entity.block_factorys_bosses.cage_skelly": "牢笼",
   "advancements.no_hit_underworld_knight.descr": "Kill the Underworld Knight without any player getting hit ",
   "advancements.no_hit_sandworm.descr": "Kill the Sandworm without any player getting hit ",
   "item.block_factorys_bosses.ancient_iron_ingot": "Ancient Iron Ingot",
@@ -188,9 +188,9 @@
   "block.block_factorys_bosses.under_world_tall_candle_cross": "Tall Soul Chandelier",
   "subtitles.knight_combo_2": "",
   "subtitles.knight_sword_swing": "",
-  "entity.block_factorys_bosses.ice_spike": "Ice Spike",
+  "entity.block_factorys_bosses.ice_spike": "寒冰尖刺",
   "subtitles.frozen_fist": "",
-  "item.block_factorys_bosses.knight_leggings": "Knight Leggings",
+  "item.block_factorys_bosses.knight_leggings": "骑士护腿",
   "subtitles.knight_death": "Knight death",
   "subtitles.dragon_firelayer": ""
 }
