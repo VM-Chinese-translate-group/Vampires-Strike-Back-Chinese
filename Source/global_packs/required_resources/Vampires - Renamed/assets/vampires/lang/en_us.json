@@ -1,0 +1,110 @@
+{
+"item.minecraft.elytra": "Vampire Wings",
+
+"quickplay.error.title": "Backstory",
+"quickplay.error.invalid_identifier": "§7The Age of Man is coming to an end.\n\nDeep beneath the earth, the last Vampire awakens.\n\n§fThat vampire is you.§r\n\n\n§7Steal the humans' weapons. Absorb their power to grow your own.\n\nThen, when you're ready, eliminate their guardians.\n\nIt's time to take your rightful place as ruler of a new era.\n\n\nIt's time... to §fStrike Back.§r\n\n---\n\nWelcome to Vampires Strike Back!\n\n§7In this modpack, you'll play as either a Vampire or a Hunter, and will have to slay human enemies to progress.\n\nBut be warned! The more humans you slay, the more powerful the enemies that will appear!\n\nKilling humans will result in them dropping health upgrades, weapons, armour, potions, spells and even Curios!\n\nKilling great Mage enemies may even reveal the locations of certain boss structures...\n\nSlay any one of these bosses for their Soulcaller, and with it, dive deep into the Mantle for your final challenge.\n\nMake sure to check the Story tab in your inventory for more information as you play!\n\n§7Join the §cInfernal Studios Discord§r §7for updates and support too!\n\nAlso, please §fleave a review§r §7on §aModDex.gg!§r \n\n§fThanks, and have fun!",
+"gui.toWorld": "Go forth...",
+
+"selectWorld.warning.experimental.title": "Backstory",
+"selectWorld.warning.experimental.question": "§7The Age of Man is coming to an end.\n\nDeep beneath the earth, the last Vampire awakens.\n\n§fThat vampire is you.§r\n\n\n§7Steal the humans' weapons. Absorb their power to grow your own.\n\nThen, when you're ready, eliminate their guardians.\n\nIt's time to take your rightful place as ruler of a new era.\n\n\nIt's time... to §fStrike Back.§r\n\n---\n\nWelcome to Vampires Strike Back!\n\n§7In this modpack, you'll play as either a Vampire or a Hunter, and will have to slay human enemies to progress.\n\nBut be warned! The more humans you slay, the more powerful the enemies that will appear!\n\nKilling humans will result in them dropping health upgrades, weapons, armour, potions, spells and even Curios!\n\nKilling great Mage enemies may even reveal the locations of certain boss structures...\n\nSlay any one of these bosses for their Soulcaller, and with it, dive deep into the Mantle for your final challenge.\n\nMake sure to check the Story tab in your inventory for more information as you play!\n\n§7Join the §cInfernal Studios Discord§r §7for updates and support too!\n\nAlso, please §fleave a review§r §7on §aModDex.gg!§r \n\n§fThanks, and have fun!",
+
+
+
+
+
+"semihardcore:gg_wp": "And so,",
+"semihardcore:no_lives_remaining": "none remained...",
+
+
+"key.origins.view_origin": "View Character",
+"origins.gui.view_origin.empty": "You can not chose who you are.",
+"layer.origins.origin.name": "Story",
+"origin.origins.empty.description": "You do not have an story.",
+"origins.gui.waiting_for_powers": "Waiting for powers to resolve",
+
+"effect.minecraft.hero_of_the_village": "One Man Army",
+
+
+"block.minecraft.ender_chest": "Void Chest",
+
+"item.infernalexp.blindsight_tongue_whip": "Hunter's Whip",
+
+"item.caverns_and_chasms.kunai": "Throwing Knives",
+
+"item.jaams_weaponry.pronged_kunai": "Throwable Tooth",
+
+
+"entity.minecraft.ender_dragon": "The Primal Lord",
+"item.minecraft.ender_dragon_spawn_egg": "Primal Lord Spawn Egg",
+
+"subtitles.entity.ender_dragon.ambient": "Primal Lord roars",
+"subtitles.entity.ender_dragon.death": "Primal Lord dies",
+"subtitles.entity.ender_dragon.flap": "Primal Lord flies",
+"subtitles.entity.ender_dragon.growl": "Primal Lord growls",
+"subtitles.entity.ender_dragon.hurt": "Primal Lord hurts",
+"subtitles.entity.ender_dragon.shoot": "Primal Lord shoots",
+
+
+"item.minecraft.end_crystal": "Rejuvination Crystal",
+"item.minecraft.ender_eye": "Theos Soul",
+"item.minecraft.ender_pearl": "Void Pearl",
+
+
+"entity.minecraft.enderman": "Famished Vampire",
+"item.minecraft.enderman_spawn_egg": "Famished Vampire Spawn Egg",
+
+
+"entity.minecraft.blaze": "Pyreillager",
+"item.minecraft.blaze_spawn_egg": "Pyreillager Spawn Egg",
+
+
+"entity.minecraft.ghast": "Patrol Blimp",
+"item.minecraft.ghast_spawn_egg": "Patrol Blimp Spawn Egg",
+"item.minecraft.ghast_tear": "Healing Tear",
+
+"subtitles.entity.ghast.ambient": "Blimpillager murmurs",
+"subtitles.entity.ghast.death": "Patrol Blimp bursts",
+"subtitles.entity.ghast.hurt": "Blimpillager wails",
+"subtitles.entity.ghast.shoot": "Patrol Blimp shoots",
+
+
+"entity.mowziesmobs.naga": "Feral Vampire",
+"item.mowziesmobs.naga_spawn_egg": "Feral Vampire Spawn Egg",
+
+
+"entity.enemyexpansion.goblin": "Pickpocketer",
+"item.enemyexpansion.goblin_spawn_egg": "Pickpocketer Spawn Egg",
+
+
+"entity.raidsenhanced.zapper": "Electrocutioner",
+"item.raidsenhanced.zapper_staff": "Electrocutioner Staff",
+
+"entity.raidsenhanced.golem_of_last_resort": "Breaker Golem",
+"item.raidsenhanced.handcannon": "Handcannon",
+
+"entity.raidsenhanced.raid_blimp": "Raid Blimp",
+"entity.raidsenhanced.raid_drill": "Raid Drill",
+
+"raidsenhanced.item_description.handcannon": "Use to fire a powerful explosive.",
+"raidsenhanced.item_description.zapper_staff": "Use to release a ball lightning. If used while looking on ground, casts lightning around the user.",
+"raidsenhanced.item_description.blimp_parts": "Craft with any boat to convert it into a blimp.",
+
+"group.assassin_backstab": "Assassin: Backstab",
+"item.assassin_backstab.wood_dagger": "Wooden Staff",
+"item.assassin_backstab.stone_dagger": "Stone Staff",
+"item.assassin_backstab.iron_dagger": "Iron Staff",
+"item.assassin_backstab.gold_dagger": "Golden Staff",
+"item.assassin_backstab.diamond_dagger": "Amethyst Staff",
+"item.assassin_backstab.netherite_dagger": "Paragon Staff",
+"death.attack.backstab": "%1$s was blasted by %2$s",
+"death.attack.backstab.item": "%1$s was blasted by %2$s using %3$s",
+
+"common": "Not bad.",
+"epic": "This will do nicely.",
+"legendary": "Just what I needed.",
+"rare": "Impressive... Very nice.",
+"uncommon": "Alright!",
+"mythic": "Now that's what I'm talking about."
+
+
+}

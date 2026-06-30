@@ -1,0 +1,5 @@
+{
+  "item.jaams_weaponry.smoke_bomb": "Flee Bomb",
+  "tooltip.jaams_weaponry.smoke_bomb.long_desc": "Upon use, releases a dense cloud of smoke that briefly blinds nearby enemies and pushes the user back, with a small chance to blind the user too.",
+  "subtitles.smoke_bomb": "Flee Bomb explodes"
+}
