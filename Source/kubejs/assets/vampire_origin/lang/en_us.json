@@ -48,7 +48,7 @@
     "power.origins.not_hungry.name": "Not Hungry",
     "power.origins.not_hungry.description": "You crave only the blood of human beings.",
     "power.origins.no_block_drops.name": "No Block Drops",
-    "power.origins.no_block_drops.description": "No blocks will drop anything when mined.",
+    "power.origins.no_block_drops.description": "No blocks (Besides Emerald and Diamond blocks) will drop anything when mined.",
     "power.origins.no_way.name": "No WAY",
     "power.origins.no_way.description": "You can't use WAY.",
     "power.origins.no_wings.name": "Not One of Them",

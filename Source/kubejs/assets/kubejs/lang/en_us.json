@@ -25,6 +25,6 @@
   "tooltip.kubejs.emerald_shard": "§eCRAFT§r four of these together to make a §2full Emerald§r!",
   "tooltip.kubejs.void_chest": "Only §fYOU§r can see the contents of your own personal §eVoid Chest!§r\nRequires §cSilk Touch§r to pick up.",
   "message.kubejs.expanded_inventory": "You've expanded your inventory by 1!",
-  "inventory_free.unlock.tooltip": "§e[RIGHT CLICK]§r in hand to consume and §cunlock an inventory slot!§r",
-  "inventory_free.unlock.tooltip2": ""
+  "tooltip.kubejs.heart_piece": "§e[CRAFT]§r four together to make a §dTemporary Heart Upgrade!§r",
+  "tooltip.kubejs.unrepairable": "§cUnrepairable§r"
 }

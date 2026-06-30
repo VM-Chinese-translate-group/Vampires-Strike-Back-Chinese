@@ -19,7 +19,7 @@ ItemEvents.tooltip(event => {
 
   // ====================
 
-  // Mantle diver
+  // Mantlediver
   event.addAdvanced(['sortilege:mantlediver'], (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.kubejs.mantlediver').gray())
   })
@@ -48,7 +48,7 @@ ItemEvents.tooltip(event => {
   })
 
   // Flint Hammer
-  event.addAdvanced(['jaams_weaponry:flint_hammer'], (item, advanced, text) => {
+  event.addAdvanced(['jaams_weaponry:flint_hammer', 'jaams_weaponry:broom'], (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.kubejs.unscrappable').gray())
   })
 
@@ -75,7 +75,16 @@ ItemEvents.tooltip(event => {
     }
   })
 
-  // Temporary Heart Crystal
+  // Heart Piece
+  event.addAdvanced(['healpgood:heart_piece'], (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
+    } else {
+      text.add(1, Text.translate('tooltip.kubejs.heart_piece').gray())
+    }
+  })
+
+  // Temporary Heart Upgrade
   event.addAdvanced(['healpgood:crystal_heart'], (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
@@ -84,7 +93,7 @@ ItemEvents.tooltip(event => {
     }
   })
 
-  // Permanent Heart Locket
+  // Permanent Heart Upgrade
   event.addAdvanced(['healpgood:heart_container'], (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
@@ -191,7 +200,82 @@ ItemEvents.tooltip(event => {
       text.add(1, Text.translate('tooltip.kubejs.void_chest').gray())
     }
   })
-  // Tooltips for Odd Accessories (奇特饰品硬编码汉化)
+
+
+  // Irons Armours
+  event.addAdvanced(
+    [
+      'minecraft:turtle_helmet',
+
+      'sortilege:witch_hat',
+
+      'minecells:cursed_sword',
+
+      'irons_spellbooks:keeper_flamberge',
+      'irons_spellbooks:legionnaire_flamberge',
+      'irons_spellbooks:legionnaire_flamberge',
+      'irons_spellbooks:decrepit_scythe',
+      'irons_spellbooks:hellrazor',
+
+      'irons_spellbooks:tarnished_helmet',
+
+      'irons_spellbooks:wandering_magician_helmet',
+      'irons_spellbooks:wandering_magician_chestplate',
+      'irons_spellbooks:wandering_magician_leggings',
+      'irons_spellbooks:wandering_magician_boots',
+      'irons_spellbooks:pyromancer_helmet',
+      'irons_spellbooks:pyromancer_chestplate',
+      'irons_spellbooks:pyromancer_leggings',
+      'irons_spellbooks:pyromancer_boots',
+      'irons_spellbooks:electromancer_helmet',
+      'irons_spellbooks:electromancer_chestplate',
+      'irons_spellbooks:electromancer_leggings',
+      'irons_spellbooks:electromancer_boots',
+      'irons_spellbooks:cultist_helmet',
+      'irons_spellbooks:cultist_chestplate',
+      'irons_spellbooks:cultist_leggings',
+      'irons_spellbooks:cultist_boots',
+      'irons_spellbooks:archevoker_helmet',
+      'irons_spellbooks:archevoker_chestplate',
+      'irons_spellbooks:archevoker_leggings',
+      'irons_spellbooks:archevoker_boots',
+      'irons_spellbooks:cryomancer_helmet',
+      'irons_spellbooks:cryomancer_chestplate',
+      'irons_spellbooks:cryomancer_leggings',
+      'irons_spellbooks:cryomancer_boots',
+      'irons_spellbooks:shadowwalker_helmet',
+      'irons_spellbooks:shadowwalker_chestplate',
+      'irons_spellbooks:shadowwalker_leggings',
+      'irons_spellbooks:shadowwalker_boots',
+      'irons_spellbooks:priest_helmet',
+      'irons_spellbooks:priest_chestplate',
+      'irons_spellbooks:priest_leggings',
+      'irons_spellbooks:priest_boots',
+      'irons_spellbooks:plagued_helmet',
+      'irons_spellbooks:plagued_chestplate',
+      'irons_spellbooks:plagued_leggings',
+      'irons_spellbooks:plagued_boots',
+      'irons_spellbooks:pumpkin_helmet',
+      'irons_spellbooks:pumpkin_chestplate',
+      'irons_spellbooks:pumpkin_leggings',
+      'irons_spellbooks:pumpkin_boots',
+      'irons_spellbooks:tarnished_crown',
+      'irons_spellbooks:netherite_mage_helmet',
+      'irons_spellbooks:netherite_mage_chestplate',
+      'irons_spellbooks:netherite_mage_leggings',
+      'irons_spellbooks:netherite_mage_boots',
+      'irons_spellbooks:wizard_helmet',
+      'irons_spellbooks:wizard_chestplate',
+      'irons_spellbooks:wizard_leggings',
+      'irons_spellbooks:wizard_boots'
+    ],
+    (item, advanced, text) => {
+      {
+        text.add(1, Text.translate('tooltip.kubejs.unrepairable').red())
+      }
+
+    })
+  // Tooltips for Odd Accessories
   const oddaccessoriesItems = [
     'oddaccessories:broken_telephone',
     'oddaccessories:clean_tablet',

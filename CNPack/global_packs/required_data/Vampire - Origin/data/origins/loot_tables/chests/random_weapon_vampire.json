@@ -262,6 +262,10 @@
         { "type": "minecraft:item", "name": "minecraft:iron_leggings", "weight": 60 },
         { "type": "minecraft:item", "name": "minecraft:iron_boots", "weight": 60 },
 
+        { "type": "minecraft:item", "name": "block_factorys_bosses:knight_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "block_factorys_bosses:knight_leggings", "weight": 60 },
+        { "type": "minecraft:item", "name": "block_factorys_bosses:knight_boots", "weight": 60 },
+
         { "type": "minecraft:item", "name": "irons_spellbooks:pumpkin_helmet", "weight": 60 },
         { "type": "minecraft:item", "name": "irons_spellbooks:pyromancer_helmet", "weight": 60 },
         { "type": "minecraft:item", "name": "irons_spellbooks:electromancer_helmet", "weight": 60 },
@@ -334,7 +338,7 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 3,
       "entries": [
         { "type": "minecraft:empty", "weight": 90},
         { "type": "minecraft:item", "name": "minecraft:arrow", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 8.0, "max": 16.0 } } ] },
@@ -344,11 +348,12 @@
         { "type": "minecraft:item", "name": "archeryexp:diamond_arrow", "weight": 2, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2.0, "max": 4.0 } } ] },
         { "type": "minecraft:item", "name": "archeryexp:netherite_arrow", "weight": 1, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 } } ] },
 
-        { "type": "minecraft:item", "name": "jaams_weaponry:dynamite", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 8.0 } } ] },
-        { "type": "minecraft:item", "name": "jaams_weaponry:kunai", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 8.0, "max": 16.0 } } ] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:dynamite", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 } } ] },
+        { "type": "minecraft:item", "name": "jaams_weaponry:kunai", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4.0, "max": 16.0 } } ] },
         { "type": "minecraft:item", "name": "species:birt_egg", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 } } ] },
         
-        { "type": "minecraft:item", "name": "minecraft:firework_rocket", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 } } ] }
+        { "type": "minecraft:item", "name": "minecraft:firework_rocket", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 } } ] },
+        { "type": "minecraft:item", "name": "minecraft:fire_charge", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 6.0, "max": 9.0 } } ] }
       ]
     },
     {
@@ -357,6 +362,13 @@
         { "type": "minecraft:item", "name": "species:birtday_cake_slice", "weight": 1, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 } } ] },
         { "type": "minecraft:item", "name": "species:birtday_cake", "weight": 1 },
         { "type": "minecraft:empty", "weight": 364}
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "species:wicked_mask", "weight": 1 },
+        { "type": "minecraft:empty", "weight": 164}
       ]
     },
     {
@@ -420,7 +432,7 @@
               "tag": "{Potion:\"minecraft:long_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sustained_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
               
         { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_super_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
+              "tag": "{Potion:\"minecraft:strong_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_loot_tables.potion_of_super_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
 
 
         { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
@@ -430,7 +442,7 @@
               "tag": "{Potion:\"minecraft:long_swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sustained_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
         
         { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sonic_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
+              "tag": "{Potion:\"minecraft:strong_swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_mpr.potion_of_sonic_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
 
 
         { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
@@ -456,11 +468,11 @@
               
 
         { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:23,Amplifier:0,Duration:2}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_origin.blood_vial\",\"color\":\"red\"}'}}" } ], "weight": 100 },
+              "tag": "{CustomPotionEffects:[{Id:23,Amplifier:0,Duration:2}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_advancement_reputation_system.blood_vial\",\"color\":\"red\"}'}}" } ], "weight": 100 },
               
 
         { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:23,Amplifier:10,Duration:12}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_origin.potent_blood_vial\",\"color\":\"red\"}'}}" } ], "weight": 100 },
+              "tag": "{CustomPotionEffects:[{Id:23,Amplifier:10,Duration:12}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_loot_tables.potent_blood_vial\",\"color\":\"red\"}'}}" } ], "weight": 100 },
               
 
         { "type": "minecraft:item", "name": "minecraft:experience_bottle", "weight": 100 },

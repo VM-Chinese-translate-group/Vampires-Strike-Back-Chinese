@@ -141,8 +141,14 @@
       "bonus_rolls": 0.0,
       "entries": [
         { "type": "minecraft:item", "name": "minecraft:leather_helmet", "weight": 100 },
+        { "type": "minecraft:item", "name": "minecraft:leather_chestplate", "weight": 100 },
         { "type": "minecraft:item", "name": "minecraft:leather_leggings", "weight": 100 },
         { "type": "minecraft:item", "name": "minecraft:leather_boots", "weight": 100 },
+
+        { "type": "minecraft:item", "name": "block_factorys_bosses:knight_helmet", "weight": 60 },
+        { "type": "minecraft:item", "name": "block_factorys_bosses:knight_chestplate", "weight": 60 },
+        { "type": "minecraft:item", "name": "block_factorys_bosses:knight_leggings", "weight": 60 },
+        { "type": "minecraft:item", "name": "block_factorys_bosses:knight_boots", "weight": 60 },
 
         { "type": "minecraft:item", "name": "irons_spellbooks:pumpkin_helmet", "weight": 60 },
         { "type": "minecraft:item", "name": "irons_spellbooks:pyromancer_helmet", "weight": 60 },
@@ -297,7 +303,7 @@
               "tag": "{Potion:\"minecraft:long_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sustained_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
               
         { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_super_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
+              "tag": "{Potion:\"minecraft:strong_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_loot_tables.potion_of_super_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
 
 
         { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
@@ -307,7 +313,7 @@
               "tag": "{Potion:\"minecraft:long_swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sustained_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
         
         { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sonic_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
+              "tag": "{Potion:\"minecraft:strong_swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_mpr.potion_of_sonic_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
 
 
         { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",

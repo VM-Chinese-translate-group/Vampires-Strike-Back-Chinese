@@ -434,7 +434,7 @@
   "item.species.wicked_wax": "Wicked Wax",
   "item.species.monster_meal": "Monster Meal",
   "item.species.monster_meal.desc.effect": "Applies a random Wicked effect",
-  "item.species.smoke_bomb": "Smoke Bomb",
+  "item.species.smoke_bomb": "Sneak Bomb",
   "item.species.smoke_bomb.desc.invisibility": "Invisibility (0:15)",
   "item.species.smoke_bomb.desc.speed": "Speed III (0:02)",
   "item.species.smoke_bomb.desc.speed.effect": "+60% Speed",

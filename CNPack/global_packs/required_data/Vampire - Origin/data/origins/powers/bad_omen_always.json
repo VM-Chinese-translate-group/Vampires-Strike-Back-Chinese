@@ -13,6 +13,14 @@
                         {
                             "type": "origins:gamemode",
                             "gamemode": "survival"
+                        },
+                        {
+                            "type": "apoli:in_block",
+                            "block_condition": {
+                                "type": "apoli:height",
+                                "comparison": ">",
+                                "compare_to": 50
+                            }
                         }
                     ]
                 },
