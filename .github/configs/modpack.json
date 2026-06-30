@@ -16,7 +16,7 @@
     ],
     "filePatterns": [
       {
-        "pattern": "kubejs/assets/*/lang/en_us.json",
+        "pattern": "global_packs/required_resources/*/assets/*/lang/en_us.json",
         "ignoreDeletions": true
       }
     ]
