@@ -1,0 +1,12 @@
+{
+  "item.deathtaxes.scavenger_spawn_egg": "Spectral Servant Spawn Egg",
+  "entity.deathtaxes.scavenger": "Spectral Servant",
+  "subtitles.deathtaxes.entity.scavenger.ambient": "Spectral Servant mumbles",
+  "subtitles.deathtaxes.entity.scavenger.death": "Spectral Servant dies",
+  "subtitles.deathtaxes.entity.scavenger.hurt": "Spectral Servant hurts",
+  "subtitles.deathtaxes.entity.scavenger.yes": "Spectral Servant agrees",
+  "subtitles.deathtaxes.entity.scavenger.no": "Spectral Servant disagrees",
+  "subtitles.deathtaxes.entity.scavenger.trade": "Spectral Servant trades",
+  "subtitles.deathtaxes.misc.teleport": "Something teleports",
+  "subtitles.deathtaxes.misc.flies": "Flies buzzing"
+}
