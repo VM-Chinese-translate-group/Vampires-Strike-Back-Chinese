@@ -4,13 +4,13 @@
 
 | CurseForge     | 加载器     | 整合包版本         | 汉化维护状态 |
 | :------------- | :--------- | :----------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/vampires-strike-back) | Forge | 1.20.1 1.5.0 | 翻译中       |
+| [链接](https://www.curseforge.com/minecraft/modpacks/vampires-strike-back) | Forge | 1.20.1 1..1 | 维护中       |
 
 ### 📌 汉化相关
 
 - **汉化项目**：[Paratranz](https://paratranz.cn/projects/19520)
-- **汉化发布**：[VM 汉化组官网](https://vmct-cn.top/modpacks/项目)
-- **译者名单**：[贡献者排行榜](https://paratranz.cn/projects/项目/leaderboard)
+- **汉化发布**：[VM 汉化组官网](https://vmct-cn.top/modpacks/vampires-strike-back)
+- **译者名单**：[贡献者排行榜](https://paratranz.cn/projects/19520/leaderboard)
 
 # 📖 整合包介绍
 
