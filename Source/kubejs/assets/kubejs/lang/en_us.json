@@ -2,6 +2,8 @@
   "item.kubejs.scrap_metal": "Scrap Metal",
   "item.kubejs.diamond_shard": "Diamond Shard",
   "item.kubejs.emerald_shard": "Emerald Shard",
+  "item.kubejs.life_crystal": "Life Crystal",
+  "block.kubejs.ironwood_log": "Ironwood Log",
   "tooltip.kubejs.mantlediver": "§e[RIGHT-CLICK]§r to dive into the Mantle and locate the §cCitadel.§r",
   "tooltip.kubejs.cinderous_soulcaller": "§e[RIGHT-CLICK]§r in the center of the Citadel to summon the §cAbyssal Lord.§r",
   "tooltip.kubejs.hold_shift": "Hold §e[SHIFT]§r for more information",
@@ -25,6 +27,8 @@
   "tooltip.kubejs.emerald_shard": "§eCRAFT§r four of these together to make a §2full Emerald§r!",
   "tooltip.kubejs.void_chest": "Only §fYOU§r can see the contents of your own personal §eVoid Chest!§r\nRequires §cSilk Touch§r to pick up.",
   "message.kubejs.expanded_inventory": "You've expanded your inventory by 1!",
+  "inventory_free.unlock.tooltip": "§e[RIGHT CLICK]§r in hand to consume and §cunlock an inventory slot!§r",
+  "inventory_free.unlock.tooltip2": "",
   "tooltip.kubejs.heart_piece": "§e[CRAFT]§r four together to make a §dTemporary Heart Upgrade!§r",
   "tooltip.kubejs.unrepairable": "§cUnrepairable§r"
 }
