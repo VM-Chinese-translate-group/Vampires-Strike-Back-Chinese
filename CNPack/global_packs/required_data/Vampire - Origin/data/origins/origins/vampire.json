@@ -1,0 +1,36 @@
+{
+    "loading_priority": 1,
+    "name": "origin.origins.vampire.name",
+    "description": "origin.origins.vampire.description",
+    "icon": {
+        "item": "minecraft:elytra"
+    },
+    "powers": [
+        "origins:soft_skin",
+        "origins:not_hungry",
+        "origins:bloodlust",
+        "origins:lifeleech",
+        "origins:sunstroke",
+        "origins:sizzling",
+        "origins:healing_kill",
+        "origins:youre_slower",
+        "origins:propulsion",
+        "origins:groundpound",
+        "origins:regenerating_wings",
+        "origins:used_to_falling",
+        "origins:low_rider",
+        "origins:strong_arms_break_speed",
+        "origins:step_height_increase",
+        "origins:like_water",
+        "origins:swim_speed",
+        "origins:bad_omen_always",
+        "origins:random_weapon_on_spawn_vampire",
+        "origins:spawn_vampire_crypt",
+        "origins:vampire_skin",
+        "origins:quest_vampire",
+        "origins:way",
+        "origins:no_block_drops"
+    ],
+    "order": 1,
+    "impact": 0
+}

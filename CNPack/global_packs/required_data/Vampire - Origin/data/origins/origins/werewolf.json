@@ -1,0 +1,27 @@
+{
+    "loading_priority": 2,
+    "name": "origin.origins.werewolf.name",
+    "description": "origin.origins.werewolf.description",
+    "icon": {
+        "item": "species:bewereager_head"
+    },
+    "powers": [
+        "origins:0_rolls",
+        "origins:bloodlust",
+        "origins:healing_kill",
+        "origins:leaping",
+        "origins:unfallable",
+        "origins:wolf_body",
+        "origins:biter",
+        "origins:howl",
+        "origins:run_up_walls",
+        "origins:werewolf_steps",
+        "origins:strong_arms_break_speed",
+        "origins:bad_omen_always",
+        "origins:werewolf_skin",
+        "origins:way",
+        "origins:no_block_drops"
+    ],
+    "order": 2,
+    "impact": 2
+}

@@ -1,0 +1,10 @@
+{
+    "name": "power.origins.wolf_body.name",
+    "description": "power.origins.wolf_body.description",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -10.0,
+        "operation": "addition"
+    }
+}
