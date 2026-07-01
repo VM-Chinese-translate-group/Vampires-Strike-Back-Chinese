@@ -2,6 +2,8 @@
   "item.kubejs.scrap_metal": "金属碎片",
   "item.kubejs.diamond_shard": "钻石碎片",
   "item.kubejs.emerald_shard": "绿宝石碎片",
+  "item.kubejs.life_crystal": "生命水晶",
+  "block.kubejs.ironwood_log": "铁木原木",
   "tooltip.kubejs.mantlediver": "§e[右击]§r以潜入地幔，并显示§c城堡§r的位置。",
   "tooltip.kubejs.cinderous_soulcaller": "§e[右击]§r位于城堡中心的方块以召唤§c深渊领主§r。",
   "tooltip.kubejs.hold_shift": "按住§e[SHIFT]§r查看更多信息",
@@ -25,6 +27,9 @@
   "tooltip.kubejs.emerald_shard": "需要4个碎片来§e合成§r一颗§2完整的绿宝石！§r！",
   "tooltip.kubejs.void_chest": "只有§f你§r才能看到你在§e虚空箱§r中存放的物品！\n需要§c精准采集§r才能挖下来。",
   "message.kubejs.expanded_inventory": "你获得了1格物品栏槽位！",
-  "tooltip.kubejs.heart_piece": "需要4个碎片来§e合成§r一颗§d临时生命水晶！§r！",
-  "tooltip.kubejs.unrepairable": "§c不可修复§r"
+  "inventory_free.unlock.tooltip": "手持时§e[右击]§r以消耗并§c解锁一个物品栏槽位§r！",
+  "inventory_free.unlock.tooltip2": "",
+  "tooltip.kubejs.heart_piece": "需要4个碎片来§e合成§r一颗§d临时心之水晶！§r！",
+  "tooltip.kubejs.unrepairable": "§c不可修复§r",
+  "message.kubejs.life_gained": "已获得生命值"
 }
