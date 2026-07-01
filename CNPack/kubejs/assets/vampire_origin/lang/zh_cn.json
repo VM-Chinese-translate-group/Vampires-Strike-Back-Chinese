@@ -48,7 +48,7 @@
     "power.origins.not_hungry.name": "不再饥饿",
     "power.origins.not_hungry.description": "你无需进食，取而代之的是需要汲取人类的血液。",
     "power.origins.no_block_drops.name": "禁用方块掉落物",
-    "power.origins.no_block_drops.description": "你挖掘的任何方块都不会掉落。",
+    "power.origins.no_block_drops.description": "你挖掘的任何方块（绿宝石与钻石类方块除外）都不会掉落。",
     "power.origins.no_way.name": "路痴",
     "power.origins.no_way.description": "禁用WAY模组的玩家显示功能。",
     "power.origins.no_wings.name": "异族人",
