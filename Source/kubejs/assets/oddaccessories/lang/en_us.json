@@ -106,14 +106,18 @@
   "tooltip.kubejs.oddaccessories.wrinkled_dollar": "§7Prevents the holder from falling asleep",
   "tooltip.kubejs.oddaccessories.enlightening_tablet": "§7The holder gains §b%s%% of the remaining XP §7needed for the next level when collecting experience orbs",
   "tooltip.kubejs.oddaccessories.shattered_tablet": "§7When hurt, the holder receives §c%s%% more damage",
-  "tooltip.kubejs.oddaccessories.innocence": "§7Prevents the holder from harming others",
+  "tooltip.kubejs.oddaccessories.innocence": "§7Prevents the holder from harming others, but grants them §cRegeneration %s",
   "tooltip.kubejs.oddaccessories.pungent_flower": "§7The holder's arrows apply a random §cnegative effect",
   "tooltip.kubejs.oddaccessories.armored_knight_doll": "§7Has a §91-in-%s chance §7to §9negate incoming damage §7towards the holder",
   "tooltip.kubejs.oddaccessories.sifting_jar": "§7Grants the holder a §cPiece Of Love§7 upon waking",
-  "tooltip.kubejs.oddaccessories.cruel_fate": "§7The holder will be §8unable to regain health",
+  "tooltip.kubejs.oddaccessories.cruel_fate": "§7The holder is §8unable to regain health§7, but is granted §9Resistance %s",
   "tooltip.kubejs.oddaccessories.unconditional_love": "§7Saves the holder from §8certain death §7a limited number of times. Increases the §ehealing factor §7of the holder by §e%s%%",
   "tooltip.kubejs.oddaccessories.discipline_rod": "§7Deals damage to the holder's mount when they right-click with an empty hand, but applies §eSpeed %s §7to the mount for some time",
   "tooltip.kubejs.oddaccessories.malicious_ring": "§7Increases the §cdamage output§7 of the holder by §c%s%%",
   "tooltip.kubejs.oddaccessories.enlightening_ring": "§7Reduces §9incoming damage §7by §9%s%%",
-  "tooltip.kubejs.oddaccessories.crown_of_nails": "§7When hurt, applies §cTetanus §7(§c%ss§7) to both the attacker and holder. The holder receives §c%sx damage from §cTetanus"
+  "tooltip.kubejs.oddaccessories.crown_of_nails": "§7When hurt, applies §cTetanus §7(§c%ss§7) to both the attacker and holder. The holder receives §c%sx damage from §cTetanus",
+  "tooltip.kubejs.oddaccessories.hunger_tablets": "§7When eaten, applies §aSoothed §7for §e%s min§7, clearing and blocking §cNausea §7and §cHunger",
+  "tooltip.kubejs.oddaccessories.redheaded_doll": "§7Inflicts permanent §cHunger %s§7, but grants §eSpeed %s §7and §cStrength %s §7in exchange",
+  "tooltip.kubejs.oddaccessories.kinetic_hand": "§7Repeatedly hitting an enemy builds up §fknockback§7, reaching §fKnockback %s§7-strength after §f%s hits",
+  "tooltip.kubejs.oddaccessories.flight": "§7When hurt by an enemy you are §onot facing§7, gain §9Resistance %s §7and §eSpeed %s §7for §e%ss"
 }

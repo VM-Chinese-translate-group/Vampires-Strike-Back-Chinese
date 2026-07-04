@@ -275,7 +275,7 @@ ItemEvents.tooltip(event => {
       }
 
     })
-  // Tooltips for Odd Accessories
+  // Tooltips for Odd Accessories (奇特饰品硬编码汉化)
   const oddaccessoriesItems = [
     'oddaccessories:broken_telephone',
     'oddaccessories:clean_tablet',
@@ -326,7 +326,13 @@ ItemEvents.tooltip(event => {
     'oddaccessories:discipline_rod',
     'oddaccessories:malicious_ring',
     'oddaccessories:enlightening_ring',
-    'oddaccessories:crown_of_nails'
+    'oddaccessories:crown_of_nails',
+    // 1.1.5-beta additions
+    'oddaccessories:hunger_tablets',
+    'oddaccessories:redheaded_doll',
+    'oddaccessories:kinetic_hand',
+    'oddaccessories:flight',
+    'oddaccessories:baby'
   ]
   event.addAdvanced(oddaccessoriesItems, (item, advanced, text) => {
     let itemId = item.id.replace('oddaccessories:', '')
@@ -494,7 +500,12 @@ ItemEvents.tooltip(event => {
           if (stMatch) text.set(i, Text.translate('tooltip.kubejs.oddaccessories.shattered_tablet', stMatch[1]))
           break
         case 'innocence':
-          if (str.includes("harming")) text.set(i, Text.translate('tooltip.kubejs.oddaccessories.innocence'))
+          if (str.includes("harming")) {
+            let match = str.match(/Regeneration\s*([IVXLCDM]*)/i)
+            if (match) {
+              text.set(i, Text.translate('tooltip.kubejs.oddaccessories.innocence', match[1]))
+            }
+          }
           break
         case 'pungent_flower':
           if (str.includes("arrows")) text.set(i, Text.translate('tooltip.kubejs.oddaccessories.pungent_flower'))
@@ -507,7 +518,12 @@ ItemEvents.tooltip(event => {
           if (str.includes("Piece Of Love")) text.set(i, Text.translate('tooltip.kubejs.oddaccessories.sifting_jar'))
           break
         case 'cruel_fate':
-          if (str.includes("regain")) text.set(i, Text.translate('tooltip.kubejs.oddaccessories.cruel_fate'))
+          if (str.includes("regain")) {
+            let match = str.match(/Resistance\s*([IVXLCDM]*)/i)
+            if (match) {
+              text.set(i, Text.translate('tooltip.kubejs.oddaccessories.cruel_fate', match[1]))
+            }
+          }
           break
         case 'unconditional_love':
           let ulMatch = str.match(/by\s*(?:§e)?([\d.]+)/i)
@@ -529,6 +545,39 @@ ItemEvents.tooltip(event => {
           let conSec = str.match(/Tetanus\s*\(§c([\d.]+)/i)
           let conMult = str.match(/receives\s*(?:§c)?([\d.]+)x/i)
           if (conSec && conMult) text.set(i, Text.translate('tooltip.kubejs.oddaccessories.crown_of_nails', conSec[1], conMult[1]))
+          break
+        // 1.1.5-beta additions
+        case 'hunger_tablets':
+          if (str.includes("Soothed")) {
+            let match = str.match(/for\s*(?:§e)?([\d.]+)\s*min/i)
+            if (match) {
+              text.set(i, Text.translate('tooltip.kubejs.oddaccessories.hunger_tablets', match[1]))
+            }
+          }
+          break
+        case 'redheaded_doll':
+          if (str.includes("permanent")) {
+            let match = str.match(/Hunger\s*([IVXLCDM]*).*Speed\s*([IVXLCDM]*).*Strength\s*([IVXLCDM]*)/i)
+            if (match) {
+              text.set(i, Text.translate('tooltip.kubejs.oddaccessories.redheaded_doll', match[1], match[2], match[3]))
+            }
+          }
+          break
+        case 'kinetic_hand':
+          if (str.includes("knockback")) {
+            let match = str.match(/reaching\s*(?:§f)?Knockback\s*(.*?)-strength after\s*(?:§f)?([\d.]+)/i)
+            if (match) {
+              text.set(i, Text.translate('tooltip.kubejs.oddaccessories.kinetic_hand', match[1], match[2]))
+            }
+          }
+          break
+        case 'flight':
+          if (str.includes("facing")) {
+            let match = str.match(/Resistance\s*([IVXLCDM]*).*Speed\s*([IVXLCDM]*).*for\s*(?:§e)?([\d.]+)/i)
+            if (match) {
+              text.set(i, Text.translate('tooltip.kubejs.oddaccessories.flight', match[1], match[2], match[3]))
+            }
+          }
           break
       }
     }
