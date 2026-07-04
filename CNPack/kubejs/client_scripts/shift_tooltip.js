@@ -332,11 +332,12 @@ ItemEvents.tooltip(event => {
     'oddaccessories:redheaded_doll',
     'oddaccessories:kinetic_hand',
     'oddaccessories:flight',
-    'oddaccessories:baby'
+    'oddaccessories:baby',
+    'oddaccessories:clay_vessel'
   ]
   event.addAdvanced(oddaccessoriesItems, (item, advanced, text) => {
     let itemId = item.id.replace('oddaccessories:', '')
-    for (let i = 1; i < text.size(); i++) {
+    for (let i = 0; i < text.size(); i++) {
       let component = text.get(i)
       let str = component.getString()
       // Handle base descriptions
@@ -379,7 +380,14 @@ ItemEvents.tooltip(event => {
           break
         case 'guts':
           let gutsMatch = str.match(/Guts\s*(?:§9)?(.*)/i)
-          if (gutsMatch) text.set(i, Text.translate('tooltip.kubejs.oddaccessories.guts', gutsMatch[1]))
+          if (gutsMatch) {
+            text.set(i, Text.translate('tooltip.kubejs.oddaccessories.guts', gutsMatch[1]))
+          } else {
+            let gutsDesc = str.match(/damage by\s*(?:§\w)?\s*([\d.]+)%\s*[\s\S]*?up to\s*(?:§\w)?\s*([\d.]+)%/i)
+            if (gutsDesc) {
+              text.set(i, Text.translate('tooltip.kubejs.oddaccessories.guts_desc', gutsDesc[1], gutsDesc[2]))
+            }
+          }
           break
         case 'homunculus':
           if (str.includes("Clears negative")) text.set(i, Text.translate('tooltip.kubejs.oddaccessories.homunculus'))
@@ -542,8 +550,8 @@ ItemEvents.tooltip(event => {
           if (erRingMatch) text.set(i, Text.translate('tooltip.kubejs.oddaccessories.enlightening_ring', erRingMatch[1]))
           break
         case 'crown_of_nails':
-          let conSec = str.match(/Tetanus\s*\(§c([\d.]+)/i)
-          let conMult = str.match(/receives\s*(?:§c)?([\d.]+)x/i)
+          let conSec = str.match(/Tetanus.*?\([\s\S]*?([\d.]+)\s*s/i)
+          let conMult = str.match(/receives[\s\S]*?([\d.]+)x/i)
           if (conSec && conMult) text.set(i, Text.translate('tooltip.kubejs.oddaccessories.crown_of_nails', conSec[1], conMult[1]))
           break
         // 1.1.5-beta additions
@@ -576,6 +584,17 @@ ItemEvents.tooltip(event => {
             let match = str.match(/Resistance\s*([IVXLCDM]*).*Speed\s*([IVXLCDM]*).*for\s*(?:§e)?([\d.]+)/i)
             if (match) {
               text.set(i, Text.translate('tooltip.kubejs.oddaccessories.flight', match[1], match[2], match[3]))
+            }
+          }
+          break
+        case 'clay_vessel':
+          let cvName = str.match(/Clay Vessel\s*\(([\d.]+)\)/i)
+          if (cvName) {
+            text.set(i, Text.translate('tooltip.kubejs.oddaccessories.clay_vessel_name', cvName[1]))
+          } else {
+            let cvTooltip = str.match(/1\/([\d.]+)/i)
+            if (cvTooltip) {
+              text.set(i, Text.translate('tooltip.kubejs.oddaccessories.clay_vessel', cvTooltip[1]))
             }
           }
           break

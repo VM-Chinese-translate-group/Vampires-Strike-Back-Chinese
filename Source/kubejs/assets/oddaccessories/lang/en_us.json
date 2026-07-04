@@ -119,5 +119,8 @@
   "tooltip.kubejs.oddaccessories.hunger_tablets": "§7When eaten, applies §aSoothed §7for §e%s min§7, clearing and blocking §cNausea §7and §cHunger",
   "tooltip.kubejs.oddaccessories.redheaded_doll": "§7Inflicts permanent §cHunger %s§7, but grants §eSpeed %s §7and §cStrength %s §7in exchange",
   "tooltip.kubejs.oddaccessories.kinetic_hand": "§7Repeatedly hitting an enemy builds up §fknockback§7, reaching §fKnockback %s§7-strength after §f%s hits",
-  "tooltip.kubejs.oddaccessories.flight": "§7When hurt by an enemy you are §onot facing§7, gain §9Resistance %s §7and §eSpeed %s §7for §e%ss"
+  "tooltip.kubejs.oddaccessories.flight": "§7When hurt by an enemy you are §onot facing§7, gain §9Resistance %s §7and §eSpeed %s §7for §e%ss",
+  "tooltip.kubejs.oddaccessories.guts_desc": "§7Reduces the holder's incoming damage by §9%s%% §7per §8death§7 they accumulate (up to §9%s%%§7)",
+  "tooltip.kubejs.oddaccessories.clay_vessel": "§7Stores §e1/%s §7of consumed food for later. Right-click to §erestore hunger",
+  "tooltip.kubejs.oddaccessories.clay_vessel_name": "§fClay Vessel §7(%s)"
 }
