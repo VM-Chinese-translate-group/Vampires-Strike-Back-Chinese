@@ -31,5 +31,7 @@
   "inventory_free.unlock.tooltip2": "",
   "tooltip.kubejs.heart_piece": "§e[CRAFT]§r four together to make a §dTemporary Heart Upgrade!§r",
   "tooltip.kubejs.unrepairable": "§cUnrepairable§r",
-  "message.kubejs.life_gained": "Life Gained"
+  "message.kubejs.life_gained": "Life Gained",
+  "tooltip.kubejs.nightmare_mode": "Enables §cNightmare Mode§r when §c[RIGHT-CLICK]§red.\n\nWhen active, all §6Reputation§r spawns are unlocked immediately.\n\nUse at your own risk!!!",
+  "tooltip.kubejs.scrappable": "§aScrappable§r"
 }
