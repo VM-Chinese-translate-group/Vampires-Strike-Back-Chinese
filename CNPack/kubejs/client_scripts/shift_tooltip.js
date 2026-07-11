@@ -201,8 +201,30 @@ ItemEvents.tooltip(event => {
     }
   })
 
+    // Totem of Nightmares
+  event.addAdvanced(['sortilege:totem_of_nightmares'],
+      (item, advanced, text) => {
+    {
+      text.add(1, Text.translate('tooltip.kubejs.nightmare_mode').gray())
+    }
+  })
 
   // Irons Armours
+  event.addAdvanced(
+    [
+      'minecraft:turtle_helmet',
+      'sortilege:witch_hat',
+      'artifacts:villager_hat',
+      'oddaccessories:wrinkled_dollar',
+      'oddaccessories:emerald_nose'
+      ], 
+      (item, advanced, text) => {
+    {
+      text.add(1, Text.translate('tooltip.kubejs.scrappable').gray())
+    }
+  })
+
+  // Unrepairables
   event.addAdvanced(
     [
       'minecraft:turtle_helmet',

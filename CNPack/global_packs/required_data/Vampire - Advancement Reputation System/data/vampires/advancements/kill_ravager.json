@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:vindicator",
+    "parent": "vampires:kill_legioner",
     "display": {
         "title": {
-            "translate": "advancements.vampires.witch.title"
+            "translate": "advancements.vampires.ravager.title"
         },
         "description": {
-            "translate": "advancements.vampires.witch.description"
+            "translate": "advancements.vampires.ravager.description"
         },
         "icon": {
-            "item": "minecraft:potion"
+            "item": "minecraft:crossbow"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "minecraft:witch": {
+        "minecraft:ravager": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:witch"
+                            "type": "minecraft:ravager"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "minecraft:witch"
+            "minecraft:ravager"
         ]
     ],
     "sends_telemetry_event": true

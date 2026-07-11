@@ -1,29 +1,29 @@
 {
-    "parent": "vampires:50_destroyer",
+    "parent": "vampires:kill_evoker",
     "display": {
         "title": {
-            "translate": "advancements.vampires.fire_boss.title"
+            "translate": "advancements.vampires.inquisitor.title"
         },
         "description": {
-            "translate": "advancements.vampires.fire_boss.description"
+            "translate": "advancements.vampires.inquisitor.description"
         },
         "icon": {
-            "item": "irons_spellbooks:hellrazor"
+            "item": "irons_spellbooks:scroll"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "irons_spellbooks:fire_boss": {
+        "minecells:inquisitor": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "irons_spellbooks:fire_boss"
+                            "type": "minecells:inquisitor"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "irons_spellbooks:fire_boss"
+            "minecells:inquisitor"
         ]
     ],
     "sends_telemetry_event": true

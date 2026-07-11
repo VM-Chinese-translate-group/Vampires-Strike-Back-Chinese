@@ -1,0 +1,29 @@
+{
+    "parent": "vampires:50_destroyer",
+    "display": {
+        "title": {
+            "translate": "advancements.vampires.60_harbinger.title"
+        },
+        "description": {
+            "translate": "advancements.vampires.60_harbinger.description"
+        },
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionEffects:[{Id:23,Amplifier:0,Duration:2}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_advancement_reputation_system.blood_vial\",\"color\":\"red\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "has_60_kills": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "has_60_kills"
+        ]
+    ]
+}

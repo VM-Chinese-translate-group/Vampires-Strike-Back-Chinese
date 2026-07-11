@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:witch",
+    "parent": "vampires:10_notoriety",
     "display": {
         "title": {
-            "translate": "advancements.vampires.illusioner.title"
+            "translate": "advancements.vampires.archer.title"
         },
         "description": {
-            "translate": "advancements.vampires.illusioner.description"
+            "translate": "advancements.vampires.archer.description"
         },
         "icon": {
-            "item": "summonerscrolls:summon_bow"
+            "item": "minecraft:bow"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "minecraft:illusioner": {
+        "takesapillage:archer": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:illusioner"
+                            "type": "takesapillage:archer"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "minecraft:illusioner"
+            "takesapillage:archer"
         ]
     ],
     "sends_telemetry_event": true

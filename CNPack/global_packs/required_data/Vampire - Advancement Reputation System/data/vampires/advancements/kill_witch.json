@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:the_prowler",
+    "parent": "vampires:kill_vindicator",
     "display": {
         "title": {
-            "translate": "advancements.vampires.zapper.title"
+            "translate": "advancements.vampires.witch.title"
         },
         "description": {
-            "translate": "advancements.vampires.zapper.description"
+            "translate": "advancements.vampires.witch.description"
         },
         "icon": {
-            "item": "raidsenhanced:zapper_staff"
+            "item": "minecraft:potion"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "raidsenhanced:zapper": {
+        "minecraft:witch": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "raidsenhanced:zapper"
+                            "type": "minecraft:witch"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "raidsenhanced:zapper"
+            "minecraft:witch"
         ]
     ],
     "sends_telemetry_event": true

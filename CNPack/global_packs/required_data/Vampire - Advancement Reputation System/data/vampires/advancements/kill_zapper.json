@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:legioner",
+  "parent": "vampires:70_annihilator",
     "display": {
         "title": {
-            "translate": "advancements.vampires.golem_of_last_resort.title"
+            "translate": "advancements.vampires.zapper.title"
         },
         "description": {
-            "translate": "advancements.vampires.golem_of_last_resort.description"
+            "translate": "advancements.vampires.zapper.description"
         },
         "icon": {
-            "item": "raidsenhanced:handcannon"
+            "item": "raidsenhanced:zapper_staff"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "raidsenhanced:golem_of_last_resort": {
+        "raidsenhanced:zapper": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "raidsenhanced:golem_of_last_resort"
+                            "type": "raidsenhanced:zapper"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "raidsenhanced:golem_of_last_resort"
+            "raidsenhanced:zapper"
         ]
     ],
     "sends_telemetry_event": true

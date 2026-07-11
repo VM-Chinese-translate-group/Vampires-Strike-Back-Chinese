@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:10_notoriety",
+  "parent": "vampires:90_apocalypse",
     "display": {
         "title": {
-            "translate": "advancements.vampires.skirmisher.title"
+            "translate": "advancements.vampires.raid_blimp.title"
         },
         "description": {
-            "translate": "advancements.vampires.skirmisher.description"
+            "translate": "advancements.vampires.raid_blimp.description"
         },
         "icon": {
-            "item": "jaams_weaponry:iron_ring"
+            "item": "raidsenhanced:player_blimp"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "takesapillage:skirmisher": {
+        "raidsenhanced:raid_blimp": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "takesapillage:skirmisher"
+                            "type": "raidsenhanced:raid_blimp"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "takesapillage:skirmisher"
+            "raidsenhanced:raid_blimp"
         ]
     ],
     "sends_telemetry_event": true

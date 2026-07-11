@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:01_first_blood",
+    "parent": "vampires:kill_skirmisher",
     "display": {
         "title": {
-            "translate": "advancements.vampires.pickpocketer.title"
+            "translate": "advancements.vampires.ghast.title"
         },
         "description": {
-            "translate": "advancements.vampires.pickpocketer.description"
+            "translate": "advancements.vampires.ghast.description"
         },
         "icon": {
-            "item": "jaams_weaponry:sharp_stone_blade"
+            "item": "raidsenhanced:blimp_parts"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "enemyexpansion:goblin": {
+        "minecraft:ghast": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "enemyexpansion:goblin"
+                            "type": "minecraft:ghast"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "enemyexpansion:goblin"
+            "minecraft:ghast"
         ]
     ],
     "sends_telemetry_event": true

@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:pickpocketer",
+    "parent": "vampires:kill_ghast",
     "display": {
         "title": {
-            "translate": "advancements.vampires.archer.title"
+            "translate": "advancements.vampires.bewereager.title"
         },
         "description": {
-            "translate": "advancements.vampires.archer.description"
+            "translate": "advancements.vampires.bewereager.description"
         },
         "icon": {
-            "item": "minecraft:bow"
+            "item": "species:bewereager_head"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "takesapillage:archer": {
+        "species:bewereager": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "takesapillage:archer"
+                            "type": "species:bewereager"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "takesapillage:archer"
+            "species:bewereager"
         ]
     ],
     "sends_telemetry_event": true

@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:skirmisher",
+    "parent": "vampires:kill_grenadier",
     "display": {
         "title": {
-            "translate": "advancements.vampires.ghast.title"
+            "translate": "advancements.vampires.pickpocketer.title"
         },
         "description": {
-            "translate": "advancements.vampires.ghast.description"
+            "translate": "advancements.vampires.pickpocketer.description"
         },
         "icon": {
-            "item": "raidsenhanced:blimp_parts"
+            "item": "jaams_weaponry:sharp_stone_blade"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "minecraft:ghast": {
+        "enemyexpansion:goblin": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:ghast"
+                            "type": "enemyexpansion:goblin"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "minecraft:ghast"
+            "enemyexpansion:goblin"
         ]
     ],
     "sends_telemetry_event": true

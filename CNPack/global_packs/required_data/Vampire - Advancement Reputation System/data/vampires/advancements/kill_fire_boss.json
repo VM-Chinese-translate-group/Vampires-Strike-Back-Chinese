@@ -1,29 +1,29 @@
 {
-    "parent": "vampires:raid_drill",
+    "parent": "vampires:100_oblivion",
     "display": {
         "title": {
-            "translate": "advancements.vampires.evoker.title"
+            "translate": "advancements.vampires.fire_boss.title"
         },
         "description": {
-            "translate": "advancements.vampires.evoker.description"
+            "translate": "advancements.vampires.fire_boss.description"
         },
         "icon": {
-            "item": "species:cranktrap"
+            "item": "irons_spellbooks:hellrazor"
         },
-        "frame": "goal",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "minecraft:evoker": {
+        "irons_spellbooks:fire_boss": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:evoker"
+                            "type": "irons_spellbooks:fire_boss"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "minecraft:evoker"
+            "irons_spellbooks:fire_boss"
         ]
     ],
     "sends_telemetry_event": true

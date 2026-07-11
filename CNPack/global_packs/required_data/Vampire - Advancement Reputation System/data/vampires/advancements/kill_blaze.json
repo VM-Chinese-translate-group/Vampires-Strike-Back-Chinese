@@ -1,5 +1,5 @@
 {
-    "parent": "vampires:golem_of_last_resort",
+    "parent": "vampires:50_destroyer",
     "display": {
         "title": {
             "translate": "advancements.vampires.blaze.title"

@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:evoker",
+    "parent": "vampires:kill_witch",
     "display": {
         "title": {
-            "translate": "advancements.vampires.inquisitor.title"
+            "translate": "advancements.vampires.illusioner.title"
         },
         "description": {
-            "translate": "advancements.vampires.inquisitor.description"
+            "translate": "advancements.vampires.illusioner.description"
         },
         "icon": {
-            "item": "irons_spellbooks:scroll"
+            "item": "summonerscrolls:summon_bow"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "minecells:inquisitor": {
+        "minecraft:illusioner": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecells:inquisitor"
+                            "type": "minecraft:illusioner"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "minecells:inquisitor"
+            "minecraft:illusioner"
         ]
     ],
     "sends_telemetry_event": true

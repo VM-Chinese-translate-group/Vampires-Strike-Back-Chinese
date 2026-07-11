@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:raid_blimp",
+  "parent": "vampires:60_harbinger",
     "display": {
         "title": {
-            "translate": "advancements.vampires.the_prowler.title"
+            "translate": "advancements.vampires.golem_of_last_resort.title"
         },
         "description": {
-            "translate": "advancements.vampires.the_prowler.description"
+            "translate": "advancements.vampires.golem_of_last_resort.description"
         },
         "icon": {
-            "item": "cataclysm:meat_shredder"
+            "item": "raidsenhanced:handcannon"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "cataclysm:the_prowler": {
+        "raidsenhanced:golem_of_last_resort": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "cataclysm:the_prowler"
+                            "type": "raidsenhanced:golem_of_last_resort"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "cataclysm:the_prowler"
+            "raidsenhanced:golem_of_last_resort"
         ]
     ],
     "sends_telemetry_event": true

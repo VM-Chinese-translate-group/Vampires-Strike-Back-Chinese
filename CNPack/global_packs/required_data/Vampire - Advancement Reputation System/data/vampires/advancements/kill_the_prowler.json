@@ -1,14 +1,14 @@
 {
-    "parent": "vampires:ghast",
+  "parent": "vampires:80_calamity",
     "display": {
         "title": {
-            "translate": "advancements.vampires.bewereager.title"
+            "translate": "advancements.vampires.the_prowler.title"
         },
         "description": {
-            "translate": "advancements.vampires.bewereager.description"
+            "translate": "advancements.vampires.the_prowler.description"
         },
         "icon": {
-            "item": "species:bewereager_head"
+            "item": "cataclysm:meat_shredder"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "species:bewereager": {
+        "cataclysm:the_prowler": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "species:bewereager"
+                            "type": "cataclysm:the_prowler"
                         }
                     }
                 ]
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "species:bewereager"
+            "cataclysm:the_prowler"
         ]
     ],
     "sends_telemetry_event": true
