@@ -31,5 +31,7 @@
   "inventory_free.unlock.tooltip2": "",
   "tooltip.kubejs.heart_piece": "需要4个碎片来§e合成§r一颗§d临时心之水晶！§r！",
   "tooltip.kubejs.unrepairable": "§c不可修复§r",
-  "message.kubejs.life_gained": "已获得生命值"
+  "message.kubejs.life_gained": "已获得生命值",
+  "tooltip.kubejs.nightmare_mode": "Enables §cNightmare Mode§r when §c[RIGHT-CLICK]§red.\n\nWhen active, all §6Reputation§r spawns are unlocked immediately.\n\nUse at your own risk!!!",
+  "tooltip.kubejs.scrappable": "§a可拆解§r"
 }
