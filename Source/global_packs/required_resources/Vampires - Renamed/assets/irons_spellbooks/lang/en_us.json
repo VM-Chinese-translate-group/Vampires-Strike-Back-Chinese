@@ -1,0 +1,10 @@
+{
+  "item.irons_spellbooks.wandering_magician_helmet": "Traveller's Hood",
+  "item.irons_spellbooks.wandering_magician_chestplate": "Traveller's Scarf",
+  "item.irons_spellbooks.wandering_magician_leggings": "Traveller's Belt",
+  "item.irons_spellbooks.wandering_magician_boots": "Traveller's Sandles",
+
+  "rarity.irons_spellbooks_cinderous.name": "Cinderous",
+  
+  "entity.irons_spellbooks.fire_boss": "Tyros, the Abyssal Lord"
+}
