@@ -1,0 +1,14 @@
+{
+    "entity.minecells.runner": "Dual-Wielder",
+    "item.minecells.runner_spawn_egg": "Dual-Wielder Spawn Egg",
+
+    "entity.minecells.concierge": "Hand of the King",
+    "entity.minecells.concierge_respawn_rune": "Hand of the King Respawn Rune",
+    
+    "entity.minecells.conjunctivius": "The Mad King",
+    "entity.minecells.conjunctivius_obelisk": "The Mad King's Spawn Obelisk",
+    "entity.minecells.conjunctivius_projectile": "The Mad King's Projectile",
+    "item.minecells.tentacle": "The Mad King's Tentacle",
+    
+    "item.minecells.hattoris_katana": "Dash Katana"
+}

@@ -1,0 +1,6 @@
+{
+  "entity.cataclysm.coral_golem": "Brutaliser",
+  "item.cataclysm.coral_golem_spawn_egg": "Brutaliser Spawn Egg",
+  "coral_golem_hurt.sub": "Brutaliser hurts",
+  "coral_golem_death.sub": "Brutaliser dies"
+}
