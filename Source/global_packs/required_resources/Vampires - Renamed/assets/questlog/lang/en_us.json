@@ -1,0 +1,18 @@
+{
+    "key.questlog.open": "Opens your Story",
+    "key.questlog.category": "Story",
+    "questlog.toast.quest_completed": "Story Progressed...",
+    "questlog.toast.quest_added": "Story Added!",
+    "questlog.quest.completed": "Covered",
+    "questlog.quest.uncollected": "Collect Rewards",
+    "questlog.objective.completed": "Covered",
+    "questlog.objective.in_progress_singular": "Uncompleted",
+    "questlog.objective.in_progress": "%s/%s",
+    "questlog.reward.collect": "Collect Rewards",
+    "questlog.reward.collected": "Collected",
+    "questlog.reward.uncollected": "Uncollected",
+    "questlog.gui.open": "Open Story",
+    "questlog.objective.default": "Unnamed Objective",
+    "questlog.reward.default": "Unnamed Reward",
+    "questlog.no_quests": "No Tales Available"
+}
