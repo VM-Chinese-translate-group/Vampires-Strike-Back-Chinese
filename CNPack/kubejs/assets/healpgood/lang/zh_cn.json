@@ -1,5 +1,5 @@
 {
-  "itemgroup.healpgood": "Healing Pretty Good",
+  "itemgroup.healpgood": "治愈有方",
 
   "item.healpgood.music_disc_heartstep": "音乐唱片",
   "item.healpgood.music_disc_heartstep.desc": "Sossalmon - Heartstep",
@@ -32,15 +32,15 @@
 
   "advancements.healpgood.heart_crystal_break.desc": "摧毁心之水晶",
   "advancements.healpgood.crystal_heart_use.desc": "使用临时心之水晶提高你的生命值，尽管它是临时的",
-  "advancements.healpgood.heart_container_use.desc": "Upgrade your Health with a Heart Container, permanently",
-  "advancements.healpgood.empty_heart_container_use.desc": "Turn one of your Hearts into a heart container",
-  "advancements.healpgood.max_health.desc": "Consume the Maximum Possible amount of Heart Crystals and Heart Containers",
-  "advancements.healpgood.into_ender.desc": "Relieve an Ender creature of their Soul",
+  "advancements.healpgood.heart_container_use.desc": "使用永恒心之水晶，永久提高生命值上限",
+  "advancements.healpgood.empty_heart_container_use.desc": "把一颗心变成永恒心之水晶",
+  "advancements.healpgood.max_health.desc": "使用临时心之水晶和永恒心之水晶，直到两者都达到使用上限",
+  "advancements.healpgood.into_ender.desc": "夺取末影生物的灵魂",
 
-  "commands.healpgood.healthSet.success.single": "Successfully Modified the Health of %s",
-  "commands.healpgood.healthSet.success.multiple": "Successfully Modified the Health of %s players",
+  "commands.healpgood.healthSet.success.single": "已修改%s的生命值",
+  "commands.healpgood.healthSet.success.multiple": "已修改%s名玩家的生命值",
 
-  "death.attack.empty_heart_container": "%s Didn't have enough hearts to spare",
+  "death.attack.empty_heart_container": "%s捐心捐过了头",
 
   "healpgood.main.config.seasonalHearts": "心外观",
   "healpgood.main.enum.seasonalHearts.VANILLA": "动态",
@@ -49,37 +49,37 @@
   "healpgood.main.enum.seasonalHearts.PRIDE": "骄傲月",
   "healpgood.main.enum.seasonalHearts.APRIL": "愚人节",
   "healpgood.main.enum.seasonalHearts.HALLOWEEN": "万圣节",
-  "healpgood.main.config.seasonalHearts.desc": "This selection will determine the appearance of §dHeart pickups§r.\n\n§2Dynamic§r makes Hearts change based on Seasons.\n\n§2Default§r keeps hearts at their regular look.\n\nAll other options enable seasonal textures year-round",
+  "healpgood.main.config.seasonalHearts.desc": "设置§d心形掉落物§r的外观。\n\n§2动态§r：随季节变化。\n\n§2默认§r：保持普通外观。\n\n其他选项会全年使用所选的节日外观。",
 
-  "healpgood.main.config.category": "Healing Pretty Good",
-  "healpgood.hearts.config.category": "Hearts",
-  "healpgood.health_upgrades.config.category": "Health Upgrades",
+  "healpgood.main.config.category": "治愈有方",
+  "healpgood.hearts.config.category": "心形掉落物",
+  "healpgood.health_upgrades.config.category": "提升生命值",
 
-  "healpgood.main.config.dragonDrops": "Dragon Drops Hearts",
-  "healpgood.main.config.heartLanternX": "Heart Lantern Range X",
-  "healpgood.main.config.heartLanternY": "Heart Lantern Range Y",
+  "healpgood.main.config.dragonDrops": "末影龙掉落心",
+  "healpgood.main.config.heartLanternX": "心之灯笼水平范围",
+  "healpgood.main.config.heartLanternY": "心之灯笼垂直范围",
 
-  "healpgood.hearts.config.regularDropChance": "Heart Drop Chance",
-  "healpgood.hearts.config.passiveAugment": "Passive Mob Modifier",
-  "healpgood.hearts.config.healthAugment": "Mob Health Modifier",
-  "healpgood.hearts.config.healthToHearts": "Health Per Heart",
-  "healpgood.hearts.config.chanceDecay": "Subsequent Hearts Modifier",
+  "healpgood.hearts.config.regularDropChance": "心的掉落概率",
+  "healpgood.hearts.config.passiveAugment": "被动型生物概率减值",
+  "healpgood.hearts.config.healthAugment": "生物生命值系数",
+  "healpgood.hearts.config.healthToHearts": "每颗心所需生命值",
+  "healpgood.hearts.config.chanceDecay": "后续掉落概率减值",
 
-  "healpgood.health_upgrades.config.healOnRespawn": "Heal on Respawn",
-  "healpgood.health_upgrades.config.heartCrystalMax": "Max Crystal Hearts",
-  "healpgood.health_upgrades.config.heartContainerMax": "Max Heart Containers",
+  "healpgood.health_upgrades.config.healOnRespawn": "重生时恢复生命值",
+  "healpgood.health_upgrades.config.heartCrystalMax": "临时心之水晶使用上限",
+  "healpgood.health_upgrades.config.heartContainerMax": "永恒心之水晶使用上限",
 
-  "healpgood.main.config.dragonDrops.desc": "If true, the §5Ender Dragon§r will drop Hearts similar to how it drops §2XP",
-  "healpgood.main.config.heartLanternX.desc": "The Max §2Horizontal Distance§r you can be from a §dHeart Lantern§r to receive Regeneration",
-  "healpgood.main.config.heartLanternY.desc": "The Max §2Vertical Distance§r you can be from a §dHeart Lantern§r to receive Regeneration",
+  "healpgood.main.config.dragonDrops.desc": "开启后，§5末影龙§r会掉落心，掉落方式类似§2经验球。",
+  "healpgood.main.config.heartLanternX.desc": "与§d心之灯笼§r的§2水平距离§r不超过此值，才能获得生命恢复效果。",
+  "healpgood.main.config.heartLanternY.desc": "与§d心之灯笼§r的§2垂直距离§r不超过此值，才能获得生命恢复效果。",
 
-  "healpgood.hearts.config.regularDropChance.desc": "The §2Default Chance§r for a Mob to drop Hearts on Death",
-  "healpgood.hearts.config.passiveAugment.desc": "This Amount is §cSubtracted§r from the §2Default Drop Chance§r if a Mob is Passive",
-  "healpgood.hearts.config.healthAugment.desc": "The Amount here will be multiplied by a mobs §dTotal Health§r, and then added to the §2Default Drop Chance§r",
-  "healpgood.hearts.config.healthToHearts.desc": "This will be used to determine the §dAmount of Health§r required to drop §2Extra Hearts.§r\n\n§dHealth§r §a/ Amount§r = §bHearts\n\n\n§cSetting this to 0 prevents extra hearts from dropping",
-  "healpgood.hearts.config.chanceDecay.desc": "Everytime a mob drops an §2Extra Heart§r, the chance for them to drop another will be §cdecreased§r by this amount!",
+  "healpgood.hearts.config.regularDropChance.desc": "生物死亡时掉落心的§2基础概率§r。",
+  "healpgood.hearts.config.passiveAugment.desc": "若为被动型生物，就从§2基础掉落概率§r中§c减去§r此值。",
+  "healpgood.hearts.config.healthAugment.desc": "此值乘以生物的§d总生命值§r，再加到§2基础掉落概率§r上。",
+  "healpgood.hearts.config.healthToHearts.desc": "生物的§d生命值§r每达到此值，就能额外掉落§2一颗心§r。\n\n§d生命值§r §a/ 设定值§r = §b心的数量\n\n\n§c设为0后，不再额外掉落心。",
+  "healpgood.hearts.config.chanceDecay.desc": "每多掉落§2一颗心§r，再掉落下一颗心的概率就§c降低§r此值。",
 
-  "healpgood.health_upgrades.config.healOnRespawn.desc": "If §4False§r, your §dPermanent Hearts§r will remain, but won't be replenished when you respawn",
-  "healpgood.health_upgrades.config.heartCrystalMax.desc": "The Maximum amount of §2Heart Crystals§r that a player can consume\n\n§b(Max Temp Hearts)",
-  "healpgood.health_upgrades.config.heartContainerMax.desc": "The Maximum amount of §2Heart Containers§r that a player can consume\n\n§b(Max Perm Hearts)"
+  "healpgood.health_upgrades.config.healOnRespawn.desc": "§4关闭§r后，§d永久增加的生命值上限§r仍会保留，但重生时不会补满生命值。",
+  "healpgood.health_upgrades.config.heartCrystalMax.desc": "设定玩家使用§2临时心之水晶§r的数量上限。\n\n§b（临时增加的生命值上限）",
+  "healpgood.health_upgrades.config.heartContainerMax.desc": "设定玩家使用§2永恒心之水晶§r的数量上限。\n\n§b（永久增加的生命值上限）"
 }

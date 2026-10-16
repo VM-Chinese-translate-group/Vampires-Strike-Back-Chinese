@@ -3,6 +3,9 @@
   "item.kubejs.diamond_shard": "钻石碎片",
   "item.kubejs.emerald_shard": "绿宝石碎片",
   "item.kubejs.life_crystal": "生命水晶",
+  "item.kubejs.iron_upgrade_tablet": "铁质升级模板",
+  "item.kubejs.diamond_upgrade_tablet": "钻石升级模板",
+  "item.kubejs.netherite_upgrade_tablet": "下界合金升级模板",
   "block.kubejs.ironwood_log": "铁木原木",
   "tooltip.kubejs.mantlediver": "§e[右击]§r以潜入地幔，并显示§c城堡§r的位置。",
   "tooltip.kubejs.cinderous_soulcaller": "§e[右击]§r位于城堡中心的方块以召唤§c深渊领主§r。",
@@ -11,7 +14,7 @@
   "tooltip.kubejs.flint": "与§c石质§r物品一同§e合成§r以§c修复§r它们！",
   "tooltip.kubejs.unscrappable": "§c不可拆解§r",
   "tooltip.kubejs.burning_ashes": "§6放入§e烈焰祭坛§6以召唤§c飞龙之塔§6的§c守卫者§6……§r",
-  "tooltip.kubejs.scrap_metal": "与§c金属质§r物品一同§e合成§r以§c修复§r它们！",
+  "tooltip.kubejs.scrap_metal": "与§c金属质§r物品一同§e合成§r以§c修复§r它们！\n按住§e[CTRL]§r并§e点击§r，将物品直接放入§e合成栏§r！",
   "tooltip.kubejs.diamond_shard": "与§c金属质或钻石质§r物品一同§e合成§r以§c修复§r它们！",
   "tooltip.kubejs.crystal_heart": "§e[右击]§r以提高你的最大生命值，§c死亡后失效§r。\n§r也能用于§c修复§r物品！",
   "tooltip.kubejs.heart_container": "§e[右击]§r以§c永久§r提高你的最大生命值。\n§r也能用于将物品§c修复§r至§e满耐久§r！\n",
@@ -23,7 +26,7 @@
   "tooltip.kubejs.wooden_bows": "来自远古时代的武器，受到诅咒，闪烁着\n§c刺眼的光亮§r，而且在拉弓射箭后，你\n在短时间内受到的§f箭矢伤害§r会大幅提高。\n完全的§c垃圾§r。最好省下你的§f木棍§r。",
   "tooltip.kubejs.bows": "拉弓时，会为你施加一个短暂的§c先手劣势§r效果，这会§f增加你受到的箭矢伤害§r！",
   "tooltip.kubejs.harpoon": "只能§c垂直向上§r发射，§c触碰到天花板§r后，你就能§c荡动绳索§r并向各个方向移动。",
-  "tooltip.kubejs.emerald": "§f幽魂侍从§r所使用的一种主要货币。\n§i尽可能多搜集一些吧！\n也能用于§c修复§r物品！",
+  "tooltip.kubejs.emerald": "§f幽魂侍从§r所使用的一种主要货币。\n§i尽可能多搜集一些吧！",
   "tooltip.kubejs.emerald_shard": "需要4个碎片来§e合成§r一颗§2完整的绿宝石！§r！",
   "tooltip.kubejs.void_chest": "只有§f你§r才能看到你在§e虚空箱§r中存放的物品！\n需要§c精准采集§r才能挖下来。",
   "message.kubejs.expanded_inventory": "你获得了1格物品栏槽位！",
@@ -33,5 +36,8 @@
   "tooltip.kubejs.unrepairable": "§c不可修复§r",
   "message.kubejs.life_gained": "已获得生命值",
   "tooltip.kubejs.nightmare_mode": "§c[右键点击]§r启用§c梦魇模式§r。\n\n启用后，将立即解锁所有与§6恶名§r相关的敌人生成。\n\n后果自负！！！",
-  "tooltip.kubejs.scrappable": "§a可拆解§r"
+  "tooltip.kubejs.scrappable": "§a可拆解§r",
+  "tooltip.kubejs.iron_upgrade_tablet": "与皮革、木质和石质装备一同§e合成§r以将装备§b升级§r为铁材质！",
+  "tooltip.kubejs.diamond_upgrade_tablet": "与铁质装备一同§e合成§r以将装备§b升级§r为钻石材质！",
+  "tooltip.kubejs.netherite_upgrade_tablet": "与钻石装备一同§e合成§r以将装备§b升级§r为下界合金材质！"
 }
