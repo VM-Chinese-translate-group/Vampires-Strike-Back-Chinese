@@ -1,0 +1,102 @@
+{
+  "name": "power.origins.soul_particles.name",
+  "hidden": true,
+  "description": "power.origins.soul_particles.description",
+  "type": "origins:multiple",
+  "key": {
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins:momentum_resource",
+          "comparison": ">=",
+          "compare_to": 110
+        }
+      ]
+    },
+    "type": "origins:particle",
+    "particle": "minecraft:sculk_soul",
+    "frequency": 4
+  },
+  "key2": {
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins:momentum_resource",
+          "comparison": ">=",
+          "compare_to": 110
+        }
+      ]
+    },
+    "type": "origins:particle",
+    "particle": "minecraft:soul_fire_flame",
+    "frequency": 4
+  },
+  "key3": {
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins:momentum_resource",
+          "comparison": ">=",
+          "compare_to": 200
+        }
+      ]
+    },
+    "type": "origins:particle",
+    "particle": "minecraft:sculk_soul",
+    "frequency": 8
+  },
+  "key4": {
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins:momentum_resource",
+          "comparison": ">=",
+          "compare_to": 200
+        }
+      ]
+    },
+    "type": "origins:particle",
+    "particle": "minecraft:soul_fire_flame",
+    "frequency": 8
+  },
+  "key5": {
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins:momentum_resource",
+          "comparison": ">=",
+          "compare_to": 290
+        }
+      ]
+    },
+    "type": "origins:particle",
+    "particle": "minecraft:sculk_soul",
+    "frequency": 12
+  },
+  "key6": {
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins:momentum_resource",
+          "comparison": ">=",
+          "compare_to": 290
+        }
+      ]
+    },
+    "type": "origins:particle",
+    "particle": "minecraft:soul_fire_flame",
+    "frequency": 12
+  }
+}

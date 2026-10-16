@@ -3,6 +3,9 @@
   "item.kubejs.diamond_shard": "Diamond Shard",
   "item.kubejs.emerald_shard": "Emerald Shard",
   "item.kubejs.life_crystal": "Life Crystal",
+  "item.kubejs.iron_upgrade_tablet": "Iron Upgrade Tablet",
+  "item.kubejs.diamond_upgrade_tablet": "Diamond Upgrade Tablet",
+  "item.kubejs.netherite_upgrade_tablet": "Netherite Upgrade Tablet",
   "block.kubejs.ironwood_log": "Ironwood Log",
   "tooltip.kubejs.mantlediver": "§e[RIGHT-CLICK]§r to dive into the Mantle and locate the §cCitadel.§r",
   "tooltip.kubejs.cinderous_soulcaller": "§e[RIGHT-CLICK]§r in the center of the Citadel to summon the §cAbyssal Lord.§r",
@@ -11,7 +14,7 @@
   "tooltip.kubejs.flint": "§eCRAFT§r with §cStone§r items to §crepair§r them!",
   "tooltip.kubejs.unscrappable": "§cUnscrappable§r",
   "tooltip.kubejs.burning_ashes": "§6Place into the §eAltar of Fire §6to summon the §cGuardian §6of the §cDragon Tower...§r",
-  "tooltip.kubejs.scrap_metal": "§eCRAFT§r with §cmetal§r items to §crepair§r them!",
+  "tooltip.kubejs.scrap_metal": "§eCRAFT§r with §cmetal§r items to §crepair§r them!\nHold §e[CTRL]§r and §eCLICK§r to send directly into the §eCRAFTING GRID§r!",
   "tooltip.kubejs.diamond_shard": "§eCRAFT§r with §cmetal and diamond§r items to §crepair§r them!",
   "tooltip.kubejs.crystal_heart": "§e[RIGHT CLICK]§r to increase your health for §cthis life only.§r \n§rCan also be used to §crepair§r items!",
   "tooltip.kubejs.heart_container": "§e[RIGHT CLICK]§r to increase your health §cpermanently.§r \n§rCan also be used to §crepair§r items §efully!§r\n",
@@ -23,7 +26,7 @@
   "tooltip.kubejs.wooden_bows": "Weapon from ancient times cursed with a \n§cblinding glimmer§r and a terrible vulnerability\nto §fArrow damage§r when fired.\nTotal §cGarbage§r. Best used for spare §fSticks§r.",
   "tooltip.kubejs.bows": "Applies the §cQuickdraw§r effect briefly whilst charging, which makes you take §fmore damage from Arrows§r!",
   "tooltip.kubejs.harpoon": "Only fires §cdirectly upwards.§r Once §cattached to the ceiling§r, you can §csway yourself around§r to move forward.",
-  "tooltip.kubejs.emerald": "The primary currency used by the §fSpectral Servant§r.\n§iGrab as many of these as you can! \nCan also be used to §crepair§r items!",
+  "tooltip.kubejs.emerald": "The primary currency used by the §fSpectral Servant§r.\n§iGrab as many of these as you can!",
   "tooltip.kubejs.emerald_shard": "§eCRAFT§r four of these together to make a §2full Emerald§r!",
   "tooltip.kubejs.void_chest": "Only §fYOU§r can see the contents of your own personal §eVoid Chest!§r\nRequires §cSilk Touch§r to pick up.",
   "message.kubejs.expanded_inventory": "You've expanded your inventory by 1!",
@@ -33,5 +36,8 @@
   "tooltip.kubejs.unrepairable": "§cUnrepairable§r",
   "message.kubejs.life_gained": "Life Gained",
   "tooltip.kubejs.nightmare_mode": "Enables §cNightmare Mode§r when §c[RIGHT-CLICK]§red.\n\nWhen active, all §6Reputation§r spawns are unlocked immediately.\n\nUse at your own risk!!!",
-  "tooltip.kubejs.scrappable": "§aScrappable§r"
+  "tooltip.kubejs.scrappable": "§aScrappable§r",
+  "tooltip.kubejs.iron_upgrade_tablet": "§eCRAFT§r with Leather, Wooden and Stone items to §bUPGRADE§r them to Iron!",
+  "tooltip.kubejs.diamond_upgrade_tablet": "§eCRAFT§r with Iron items to §bUPGRADE§r them to Diamond!",
+  "tooltip.kubejs.netherite_upgrade_tablet": "§eCRAFT§r with Diamond items to §bUPGRADE§r them to Netherite!"
 }

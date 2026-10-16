@@ -1,0 +1,21 @@
+{
+  "name": "power.origins.00_patrol.name",
+  "description": "power.origins.00_patrol.description",
+  "hidden": true,
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:execute_command",
+    "command": "function vampires:00_patrol",
+    "permission_level": 4
+  },
+  "entity_action_added": {
+    "type": "origins:execute_command",
+    "command": "function vampires:00_patrol",
+    "permission_level": 4
+  },
+  "entity_action_lost": {
+    "type": "origins:execute_command",
+    "command": "function vampires:00_patrol_remove",
+    "permission_level": 4
+  }
+}

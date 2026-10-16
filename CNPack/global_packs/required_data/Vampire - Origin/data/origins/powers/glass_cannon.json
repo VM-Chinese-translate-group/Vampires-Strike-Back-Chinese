@@ -1,0 +1,10 @@
+{
+  "name": "power.origins.glass_cannon.name",
+  "description": "power.origins.glass_cannon.description",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -16.0,
+    "operation": "addition"
+  }
+}

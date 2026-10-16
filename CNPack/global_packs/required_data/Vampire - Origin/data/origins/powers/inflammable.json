@@ -1,0 +1,5 @@
+{
+  "name": "power.origins.inflammable.name",
+  "description": "power.origins.inflammable.description",
+  "type": "origins:fire_immunity"
+}

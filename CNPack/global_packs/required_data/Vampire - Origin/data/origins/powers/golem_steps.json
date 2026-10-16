@@ -1,0 +1,83 @@
+{
+  "name": "power.origins.golem_steps.name",
+  "description": "power.origins.golem_steps.description",
+  "hidden": true,
+  "type": "origins:multiple",
+  "sneaking_steps": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:play_sound",
+      "sound": "minecraft:entity.iron_golem.step",
+      "volume": 0.4,
+      "pitch": 0.9
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:on_block"
+        },
+        {
+          "type": "origins:moving"
+        },
+        {
+          "type": "origins:sneaking"
+        }
+      ]
+    }
+  },
+  "fast_walk_steps": {
+    "type": "origins:action_over_time",
+    "interval": 6,
+    "entity_action": {
+      "type": "origins:play_sound",
+      "sound": "minecraft:entity.iron_golem.step",
+      "volume": 1,
+      "pitch": 1
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:on_block"
+        },
+        {
+          "type": "origins:moving"
+        },
+        {
+          "type": "origins:sprinting",
+          "inverted": true
+        },
+        {
+          "type": "origins:sneaking",
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "sprinting_steps": {
+    "type": "origins:action_over_time",
+    "interval": 3,
+    "entity_action": {
+      "type": "origins:play_sound",
+      "sound": "minecraft:entity.iron_golem.step",
+      "volume": 1.2,
+      "pitch": 1.1
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:on_block"
+        },
+        {
+          "type": "origins:moving"
+        },
+        {
+          "type": "origins:sprinting"
+        }
+      ]
+    }
+  }
+}

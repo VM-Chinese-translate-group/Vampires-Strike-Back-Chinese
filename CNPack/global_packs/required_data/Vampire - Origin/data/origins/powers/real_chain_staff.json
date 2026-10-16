@@ -1,0 +1,11 @@
+{
+  "name": "power.origins.real_chain_staff.name",
+  "description": "power.origins.real_chain_staff.description",
+  "type": "origins:starting_equipment",
+  "stack": {
+    "item": "modulation:chain_staff",
+    "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:10s},{id:\"sortilege:soulbound\",lvl:1s},{id:\"sortilege:storytelling_curse\",lvl:1s}]} 1",
+    "slot": 0
+  },
+  "recurrent": false
+}

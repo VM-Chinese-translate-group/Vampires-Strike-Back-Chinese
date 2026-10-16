@@ -1,0 +1,35 @@
+{
+  "loading_priority": 3,
+  "name": "origin.origins.golem.name",
+  "description": "origin.origins.golem.description",
+  "powers": [
+    "origins:real_chain_staff",
+    "origins:momentum",
+    "origins:momentum_jump",
+    "origins:momentum_boost",
+    "origins:soul_crusher",
+    "origins:metal_food",
+    "origins:bloodlust_plus",
+    "origins:sink",
+    "origins:breath_underwater_too",
+    "origins:inflammable",
+    "origins:soul_particles",
+    "origins:golem_steps",
+    "origins:extra_reach",
+    "origins:higher_step_height",
+    "origins:reduced_fall_damage",
+    "origins:unfallable",
+    "origins:glass_cannon",
+    "origins:step_height_increase",
+    "origins:quest_staff",
+    "origins:notonground",
+    "origins:way",
+    "origins:00_patrol",
+    "origins:golem_skin"
+  ],
+  "icon": {
+    "item": "modulation:chain_staff"
+  },
+  "order": 3,
+  "impact": 2
+}

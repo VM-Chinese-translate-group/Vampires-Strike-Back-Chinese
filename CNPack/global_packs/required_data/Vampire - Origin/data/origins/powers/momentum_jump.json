@@ -1,0 +1,72 @@
+{
+  "name": "power.origins.momentum_jump.name",
+  "description": "power.origins.momentum_jump.description",
+  "hidden": false,
+  "type": "origins:multiple",
+  "key": {
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "inverted": true,
+          "type": "origins:on_block"
+        },
+        {
+          "type": "origins:resource",
+          "resource": "origins:momentum_resource",
+          "comparison": ">=",
+          "compare_to": 129
+        },
+        {
+          "type": "origins:resource",
+          "resource": "origins:notonground_resource",
+          "comparison": ">=",
+          "compare_to": 5
+        }
+      ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:add_velocity",
+          "y": 0,
+          "space": "world",
+          "client": true,
+          "server": true,
+          "set": true
+        },
+        {
+          "type": "origins:add_velocity",
+          "y": 0.8,
+          "z": 0.9,
+          "space": "local_horizontal",
+          "client": true,
+          "server": true
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "origins:momentum_resource",
+          "change": -35,
+          "operation": "add"
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.firework_rocket.launch"
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.firework_rocket.large_blast"
+        }
+      ]
+    },
+    "cooldown": 5,
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.jump"
+    }
+  }
+}

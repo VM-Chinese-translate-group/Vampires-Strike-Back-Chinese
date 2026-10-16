@@ -1,0 +1,5 @@
+{
+  "name": "power.origins.sink.name",
+  "description": "power.origins.sink.description",
+  "type": "origins:ignore_water"
+}

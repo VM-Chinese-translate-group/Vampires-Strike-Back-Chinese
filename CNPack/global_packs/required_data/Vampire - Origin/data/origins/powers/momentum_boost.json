@@ -1,0 +1,30 @@
+{
+  "name": "power.origins.momentum_boost.name",
+  "description": "power.origins.momentum_boost.description",
+  "type": "origins:action_on_hit",
+  "bientity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:actor_action",
+        "action": {
+          "type": "origins:change_resource",
+          "resource": "origins:momentum_resource",
+          "change": 35,
+          "condition": {
+            "type": "origins:on_block",
+            "inverted": true
+          }
+        }
+      },
+      {
+        "type": "origins:actor_action",
+        "action": {
+          "type": "origins:change_resource",
+          "resource": "origins:soul_crusher_resource",
+          "change": 30
+        }
+      }
+    ]
+  }
+}

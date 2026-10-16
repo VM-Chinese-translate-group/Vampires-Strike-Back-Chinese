@@ -1,0 +1,156 @@
+{
+  "name": "power.origins.soul_crusher.name",
+  "description": "power.origins.soul_crusher.description",
+  "type": "origins:multiple",
+  "go_down": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:add_velocity",
+          "space": "world",
+          "y": -1.4
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "*:*_on_ground",
+          "change": -1
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:resistance",
+            "duration": 30,
+            "amplifier": 4,
+            "show_particles": false
+          }
+        }
+      ]
+    },
+    "cooldown": 20,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:on_block",
+          "inverted": true
+        },
+        {
+          "type": "origins:fall_distance",
+          "comparison": ">=",
+          "compare_to": 0.9
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": true
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    }
+  },
+  "on_ground": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "start_value": 1,
+    "hud_render": {
+      "should_render": false
+    },
+    "max_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:dust",
+            "params": "1 1 1 2"
+          },
+          "count": 16,
+          "speed": 0,
+          "spread": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+          }
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.iron_golem.repair",
+          "volume": 0.2,
+          "pitch": 1.5
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.zombie.attack_iron_door",
+          "volume": 0.7,
+          "pitch": 2
+        },
+        {
+          "type": "origins:area_of_effect",
+          "radius": 6,
+          "bientity_action": {
+            "type": "origins:add_velocity",
+            "y": 0.3,
+            "z": 0.8,
+            "set": true,
+            "space": "world"
+          }
+        },
+        {
+          "type": "origins:area_of_effect",
+          "radius": 1.5,
+          "bientity_action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:target_action",
+                "action": {
+                  "type": "origins:damage",
+                  "amount": 22,
+                  "source": {
+                    "name": "thrown.item"
+                  }
+                }
+              },
+              {
+                "type": "origins:actor_action",
+                "action": {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:saturation",
+                    "duration": 8,
+                    "amplifier": 0,
+                    "show_particles": false
+                  }
+                }
+              },
+              {
+                "type": "origins:actor_action",
+                "action": {
+                  "type": "origins:play_sound",
+                  "sound": "minecraft:entity.entity.player.levelup",
+                  "volume": 0.2,
+                  "pitch": 1.5
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "touching_ground": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_on_ground",
+      "change": 1
+    },
+    "condition": {
+      "type": "origins:on_block"
+    }
+  }
+}

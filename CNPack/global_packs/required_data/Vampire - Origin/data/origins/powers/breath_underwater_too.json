@@ -1,0 +1,21 @@
+{
+  "name": "power.origins.breath_underwater_too.name",
+  "description": "power.origins.breath_underwater_too.description",
+  "hidden": false,
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "rising_action": {
+    "type": "origins:grant_power",
+    "power": "origins:water_breathing",
+    "source": "your:origin"
+  },
+  "falling_action": {
+    "type": "origins:revoke_power",
+    "power": "origins:water_breathing",
+    "source": "your:origin"
+  },
+  "condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water"
+  }
+}

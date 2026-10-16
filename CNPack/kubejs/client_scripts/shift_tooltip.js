@@ -1,3 +1,34 @@
+function getClientLanguage() {
+  try {
+    let mc = Java.loadClass('net.minecraft.client.Minecraft').getInstance();
+    if (mc) {
+      let lm = mc.getLanguageManager();
+      if (lm) {
+        if (typeof lm.getSelected === 'function') {
+          return String(lm.getSelected());
+        }
+        if (typeof lm.getLanguage === 'function') {
+          let lang = lm.getLanguage();
+          if (lang && typeof lang.getCode === 'function') {
+            return String(lang.getCode());
+          }
+        }
+      }
+      if (mc.options) {
+        if (mc.options.language) {
+          if (typeof mc.options.language.get === 'function') {
+            return String(mc.options.language.get());
+          }
+          return String(mc.options.language);
+        }
+      }
+    }
+  } catch (e) {
+    console.error("Error getting language: " + e);
+  }
+  return 'en_us';
+}
+
 ItemEvents.tooltip(event => {
 
   // Tooltips for custom modpack items
@@ -38,12 +69,30 @@ ItemEvents.tooltip(event => {
     }
   })
 
-  // Flint
-  event.addAdvanced(['minecraft:flint'], (item, advanced, text) => {
+  // Iron Upgrade Tablet
+  event.addAdvanced(['kubejs:iron_upgrade_tablet'], (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
     } else {
-      text.add(1, Text.translate('tooltip.kubejs.flint').gray())
+      text.add(1, Text.translate('tooltip.kubejs.iron_upgrade_tablet').gray())
+    }
+  })
+
+  // Diamond Upgrade Tablet
+  event.addAdvanced(['kubejs:diamond_upgrade_tablet'], (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
+    } else {
+      text.add(1, Text.translate('tooltip.kubejs.diamond_upgrade_tablet').gray())
+    }
+  })
+
+  // Netherite Upgrade Tablet
+  event.addAdvanced(['kubejs:netherite_upgrade_tablet'], (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
+    } else {
+      text.add(1, Text.translate('tooltip.kubejs.netherite_upgrade_tablet').gray())
     }
   })
 
@@ -201,13 +250,13 @@ ItemEvents.tooltip(event => {
     }
   })
 
-    // Totem of Nightmares
+  // Totem of Nightmares
   event.addAdvanced(['sortilege:totem_of_nightmares'],
-      (item, advanced, text) => {
-    {
-      text.add(1, Text.translate('tooltip.kubejs.nightmare_mode').gray())
-    }
-  })
+    (item, advanced, text) => {
+      {
+        text.add(1, Text.translate('tooltip.kubejs.nightmare_mode').gray())
+      }
+    })
 
   // Irons Armours
   event.addAdvanced(
@@ -217,12 +266,12 @@ ItemEvents.tooltip(event => {
       'artifacts:villager_hat',
       'oddaccessories:wrinkled_dollar',
       'oddaccessories:emerald_nose'
-      ], 
-      (item, advanced, text) => {
-    {
-      text.add(1, Text.translate('tooltip.kubejs.scrappable').gray())
-    }
-  })
+    ],
+    (item, advanced, text) => {
+      {
+        text.add(1, Text.translate('tooltip.kubejs.scrappable').gray())
+      }
+    })
 
   // Unrepairables
   event.addAdvanced(
@@ -298,6 +347,76 @@ ItemEvents.tooltip(event => {
 
     })
   // Tooltips for Odd Accessories (奇特饰品硬编码汉化)
+  // BEGIN VSB 1.8.1 Odd Accessories templates
+  const oddaccessoriesTooltipRules = [
+    [new RegExp("^When\\s+hurt,\\s+applies\\s+Tetanus\\s+\\((.*?)s\\)\\s+to\\s+both\\s+the\\s+attacker\\s+and\\s+holder\\.\\s+The\\s+holder\\s+receives\\s+(.*?)x\\s+damage\\s+from\\s+Tetanus$"), "tooltip.kubejs.oddaccessories.crown_of_nails"],
+    [new RegExp("^Reduces\\s+incoming\\s+damage\\s+by\\s+(.*?)%$"), "tooltip.kubejs.oddaccessories.enlightening_ring"],
+    [new RegExp("^Increases\\s+the\\s+damage\\s+output\\s+of\\s+the\\s+holder\\s+by\\s+(.*?)%$"), "tooltip.kubejs.oddaccessories.malicious_ring"],
+    [new RegExp("^Repeatedly\\s+hitting\\s+an\\s+enemy\\s+builds\\s+up\\s+knockback,\\s+reaching\\s+Knockback\\s+(.*?)\\s+after\\s+(.*?)\\s+hits$"), "tooltip.kubejs.oddaccessories.kinetic_hand"],
+    [new RegExp("^When\\s+hurt\\s+by\\s+an\\s+enemy\\s+you\\s+are\\s+not\\s+facing,\\s+gain\\s+Resistance\\s+(.*?)\\s+and\\s+Speed\\s+(.*?)\\s+for\\s+(.*?)s$"), "tooltip.kubejs.oddaccessories.flight"],
+    [new RegExp("^Deals\\s+damage\\s+to\\s+the\\s+holder's\\s+mount\\s+when\\s+they\\s+right\\-click\\s+with\\s+an\\s+empty\\s+hand,\\s+but\\s+applies\\s+Speed\\s+(.*?)\\s+to\\s+the\\s+mount\\s+for\\s+some\\s+time$"), "tooltip.kubejs.oddaccessories.discipline_rod"],
+    [new RegExp("^Saves\\s+the\\s+holder\\s+from\\s+certain\\s+death\\s+a\\s+limited\\s+number\\s+of\\s+times\\.\\s+Increases\\s+the\\s+healing\\s+factor\\s+of\\s+the\\s+holder\\s+by\\s+(.*?)%$"), "tooltip.kubejs.oddaccessories.unconditional_love"],
+    [new RegExp("^Grants\\s+the\\s+holder\\s+a\\s+Piece\\s+Of\\s+Love\\s+upon\\s+waking$"), "tooltip.kubejs.oddaccessories.sifting_jar"],
+    [new RegExp("^Has\\s+a\\s+1\\-in\\-(.*?)\\s+chance\\s+to\\s+negate\\s+incoming\\s+damage\\s+towards\\s+the\\s+holder$"), "tooltip.kubejs.oddaccessories.armored_knight_doll"],
+    [new RegExp("^The\\s+holder's\\s+arrows\\s+apply\\s+a\\s+random\\s+negative\\s+effect$"), "tooltip.kubejs.oddaccessories.pungent_flower"],
+    [new RegExp("^When\\s+hurt,\\s+the\\s+holder\\s+receives\\s+(.*?)%\\s+more\\s+damage$"), "tooltip.kubejs.oddaccessories.shattered_tablet"],
+    [new RegExp("^The\\s+holder\\s+gains\\s+(.*?)%\\s+of\\s+the\\s+remaining\\s+XP\\s+needed\\s+for\\s+the\\s+next\\s+level\\s+when\\s+collecting\\s+experience\\s+orbs$"), "tooltip.kubejs.oddaccessories.enlightening_tablet"],
+    [new RegExp("^Prevents\\s+the\\s+holder\\s+from\\s+falling\\s+asleep$"), "tooltip.kubejs.oddaccessories.wrinkled_dollar"],
+    [new RegExp("^Beds\\s+will\\s+explode\\s+when\\s+the\\s+holder\\s+attempts\\s+to\\s+sleep\\s+in\\s+them,\\s+granting\\s+(.*?)\\s+experience$"), "tooltip.kubejs.oddaccessories.regret_of_a_salaryman"],
+    [new RegExp("^Negate\\s+any\\s+incoming\\s+damage\\s+that\\s+deals\\s+less\\s+than\\s+(.*?)\u2764\\s+\\(or\\s+(.*?)%\\s+of\\s+max\\s+health\\)$"), "tooltip.kubejs.oddaccessories.scar_tissue"],
+    [new RegExp("^Incoming\\s+damage\\s+to\\s+the\\s+holder\\s+is\\s+inverted,\\s+except\\s+when\\s+damage\\s+would\\s+exceed\\s+the\\s+holder's\\s+maximum\\s+health$"), "tooltip.kubejs.oddaccessories.anomalous_mirror"],
+    [new RegExp("^Increases\\s+the\\s+healing\\s+factor\\s+of\\s+the\\s+holder\\s+by\\s+(.*?)%$"), "tooltip.kubejs.oddaccessories.heartfelt_confession"],
+    [new RegExp("^Reduces\\s+incoming\\s+damage\\s+by\\s+(.*?)%$"), "tooltip.kubejs.oddaccessories.enlightening_ring"],
+    [new RegExp("^Increases\\s+the\\s+damage\\s+output\\s+of\\s+the\\s+holder\\s+by\\s+(.*?)%$"), "tooltip.kubejs.oddaccessories.malicious_ring"],
+    [new RegExp("^When\\s+attacking\\s+non\\-aggressive\\s+or\\s+unaware\\s+mobs,\\s+increase\\s+the\\s+damage\\s+output\\s+of\\s+the\\s+holder\\s+by\\s+(.*?)%$"), "tooltip.kubejs.oddaccessories.malice"],
+    [new RegExp("^Grants\\s+the\\s+holder\\s+and\\s+any\\s+attacker\\s+high\\s+knockback\\s+when\\s+the\\s+holder\\s+is\\s+hit$"), "tooltip.kubejs.oddaccessories.pelmen_3"],
+    [new RegExp("^Best\\s+worn\\s+as\\s+a\\s+set$"), "tooltip.kubejs.oddaccessories.best_as_set"],
+    [new RegExp("^The\\s+holder\\s+receives\\s+Tetanus\\s+when\\s+hurt\\s+\\(drains\\s+(.*?)%\\s+of\\s+current\\s+HP\\)$"), "tooltip.kubejs.oddaccessories.rusted_nail"],
+    [new RegExp("^On\\s+critical\\s+hit,\\s+roll\\s+a\\s+die\\.\\s+Higher\\s+rolls\\s+grant\\s+stronger\\s+buffs\\s+or\\s+debuffs\\s+to\\s+the\\s+holder$"), "tooltip.kubejs.oddaccessories.loaded_dice"],
+    [new RegExp("^Does\\s+absolutely\\s+nothing!$"), "tooltip.kubejs.oddaccessories.old_ring"],
+    [new RegExp("^Gain\\s+\\+(.*?)%\\s+speed\\s+per\\s+kill\\s+in\\s+a\\s+life\\s+\\(up\\s+to\\s+(.*?)%\\)\\.\\s+Each\\s+hit\\s+taken\\s+removes\\s+(.*?)%\\s+speed$"), "tooltip.kubejs.oddaccessories.baby"],
+    [new RegExp("^Occasionally\\s+grants\\s+(.*?)\\s+experience\\s+to\\s+the\\s+holder$"), "tooltip.kubejs.oddaccessories.broken_telephone"],
+    [new RegExp("^Stores\\s+1/(.*?)\\s+of\\s+consumed\\s+food\\s+for\\s+later\\.\\s+Right\\-click\\s+to\\s+restore\\s+hunger$"), "tooltip.kubejs.oddaccessories.clay_vessel"],
+    [new RegExp("^Clay\\s+Vessel\\s+\\((.*?)\\)$"), "tooltip.kubejs.oddaccessories.clay_vessel_name"],
+    [new RegExp("^Grants\\s+the\\s+Freedom\\s+effect\\s+to\\s+the\\s+holder$"), "tooltip.kubejs.oddaccessories.clean_tablet"],
+    [new RegExp("^Attracts\\s+baby\\s+zombies\\s+within\\s+(.*?)\\s+blocks\\s+to\\s+the\\s+holder\\s+and\\s+makes\\s+them\\s+friendly$"), "tooltip.kubejs.oddaccessories.collectible_meal_toy"],
+    [new RegExp("^The\\s+holder\\s+is\\s+unable\\s+to\\s+regain\\s+health,\\s+but\\s+is\\s+granted\\s+Resistance\\s+(.*?)$"), "tooltip.kubejs.oddaccessories.cruel_fate"],
+    [new RegExp("^Disabled\\s+by\\s+config$"), "tooltip.kubejs.oddaccessories.disabled_by_config"],
+    [new RegExp("^Destroyed\\s+on\\s+unequip/death!$"), "tooltip.kubejs.oddaccessories.destroyed_on_unequip"],
+    [new RegExp("^\\(disabled\\)\\s+Press\\s+shift\\s+to\\s+show\\s+tooltip$"), "tooltip.kubejs.oddaccessories.disabled_press_shift"],
+    [new RegExp("^Press\\s+shift\\s+to\\s+show\\s+tooltip$"), "tooltip.kubejs.oddaccessories.press_shift"],
+    [new RegExp("^Attracts\\s+villagers\\s+within\\s+(.*?)\\s+blocks\\s+to\\s+the\\s+holder$"), "tooltip.kubejs.oddaccessories.emerald_nose"],
+    [new RegExp("^Deploys\\s+a\\s+parachute\\s+when\\s+the\\s+holder\\s+falls\\s+more\\s+than\\s+(.*?)\\s+blocks$"), "tooltip.kubejs.oddaccessories.emergency_parachute"],
+    [new RegExp("^All\\s+incoming\\s+damage\\s+is\\s+multiplied\\s+by\\s+(.*?)x\\.\\s+While\\s+sneaking,\\s+the\\s+holder\\s+cannot\\s+attack,\\s+but\\s+is\\s+invisible\\s+to\\s+mobs\\s+as\\s+long\\s+as\\s+(.*?)\\s+or\\s+fewer\\s+are\\s+nearby$"), "tooltip.kubejs.oddaccessories.fiberglass_cloak"],
+    [new RegExp("^Reduces\\s+the\\s+holder's\\s+incoming\\s+damage\\s+by\\s+(.*?)%\\s+per\\s+death\\s+they\\s+accumulate\\s+\\(up\\s+to\\s+(.*?)%\\)$"), "tooltip.kubejs.oddaccessories.guts_desc"],
+    [new RegExp("^Clears\\s+negative\\s+effects\\s+in\\s+exchange\\s+for\\s+experience$"), "tooltip.kubejs.oddaccessories.homunculus_2"],
+    [new RegExp("^Clears\\s+negative\\s+effects\\s+in\\s+exchange\\s+for\\s+\u2764$"), "tooltip.kubejs.oddaccessories.homunculus"],
+    [new RegExp("^Every\\s+(.*?)s,\\s+the\\s+holder's\\s+health\\s+is\\s+rolled\\s+back\\s+to\\s+what\\s+it\\s+was\\s+(.*?)s\\s+earlier$"), "tooltip.kubejs.oddaccessories.hourglass"],
+    [new RegExp("^When\\s+eaten,\\s+applies\\s+Soothed\\s+for\\s+(.*?)\\s+min,\\s+clearing\\s+and\\s+blocking\\s+Nausea\\s+and\\s+Hunger$"), "tooltip.kubejs.oddaccessories.hunger_tablets"],
+    [new RegExp("^Prevents\\s+the\\s+holder\\s+from\\s+harming\\s+others,\\s+but\\s+grants\\s+them\\s+Regeneration\\s+(.*?)$"), "tooltip.kubejs.oddaccessories.innocence"],
+    [new RegExp("^Increases\\s+the\\s+holder's\\s+damage\\s+output\\s+by\\s+(.*?)%\\s+per\\s+kill\\s+they\\s+accumulate\\s+\\(up\\s+to\\s+(.*?)%\\)$"), "tooltip.kubejs.oddaccessories.malicious_tablet_desc"],
+    [new RegExp("^Malicious\\s+Tablet\\s+(.*?)$"), "tooltip.kubejs.oddaccessories.malicious_tablet"],
+    [new RegExp("^Shift\\s+\\+\\s+Right\\-Click\\s+with\\s+an\\s+empty\\s+hand\\s+to\\s+summon\\s+a\\s+Player\\s+Mimic\\s+that\\s+copies\\s+the\\s+holder's\\s+items,\\s+attributes,\\s+effects,\\s+and\\s+damage\\s+output\\.\\s+(.*?)%\\s+of\\s+incoming\\s+damage\\s+is\\s+redirected\\s+to\\s+the\\s+mimic$"), "tooltip.kubejs.oddaccessories.mimic_ring"],
+    [new RegExp("^Sets\\s+undead\\s+mobs\\s+within\\s+(.*?)\\s+blocks\\s+on\\s+fire$"), "tooltip.kubejs.oddaccessories.old_cross"],
+    [new RegExp("^All\\s+entities\\s+within\\s+(.*?)\\s+blocks,\\s+including\\s+the\\s+holder,\\s+receive\\s+Slowness\\s+and\\s+Nausea$"), "tooltip.kubejs.oddaccessories.old_sock"],
+    [new RegExp("^Pulls\\s+the\\s+holder\\s+toward\\s+nearby\\s+ores\\s+within\\s+(.*?)\\s+blocks,\\s+but\\s+the\\s+holder\\s+is\\s+(.*?)%\\s+slower$"), "tooltip.kubejs.oddaccessories.oversized_magnet"],
+    [new RegExp("^The\\s+holder\\s+sinks\\s+while\\s+underwater,\\s+but\\s+gains\\s+oxygen\\s+and\\s+mining\\s+speed$"), "tooltip.kubejs.oddaccessories.oxygen_rock"],
+    [new RegExp("^Grants\\s+the\\s+holder\\s+Speed\\s+(.*?),\\s+but\\s+also\\s+grants\\s+entities\\s+that\\s+harm\\s+the\\s+holder\\s+Speed\\s+(.*?)$"), "tooltip.kubejs.oddaccessories.pelmen_2"],
+    [new RegExp("^Grants\\s+the\\s+holder\\s+Regeneration\\s+(.*?),\\s+but\\s+also\\s+grants\\s+entities\\s+that\\s+harm\\s+the\\s+holder\\s+Strength\\s+(.*?)$"), "tooltip.kubejs.oddaccessories.pelmen"],
+    [new RegExp("^When\\s+eaten,\\s+grants\\s+Regeneration\\s+(.*?)\\s+for\\s+10\\s+seconds$"), "tooltip.kubejs.oddaccessories.piece_of_love"],
+    [new RegExp("^Applies\\s+Nausea\\s+to\\s+the\\s+holder$"), "tooltip.kubejs.oddaccessories.poop"],
+    [new RegExp("^All\\s+types\\s+of\\s+pigs\\s+become\\s+aggressive\\s+towards\\s+the\\s+holder,\\s+but\\s+drop\\s+extra\\s+loot$"), "tooltip.kubejs.oddaccessories.pork_effigy"],
+    [new RegExp("^While\\s+equipped,\\s+the\\s+TV\\s+notifies\\s+the\\s+holder\\s+when\\s+shows\\s+air\\.\\s+During\\s+airtime,\\s+right\\-click\\s+with\\s+the\\s+item\\s+in\\s+hand\\s+to\\s+start\\s+playback\\.\\s+While\\s+watching,\\s+the\\s+holder\\s+gains\\s+the\\s+Happy\\s+effect$"), "tooltip.kubejs.oddaccessories.portable_tv"],
+    [new RegExp("^Inflicts\\s+permanent\\s+Hunger\\s+(.*?),\\s+but\\s+grants\\s+Speed\\s+(.*?)\\s+and\\s+Strength\\s+(.*?)\\s+in\\s+exchange$"), "tooltip.kubejs.oddaccessories.redheaded_doll"],
+    [new RegExp("^Grants\\s+Strength\\s+(.*?)\\s+at\\s+all\\s+times,\\s+but\\s+randomly\\s+swaps\\s+the\\s+holder's\\s+held\\s+item\\s+during\\s+combat$"), "tooltip.kubejs.oddaccessories.rotgut"],
+    [new RegExp("^Grants\\s+immunity\\s+to\\s+Slowness\\s+and\\s+Nausea$"), "tooltip.kubejs.oddaccessories.secondhand_gas_mask"],
+    [new RegExp("^Drops\\s+a\\s+random\\s+accessory$"), "tooltip.kubejs.oddaccessories.suspicious_bag"],
+    [new RegExp("^Grants\\s+(.*?)\\s+extra\\s+charm\\s+slots,\\s+but\\s+reduces\\s+the\\s+holder's\\s+max\\s+health\\s+by\\s+(.*?)%$"), "tooltip.kubejs.oddaccessories.tattered_belt"],
+    [new RegExp("^Makes\\s+the\\s+holder\\s+allergic\\s+to\\s+beef\\s+and\\s+pork,\\s+but\\s+grants\\s+Jump\\s+Boost\\s+(.*?)$"), "tooltip.kubejs.oddaccessories.tick"],
+    [new RegExp("^Attracts\\s+most\\s+mobs\\s+within\\s+(.*?)\\s+blocks\\s+to\\s+the\\s+holder$"), "tooltip.kubejs.oddaccessories.universal_attractor"],
+    [new RegExp("^Villagers\\s+run\\s+from\\s+the\\s+holder,\\s+but\\s+drop\\s+extra\\s+loot$"), "tooltip.kubejs.oddaccessories.villager_mask"]
+  ]
+  // END VSB 1.8.1 Odd Accessories templates
   const oddaccessoriesItems = [
     'oddaccessories:broken_telephone',
     'oddaccessories:clean_tablet',
@@ -356,12 +475,40 @@ ItemEvents.tooltip(event => {
     'oddaccessories:flight',
     'oddaccessories:baby',
     'oddaccessories:clay_vessel'
+  // BEGIN VSB 1.8.1 new accessories
+    , 'oddaccessories:heart_prop'
+    , 'oddaccessories:heart_prop_2'
+    , 'oddaccessories:heart_prop_3'
+    , 'oddaccessories:homunculus_2'
+    , 'oddaccessories:pelmen_2'
+    , 'oddaccessories:pelmen_3'
+    , 'oddaccessories:scar_tissue'
+  // END VSB 1.8.1 new accessories
   ]
   event.addAdvanced(oddaccessoriesItems, (item, advanced, text) => {
+    if (getClientLanguage() === 'en_us') return;
     let itemId = item.id.replace('oddaccessories:', '')
     for (let i = 0; i < text.size(); i++) {
       let component = text.get(i)
       let str = component.getString()
+      // BEGIN VSB 1.8.1 dynamic tooltip resolution
+      let plain = String(str).replace(/§./g, '').trim()
+      let translated = null
+      for (let ruleIndex = 0; ruleIndex < oddaccessoriesTooltipRules.length; ruleIndex++) {
+        let rule = oddaccessoriesTooltipRules[ruleIndex]
+        let match = rule[0].exec(plain)
+        if (!match) continue
+        if (match.length === 1) translated = Text.translate(rule[1])
+        else if (match.length === 2) translated = Text.translate(rule[1], match[1])
+        else if (match.length === 3) translated = Text.translate(rule[1], match[1], match[2])
+        else translated = Text.translate(rule[1], match[1], match[2], match[3])
+        break
+      }
+      if (translated !== null) {
+        text.set(i, translated)
+        continue
+      }
+      // END VSB 1.8.1 dynamic tooltip resolution
       // Handle base descriptions
       if (str.includes("Disabled by config")) {
         text.set(i, Text.translate('tooltip.kubejs.oddaccessories.disabled_by_config'))
