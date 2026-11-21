@@ -21,10 +21,11 @@
   "rewards": [
     {
       "type": "questlog:command",
-      "name": "I see it all...",
+      "name": "quest.vampires.bosses_detected.rewards.0.name",
       "auto_claim": true,
       "command": "function vampires:markers",
-      "permission_level": 4
+      "permission_level": 4,
+      "translatable": true
     }
   ],
   "translatable": true

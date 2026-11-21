@@ -1,0 +1,42 @@
+{
+  "parent": "vampires:kill_reprobate",
+  "display": {
+    "icon": {
+      "item": "minecells:concierge_respawn_rune",
+      "nbt": "{Damage:0}",
+      "id": "minecells:concierge_respawn_rune"
+    },
+    "title": {
+      "translate": "advancements.vampires.concierge.title"
+    },
+    "description": {
+      "text": "Slay the King\u0027s Hand!"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "minecells:concierge": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecells:concierge"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecells:concierge"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

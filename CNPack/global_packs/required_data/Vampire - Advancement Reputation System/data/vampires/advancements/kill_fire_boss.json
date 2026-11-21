@@ -1,40 +1,41 @@
 {
-    "parent": "vampires:100_oblivion",
-    "display": {
-        "title": {
-            "translate": "advancements.vampires.fire_boss.title"
-        },
-        "description": {
-            "translate": "advancements.vampires.fire_boss.description"
-        },
-        "icon": {
-            "item": "irons_spellbooks:hellrazor"
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "vampires:kill_blaze",
+  "display": {
+    "icon": {
+      "item": "irons_spellbooks:hellrazor",
+      "nbt": "{Damage:0,\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:raise_hell\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}"
     },
-    "criteria": {
-        "irons_spellbooks:fire_boss": {
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "irons_spellbooks:fire_boss"
-                        }
-                    }
-                ]
+    "title": {
+      "translate": "advancements.vampires.fire_boss.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.fire_boss.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "irons_spellbooks:fire_boss": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "irons_spellbooks:fire_boss"
             },
-            "trigger": "minecraft:player_killed_entity"
-        }
-    },
-    "requirements": [
-        [
-            "irons_spellbooks:fire_boss"
+            "entity": "this"
+          }
         ]
-    ],
-    "sends_telemetry_event": true
+      }
+    }
+  },
+  "requirements": [
+    [
+      "irons_spellbooks:fire_boss"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

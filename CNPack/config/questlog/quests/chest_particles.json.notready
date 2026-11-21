@@ -9,21 +9,23 @@
   "objectives": [
     {
       "type": "questlog:block_interact",
-      "name": "Open Chest...",
+      "name": "quest.vampires.chest_particles.objectives.0.name",
       "icon": {
         "item": "minecraft:chest"
       },
       "required_amount": 1,
-      "block": "minecraft:chest"
+      "block": "minecraft:chest",
+      "translatable": true
     }
   ],
   "rewards": [
     {
       "type": "questlog:command",
-      "name": "I see it all...",
+      "name": "quest.vampires.chest_particles.rewards.0.name",
       "auto_claim": true,
       "command": "function vampires:fall",
-      "permission_level": 4
+      "permission_level": 4,
+      "translatable": true
     }
   ],
   "translatable": true

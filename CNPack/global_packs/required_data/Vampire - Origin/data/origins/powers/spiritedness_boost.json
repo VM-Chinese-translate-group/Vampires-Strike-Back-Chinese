@@ -1,0 +1,19 @@
+{
+    "name": "power.origins.spiritedness_boost.name",
+    "description": "power.origins.spiritedness_boost.description",
+    "hidden" :true,
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:actor_action",
+                "action": {
+                    "type": "origins:change_resource",
+                    "resource": "origins:spiritedness_resource",
+                    "change": 40
+                }
+            }
+        ]
+    }
+}

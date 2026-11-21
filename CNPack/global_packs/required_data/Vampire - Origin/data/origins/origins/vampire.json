@@ -16,6 +16,7 @@
         "origins:youre_slower",
         "origins:propulsion",
         "origins:groundpound",
+        "origins:super_scent",
         "origins:regenerating_wings",
         "origins:used_to_falling",
         "origins:low_rider",
@@ -29,6 +30,7 @@
         "origins:vampire_skin",
         "origins:quest_vampire",
         "origins:way",
+        "origins:00_patrol",
         "origins:no_block_drops"
     ],
     "order": 1,

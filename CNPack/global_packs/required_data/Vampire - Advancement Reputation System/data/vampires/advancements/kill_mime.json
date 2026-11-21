@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_watcher",
+  "display": {
+    "icon": {
+      "item": "caverns_and_chasms:spinel",
+      "id": "caverns_and_chasms:spinel"
+    },
+    "title": {
+      "translate": "advancements.vampires.mime.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.mime.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "caverns_and_chasms:mime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "caverns_and_chasms:mime"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "caverns_and_chasms:mime"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

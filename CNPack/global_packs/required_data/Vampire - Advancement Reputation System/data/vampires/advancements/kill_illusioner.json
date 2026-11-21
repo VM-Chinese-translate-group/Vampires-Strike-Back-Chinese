@@ -1,40 +1,41 @@
 {
-    "parent": "vampires:kill_witch",
-    "display": {
-        "title": {
-            "translate": "advancements.vampires.illusioner.title"
-        },
-        "description": {
-            "translate": "advancements.vampires.illusioner.description"
-        },
-        "icon": {
-            "item": "summonerscrolls:summon_bow"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "vampires:kill_witch",
+  "display": {
+    "icon": {
+      "item": "summonerscrolls:summon_bow",
+      "id": "summonerscrolls:summon_bow"
     },
-    "criteria": {
-        "minecraft:illusioner": {
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:illusioner"
-                        }
-                    }
-                ]
+    "title": {
+      "translate": "advancements.vampires.illusioner.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.illusioner.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft:illusioner": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:illusioner"
             },
-            "trigger": "minecraft:player_killed_entity"
-        }
-    },
-    "requirements": [
-        [
-            "minecraft:illusioner"
+            "entity": "this"
+          }
         ]
-    ],
-    "sends_telemetry_event": true
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:illusioner"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

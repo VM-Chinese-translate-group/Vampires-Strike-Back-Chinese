@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:50_destroyer",
+  "display": {
+    "icon": {
+      "item": "block_factorys_bosses:big_chain",
+      "id": "block_factorys_bosses:big_chain"
+    },
+    "title": {
+      "translate": "advancements.vampires.grottoceratops.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.grottoceratops.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft:blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:blaze"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:blaze"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

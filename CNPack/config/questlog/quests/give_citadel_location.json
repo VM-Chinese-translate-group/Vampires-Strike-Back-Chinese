@@ -13,19 +13,21 @@
   ],
   "objectives": [
     {
-      "name": "Visit The Mantle",
+      "name": "quest.vampires.give_citadel_location.objectives.0.name",
       "type": "questlog:visit_dimension",
       "dimension": "minecraft:the_nether",
-      "total": 1
+      "total": 1,
+      "translatable": true
     }
   ],
   "rewards": [
     {
       "type": "questlog:command",
-      "name": "Citadel Location",
+      "name": "quest.vampires.give_citadel_location.rewards.0.name",
       "auto_claim": true,
       "command": "function vampires:mantledive",
-      "permission_level": 4
+      "permission_level": 4,
+      "translatable": true
     }
   ],
   "toast_on_unlock": true,

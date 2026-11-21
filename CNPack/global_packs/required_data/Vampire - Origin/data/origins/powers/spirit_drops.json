@@ -1,0 +1,61 @@
+{
+    "name": "power.origins.spirit_drops.name",
+    "description": "power.origins.spirit_drops.description",
+    "hidden": false,
+    "type": "origins:multiple",
+    "weight1": {
+        "type": "origins:self_action_on_kill",
+        "target_condition": {
+            "type": "origins:in_tag",
+            "tag": "vampires:humans_weight_1"
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "give @p kubejs:haunt_summon 3"
+        }
+    },
+    "weight2": {
+        "type": "origins:self_action_on_kill",
+        "target_condition": {
+            "type": "origins:in_tag",
+            "tag": "vampires:humans_weight_2"
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "give @p kubejs:skull_summon 2"
+        }
+    },
+    "weight3": {
+        "type": "origins:self_action_on_kill",
+        "target_condition": {
+            "type": "origins:in_tag",
+            "tag": "vampires:humans_weight_3"
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "give @p kubejs:wraith_summon"
+        }
+    },
+    "weightfire": {
+        "type": "origins:self_action_on_kill",
+        "target_condition": {
+            "type": "origins:in_tag",
+            "tag": "vampires:humans_weight_fire"
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "give @p kubejs:fire_hoglin_summon 3"
+        }
+    },
+    "weightice": {
+        "type": "origins:self_action_on_kill",
+        "target_condition": {
+            "type": "origins:in_tag",
+            "tag": "vampires:humans_weight_ice"
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "give @p kubejs:ice_golem_summon"
+        }
+    }
+}

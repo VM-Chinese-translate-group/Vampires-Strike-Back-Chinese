@@ -1,40 +1,41 @@
 {
-    "parent": "vampires:kill_archer",
-    "display": {
-        "title": {
-            "translate": "advancements.vampires.skirmisher.title"
-        },
-        "description": {
-            "translate": "advancements.vampires.skirmisher.description"
-        },
-        "icon": {
-            "item": "jaams_weaponry:iron_ring"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "vampires:kill_shieldbearer",
+  "display": {
+    "icon": {
+      "item": "jaams_weaponry:iron_ring",
+      "nbt": "{Damage:0}"
     },
-    "criteria": {
-        "takesapillage:skirmisher": {
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "takesapillage:skirmisher"
-                        }
-                    }
-                ]
+    "title": {
+      "translate": "advancements.vampires.skirmisher.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.skirmisher.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "takesapillage:skirmisher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "takesapillage:skirmisher"
             },
-            "trigger": "minecraft:player_killed_entity"
-        }
-    },
-    "requirements": [
-        [
-            "takesapillage:skirmisher"
+            "entity": "this"
+          }
         ]
-    ],
-    "sends_telemetry_event": true
+      }
+    }
+  },
+  "requirements": [
+    [
+      "takesapillage:skirmisher"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

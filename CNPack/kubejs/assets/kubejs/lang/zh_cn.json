@@ -34,7 +34,7 @@
   "inventory_free.unlock.tooltip2": "",
   "tooltip.kubejs.heart_piece": "需要4个碎片来§e合成§r一颗§d临时心之水晶！§r！",
   "tooltip.kubejs.unrepairable": "§c不可修复§r",
-  "message.kubejs.life_gained": "已获得生命值",
+  "message.kubejs.life_gained": "已获得1条生命",
   "tooltip.kubejs.nightmare_mode": "§c[右键点击]§r启用§c梦魇模式§r。\n\n启用后，将立即解锁所有与§6恶名§r相关的敌人生成。\n\n后果自负！！！",
   "tooltip.kubejs.scrappable": "§a可拆解§r",
   "tooltip.kubejs.iron_upgrade_tablet": "与皮革、木质和石质装备一同§e合成§r以将装备§b升级§r为铁材质！",

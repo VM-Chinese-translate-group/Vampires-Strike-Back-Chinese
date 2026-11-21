@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:100_nightmare",
+  "display": {
+    "icon": {
+      "item": "traveloptics:abyssal_hide_armor_hat",
+      "id": "traveloptics:abyssal_hide_armor_hat"
+    },
+    "title": {
+      "translate": "advancements.vampires.sorcerer.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.sorcerer.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goety:sorcerer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goety:sorcerer"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "goety:sorcerer"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

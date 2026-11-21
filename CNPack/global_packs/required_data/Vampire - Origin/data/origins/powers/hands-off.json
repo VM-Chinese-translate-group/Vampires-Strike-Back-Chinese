@@ -1,0 +1,11 @@
+{
+  "name": "power.origins.hands-off.name",
+  "description": "power.origins.hands-off.description",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:shields"
+    }
+  }
+}

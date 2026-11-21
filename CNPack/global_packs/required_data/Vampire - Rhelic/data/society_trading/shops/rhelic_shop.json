@@ -1,0 +1,437 @@
+{
+  "shop_id": "rhelic_shop",
+  "name": "shop.vampires.rhelic.name",
+  "display_type": "default",
+  "texture": "rhelic:textures/icon/rhelic_portrait",
+  "trades": [
+    {
+      "offer": {
+        "item": "healpgood:empty_heart_container",
+        "count": 1
+      },
+      "request": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "empty_heart_container"
+    },
+    {
+      "offer": {
+        "item": "irons_spellbooks:greater_healing_potion",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 1
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "greater_healing_potion"
+    },
+    {
+      "offer": {
+        "item": "irons_spellbooks:arcane_anvil",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 1
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "arcane_anvil"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:frostmint_spear",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 1
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "frostmint_spear"
+    },
+    {
+      "offer": {
+        "item": "sortilege:totem_of_nightmares",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 1
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "totem_of_nightmares"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:galena_gauntlet",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 1
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "galena_gauntlet"
+    },
+    {
+      "offer": {
+        "item": "irons_spellbooks:oakskin_elixir",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 1
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "oakskin_elixir"
+    },
+    {
+      "offer": {
+        "item": "sortilege:lapis_shield",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 1
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "lapis_shield"
+    },
+    {
+      "offer": {
+        "item": "species:ricoshield",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 1
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "ricoshield"
+    },
+    {
+      "offer": {
+        "item": "mowziesmobs:sculptor_staff",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 2
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "sculptor_staff"
+    },
+    {
+      "offer": {
+        "item": "irons_spellbooks:greater_evasion_elixir",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 2
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "greater_evasion_elixir"
+    },
+    {
+      "offer": {
+        "item": "mowziesmobs:earthrend_gauntlet",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 2
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "earthrend_gauntlet"
+    },
+    {
+      "offer": {
+        "item": "mowziesmobs:ice_crystal",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 2
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "ice_crystal"
+    },
+    {
+      "offer": {
+        "item": "cataclysm:laser_gatling",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 2
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "laser_gatling"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:candy_cane_hook",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 2
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 10
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "candy_cane_hook"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:sugar_staff",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 2
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 15
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "sugar_staff"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:desolate_dagger",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 3
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 20
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "desolate_dagger"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:raygun",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 3
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 20
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "raygun"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:ortholance",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 3
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 25
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "ortholance"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:magic_conch",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 4
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 30
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "magic_conch"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:sea_staff",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 5
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 40
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "sea_staff"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:resistor_shield",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 5
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 40
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "resistor_shield"
+    },
+    {
+      "offer": {
+        "item": "mowziesmobs:grant_suns_blessing",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 5
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 50
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "grant_suns_blessing"
+    },
+    {
+      "offer": {
+        "item": "oddaccessories:baby",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 5
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 50
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "baby"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:submarine",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 6
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 60
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "submarine"
+    },
+    {
+      "offer": {
+        "item": "minecraft:totem_of_undying",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 6
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 65
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "totem_of_undying"
+    },
+    {
+      "offer": {
+        "item": "alexscaves:extinction_spear",
+        "count": 1
+      },
+      "request": {
+        "item": "healpgood:heart_container",
+        "count": 7
+      },
+      "second_request": {
+        "item": "minecraft:emerald",
+        "count": 70
+      },
+      "image": "minecraft:textures/item/emerald",
+      "trade_id": "extinction_spear"
+    }
+  ],
+  "random_sets ": []
+}

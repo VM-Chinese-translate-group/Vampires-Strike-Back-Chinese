@@ -70,5 +70,9 @@
     "advancements.vampires.zapper.title": "轰雷师",
     "advancements.vampires.zapper.description": "击杀轰雷师！",
     "item.vampire_advancement_reputation_system.blood_vial": "血饮瓶",
-    "vampires.actionbar.humans_slain": "已杀戮的人类数量："
+    "vampires.actionbar.humans_slain": "已杀戮的人类数量：",
+    "advancements.vampires.90_omen.title": "末日征兆",
+    "advancements.vampires.90_omen.description": "击杀90名人类后，天界的圣骑士降临，来追杀你。末日将至。",
+    "advancements.vampires.100_nightmare.title": "梦魇",
+    "advancements.vampires.100_nightmare.description": "击杀100名人类后……梦魇在你心中苏醒。现在，面对自己所作所为的后果吧。"
 }

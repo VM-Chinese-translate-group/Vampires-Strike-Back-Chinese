@@ -1,40 +1,41 @@
 {
   "parent": "vampires:70_annihilator",
-    "display": {
-        "title": {
-            "translate": "advancements.vampires.zapper.title"
-        },
-        "description": {
-            "translate": "advancements.vampires.zapper.description"
-        },
-        "icon": {
-            "item": "raidsenhanced:zapper_staff"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "raidsenhanced:zapper_staff",
+      "id": "raidsenhanced:zapper_staff"
     },
-    "criteria": {
-        "raidsenhanced:zapper": {
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "raidsenhanced:zapper"
-                        }
-                    }
-                ]
+    "title": {
+      "translate": "advancements.vampires.zapper.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.zapper.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "raidsenhanced:zapper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "raidsenhanced:zapper"
             },
-            "trigger": "minecraft:player_killed_entity"
-        }
-    },
-    "requirements": [
-        [
-            "raidsenhanced:zapper"
+            "entity": "this"
+          }
         ]
-    ],
-    "sends_telemetry_event": true
+      }
+    }
+  },
+  "requirements": [
+    [
+      "raidsenhanced:zapper"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

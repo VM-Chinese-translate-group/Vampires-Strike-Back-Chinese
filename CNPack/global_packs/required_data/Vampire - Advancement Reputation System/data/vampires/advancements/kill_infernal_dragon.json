@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_grottoceratops",
+  "display": {
+    "icon": {
+      "item": "block_factorys_bosses:dragon_banner",
+      "id": "block_factorys_bosses:dragon_banner"
+    },
+    "title": {
+      "translate": "advancements.vampires.infernal_dragon.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.infernal_dragon.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "block_factorys_bosses:infernal_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "block_factorys_bosses:infernal_dragon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "block_factorys_bosses:infernal_dragon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

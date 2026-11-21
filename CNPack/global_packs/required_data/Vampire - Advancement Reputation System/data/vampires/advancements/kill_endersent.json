@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_tremorsaurus",
+  "display": {
+    "icon": {
+      "item": "apotheosis:ender_library",
+      "id": "apotheosis:ender_library"
+    },
+    "title": {
+      "translate": "advancements.vampires.endersent.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.endersent.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goety:endersent": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goety:endersent"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "goety:endersent"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

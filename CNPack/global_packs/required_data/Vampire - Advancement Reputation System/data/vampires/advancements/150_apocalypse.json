@@ -1,0 +1,31 @@
+{
+  "parent": "vampires:100_nightmare",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomPotionColor:11599872,CustomPotionEffects:[{Amplifier:0,Duration:2,Id:23}],display:{Name:\u0027{\"translate\":\"item.vampire_advancement_reputation_system.blood_vial\",\"color\":\"red\"}\u0027}}",
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "advancements.vampires.150_apocalypse.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.150_apocalypse.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "has_150_kills": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "has_150_kills"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

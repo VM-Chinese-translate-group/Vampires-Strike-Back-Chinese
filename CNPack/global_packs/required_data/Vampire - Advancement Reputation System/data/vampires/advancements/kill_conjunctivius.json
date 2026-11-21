@@ -1,0 +1,42 @@
+{
+  "parent": "vampires:kill_concierge",
+  "display": {
+    "icon": {
+      "item": "minecells:tentacle",
+      "nbt": "{Damage:0}",
+      "id": "minecells:tentacle"
+    },
+    "title": {
+      "translate": "advancements.vampires.conjunctivius.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.conjunctivius.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "minecells:conjunctivius": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecells:conjunctivius"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecells:conjunctivius"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

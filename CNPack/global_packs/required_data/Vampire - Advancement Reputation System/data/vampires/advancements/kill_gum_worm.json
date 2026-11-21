@@ -1,0 +1,40 @@
+{
+  "parent": "vampires:kill_grave_golem",
+  "display": {
+    "icon": {
+      "item": "alexscaves:sweet_tooth"
+    },
+    "title": {
+      "translate": "advancements.vampires.gum_worm.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.gum_worm.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "raidsenhanced:raid_blimp": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "raidsenhanced:raid_blimp"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "raidsenhanced:raid_blimp"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

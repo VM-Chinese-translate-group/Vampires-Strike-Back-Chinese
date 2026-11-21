@@ -79,10 +79,9 @@
         { "type": "minecraft:item", "name": "mowziesmobs:naga_fang_dagger", "weight": 80 },
 
         { "type": "minecraft:item", "name": "clash:spear", "weight": 80 },
+        { "type": "minecraft:item", "name": "clash:swept_axe", "weight": 60 },
         { "type": "minecraft:item", "name": "clash:greatblade", "weight": 40 },
         { "type": "minecraft:item", "name": "clash:echoing_spear", "weight": 20 },
-        
-        { "type": "minecraft:item", "name": "species:spectralibur", "weight": 20 },
 
         { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 60 },
         { "type": "minecraft:item", "name": "minecraft:iron_axe", "weight": 60 },
@@ -226,24 +225,14 @@
         { "type": "minecraft:item", "name": "jaams_weaponry:golden_spear", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
         { "type": "minecraft:item", "name": "jaams_weaponry:golden_twinblade", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
         { "type": "minecraft:item", "name": "jaams_weaponry:golden_zweihander", "weight": 33, "functions": [{ "function": "minecraft:enchant_randomly" }] },
-
-        { "type": "minecraft:item", "name": "mace_port:mace", "weight": 22, "functions": [{ "function": "minecraft:enchant_randomly" }] },
         
-        { "type": "minecraft:item", "name": "cataclysm:the_annihilator", "weight": 3 },
-        { "type": "minecraft:item", "name": "cataclysm:soul_render", "weight": 3 },
-        { "type": "minecraft:item", "name": "cataclysm:void_forge", "weight": 3 },
         { "type": "minecraft:item", "name": "cataclysm:wither_assault_shoulder_weapon", "weight": 3 },
         { "type": "minecraft:item", "name": "cataclysm:void_assault_shoulder_weapon", "weight": 3 },
-        { "type": "minecraft:item", "name": "cataclysm:gauntlet_of_bulwark", "weight": 3 },
         { "type": "minecraft:item", "name": "cataclysm:coral_spear", "weight": 3 },
-        { "type": "minecraft:item", "name": "cataclysm:tidal_claws", "weight": 3 },
         { "type": "minecraft:item", "name": "cataclysm:laser_gatling", "weight": 3 },
         { "type": "minecraft:item", "name": "cataclysm:ancient_spear", "weight": 3 },
-        { "type": "minecraft:item", "name": "cataclysm:gauntlet_of_maelstrom", "weight": 3 },
         { "type": "minecraft:item", "name": "cataclysm:blazing_grips", "weight": 3 },
-        { "type": "minecraft:item", "name": "cataclysm:wrath_of_the_desert", "weight": 3 },
-        { "type": "minecraft:item", "name": "cataclysm:the_immolator", "weight": 3 },
-        { "type": "minecraft:item", "name": "cataclysm:chitin_claw", "weight": 3 }
+        { "type": "minecraft:item", "name": "cataclysm:wrath_of_the_desert", "weight": 3 }
       ],
       "rolls": 1.0
     },
@@ -261,10 +250,6 @@
         { "type": "minecraft:item", "name": "minecraft:iron_helmet", "weight": 60 },
         { "type": "minecraft:item", "name": "minecraft:iron_leggings", "weight": 60 },
         { "type": "minecraft:item", "name": "minecraft:iron_boots", "weight": 60 },
-
-        { "type": "minecraft:item", "name": "block_factorys_bosses:knight_helmet", "weight": 60 },
-        { "type": "minecraft:item", "name": "block_factorys_bosses:knight_leggings", "weight": 60 },
-        { "type": "minecraft:item", "name": "block_factorys_bosses:knight_boots", "weight": 60 },
 
         { "type": "minecraft:item", "name": "irons_spellbooks:pumpkin_helmet", "weight": 60 },
         { "type": "minecraft:item", "name": "irons_spellbooks:pyromancer_helmet", "weight": 60 },
@@ -329,6 +314,8 @@
 
         { "type": "minecraft:item", "name": "species:crankbow", "weight": 60 },
 
+        { "type": "minecraft:item", "name": "jaams_weaponry:golden_pistol", "weight": 100 },
+
         { "type": "minecraft:item", "name": "jaams_weaponry:short_bow", "weight": 100 },
         { "type": "minecraft:item", "name": "jaams_weaponry:flat_bow", "weight": 100 },
         { "type": "minecraft:item", "name": "jaams_weaponry:hunters_bow", "weight": 100 },
@@ -372,135 +359,20 @@
       ]
     },
     {
-      "rolls": {
-        "min": 1,
-        "max": 1
-      },
+      "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "irons_spellbooks:scroll",
-          "functions": [
-            {
-              "function": "irons_spellbooks:randomize_spell",
-              "quality": {
-                "min": 0.1,
-                "max": 0.95
-              }
-            }
-          ]
-        }
+            { "type": "minecraft:loot_table", "name": "vampires:chests/spell_roll", "weight": 100 },
+            { "type": "minecraft:loot_table", "name": "vampires:chests/summon_roll", "weight": 100 },
+            { "type": "minecraft:loot_table", "name": "vampires:chests/potion_roll", "weight": 100 }
       ]
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        { "type": "minecraft:item", "name": "summonerscrolls:zombie_summoner_scroll", "weight": 3 },
-        { "type": "minecraft:item", "name": "summonerscrolls:husk_summoner_scroll", "weight": 1 },
-
-        { "type": "minecraft:item", "name": "summonerscrolls:bee_summoner_scroll", "weight": 1 },
-
-        { "type": "minecraft:item", "name": "summonerscrolls:spider_summoner_scroll", "weight": 3 },
-        { "type": "minecraft:item", "name": "summonerscrolls:cave_spider_summoner_scroll", "weight": 2 },
-        { "type": "minecraft:item", "name": "summonerscrolls:spider_jockey_summoner_scroll", "weight": 1 },
-
-        { "type": "minecraft:item", "name": "summonerscrolls:creeper_summoner_scroll", "weight": 3 },
-        { "type": "minecraft:item", "name": "summonerscrolls:charged_creeper_summoner_scroll", "weight": 1 },
-
-        { "type": "minecraft:item", "name": "summonerscrolls:enderman_summoner_scroll", "weight": 1 },
-        { "type": "minecraft:item", "name": "summonerscrolls:shulkerman_summoner_scroll", "weight": 1 },
-
-        { "type": "minecraft:item", "name": "summonerscrolls:enhancement_scroll", "weight": 1 },
-
-        { "type": "minecraft:item", "name": "summonerscrolls:piglin_summoner_scroll", "weight": 3 },
-        { "type": "minecraft:item", "name": "summonerscrolls:piglin_brute_summoner_scroll", "weight": 1 },
-
-        { "type": "minecraft:item", "name": "summonerscrolls:skeleton_summoner_scroll", "weight": 3 },
-        { "type": "minecraft:item", "name": "summonerscrolls:stray_summoner_scroll", "weight": 1 },
-
-        { "type": "minecraft:item", "name": "summonerscrolls:iron_golem_summoner_scroll", "weight": 1 }
-      ],
-      "rolls": 1.0
     },
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
-        
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:long_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sustained_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
-              
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_strength\",CustomPotionColor:9643043,display:{Name:'{\"translate\":\"item.vampire_loot_tables.potion_of_super_strength\",\"color\":\"red\"}'}}" } ], "weight": 20 },
-
-
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
-
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:long_swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_sustained_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
-        
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_swiftness\",CustomPotionColor:8171462,display:{Name:'{\"translate\":\"item.vampire_mpr.potion_of_sonic_speed\",\"color\":\"blue\"}'}}" } ], "weight": 20 },
-
-
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:0,Duration:2100}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_resistance\",\"color\":\"purple\"}'}}" } ], "weight": 50 },
-
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:1,Duration:1200}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_resistance_ii\",\"color\":\"purple\"}'}}" } ], "weight": 10 },
-
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:2,Duration:600}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_resistance_iii\",\"color\":\"purple\"}'}}" } ], "weight": 30 },
-
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:3,Duration:100}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_resistance_iv\",\"color\":\"purple\"}'}}" } ], "weight": 20 },
-
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:4,Duration:200}],CustomPotionColor:10551516,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_invulnerability\",\"color\":\"purple\"}'}}" } ], "weight": 10 },
-
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:13,Duration:600}],CustomPotionColor:1675920,display:{Name:'{\"translate\":\"item.vampire_origin.potion_of_flame_retardancy\",\"color\":\"orange\"}'}}" } ], "weight": 10 },
-
-        { "type": "minecraft:item", "name": "minecraft:splash_potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:weakness\",CustomPotionColor:4738376,display:{Name:'{\"translate\":\"item.vampire_origin.splash_potion_of_weakness\",\"color\":\"green\"}'}}" } ], "weight": 60 },
-              
-
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:23,Amplifier:0,Duration:2}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_advancement_reputation_system.blood_vial\",\"color\":\"red\"}'}}" } ], "weight": 100 },
-              
-
-        { "type": "minecraft:item", "name": "minecraft:potion", "functions": [{ "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:23,Amplifier:10,Duration:12}],CustomPotionColor:11599872,display:{Name:'{\"translate\":\"item.vampire_loot_tables.potent_blood_vial\",\"color\":\"red\"}'}}" } ], "weight": 100 },
-              
-
-        { "type": "minecraft:item", "name": "minecraft:experience_bottle", "weight": 100 },
-
-              
-        { "type": "minecraft:item", "name": "minecraft:emerald", "weight": 100 },      
-        { "type": "minecraft:item", "name": "sortilege:limitite", "weight": 100 },
-        { "type": "minecraft:item", "name": "healpgood:crystal_heart", "weight": 100 },
-        { "type": "minecraft:item", "name": "artifacts:cloud_in_a_bottle", "weight": 20 },
-        { "type": "minecraft:item", "name": "minecraft:torch", "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 0.0, "max": 4.0 } } ] },
-
-        { "type": "minecraft:item", "name": "assassin_backstab:gold_dagger", "weight": 30,
-          "functions": [ { "function": "irons_spellbooks:randomize_spell",
-              "quality": { "min": 0.2, "max": 0.35 } },
-            { "function": "minecraft:enchant_with_levels",
-              "levels": { "type": "minecraft:uniform", "min": 11.0, "max": 33.0 }, "treasure": true }] },
-              
-        { "type": "minecraft:item", "name": "assassin_backstab:diamond_dagger", "weight": 25,
-          "functions": [ { "function": "irons_spellbooks:randomize_spell",
-              "quality": { "min": 0.2, "max": 0.55 } },
-            { "function": "minecraft:enchant_with_levels",
-              "levels": { "type": "minecraft:uniform", "min": 22.0, "max": 66.0 }, "treasure": true }] },
-
-        { "type": "minecraft:item", "name": "assassin_backstab:netherite_dagger", "weight": 20,
-          "functions": [ { "function": "irons_spellbooks:randomize_spell",
-              "quality": { "min": 0.2, "max": 0.95 } },
-            { "function": "minecraft:enchant_with_levels",
-              "levels": { "type": "minecraft:uniform", "min": 44.0, "max": 99.0 }, "treasure": true }] }
+        { "type": "minecraft:loot_table", "name": "vampires:chests/random_special_25_permanent_health", "weight": 100 },
+        { "type": "minecraft:loot_table", "name": "vampires:chests/curio_roll", "weight": 100 },
+        { "type": "minecraft:loot_table", "name": "vampires:chests/staff_roll", "weight": 100 },
+        { "type": "minecraft:loot_table", "name": "irons_spellbooks:arcane_anvil", "weight": 20 }
       ]
     }
   ]

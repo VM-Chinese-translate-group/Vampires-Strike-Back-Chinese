@@ -1,0 +1,57 @@
+{
+    "name": "power.origins.spiritedness_jump.name",
+    "description": "power.origins.spiritedness_jump.description",
+    "hidden": false,
+    "type": "origins:multiple",
+    "key": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:on_block"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins:spiritedness_resource",
+                    "comparison": ">=",
+                    "compare_to": 10
+                },
+                {
+                  "type": "origins:gamemode",
+                  "gamemode": "spectator",
+                  "inverted": true
+                },
+                {
+                  "type": "origins:gamemode",
+                  "gamemode": "creative",
+                  "inverted": true
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "y": 0.1,
+                    "z": 0.2,
+                    "space": "local",
+                    "client": true,
+                    "server": true
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "origins:spiritedness_resource",
+                    "change": -5,
+                    "operation": "add"
+                }
+            ]
+        },
+        "key": {
+            "key": "key.jump",
+            "continuous": true
+        }
+    }
+}

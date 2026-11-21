@@ -1,0 +1,35 @@
+{
+  "title": "quest.vampires.marker_everyone.title",
+  "description": "quest.vampires.marker_everyone.description",
+  "icon": {
+    "item": "minecells:concierge_respawn_rune"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "description_completed": "quest.vampires.marker_everyone.description_completed",
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "name": "quest.vampires.marker_everyone.objectives.0.name",
+      "entity": "minecells:concierge",
+      "required_amount": 1,
+      "translatable": true
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "vampires:grand_mansion",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "quest.vampires.marker_everyone.rewards.0.name",
+      "command": "function vampires:markers",
+      "translatable": true
+    }
+  ],
+  "translatable": true
+}

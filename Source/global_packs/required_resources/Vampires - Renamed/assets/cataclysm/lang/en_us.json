@@ -1,6 +1,31 @@
 {
-  "entity.cataclysm.coral_golem": "Brutaliser",
-  "item.cataclysm.coral_golem_spawn_egg": "Brutaliser Spawn Egg",
-  "coral_golem_hurt.sub": "Brutaliser hurts",
-  "coral_golem_death.sub": "Brutaliser dies"
+  "entity.cataclysm.coral_golem": "Bruteillager",
+  "item.cataclysm.coral_golem_spawn_egg": "Bruteillager Spawn Egg",
+  "coral_golem_hurt.sub": "Bruteillager hurts",
+  "coral_golem_death.sub": "Bruteillager dies",
+
+  "entity.cataclysm.coralssus": "White Walker",
+  "item.cataclysm.coralssus_spawn_egg": "White Walker Spawn Egg",
+  "coralssus_ambient.sub": "White Walker grunts",
+  "coralssus_roar.sub": "White Walker roars",
+  "coralssus_hurt.sub": "White Walker hurts",
+  "coralssus_death.sub": "White Walker dies",
+
+  "item.cataclysm.hippocamtus_spawn_egg": "Hallowed Knight Spawn Egg",
+  "entity.cataclysm.hippocamtus": "Hallowed Knight",
+  "hippocamtus_idle.sub": "Hallowed Knight gurgles",
+  "hippocamtus_hurt.sub": "Hallowed Knight hurts",
+  "hippocamtus_death.sub": "Hallowed Knight dies",
+
+  "item.cataclysm.clawdian_spawn_egg": "Shrimpillager Spawn Egg",
+  "entity.cataclysm.clawdian": "Shrimpillager",
+
+  "item.cataclysm.aptrgangr_spawn_egg": "Giantolager Spawn Egg",
+  "block.cataclysm.aptrgangr_head": "Giantolager Head",
+  "entity.cataclysm.aptrgangr": "Giantolager",
+  "aptrgangr_idle.sub": "Giantolager groans",
+  "aptrgangr_hurt.sub": "Giantolager hurts",
+  "aptrgangr_death.sub": "Giantolager dies",
+
+  "item.cataclysm.laser_gatling.desc": "Beams burn targets and blocks on-hit"
 }

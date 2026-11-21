@@ -1,0 +1,42 @@
+{
+  "title": "quest.vampires.marker_pickpocketer_mansion.title",
+  "description": "quest.vampires.marker_pickpocketer_mansion.description",
+  "icon": {
+    "item": "irons_spellbooks:furled_map_ancient"
+  },
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "icon": "irons_spellbooks:furled_map_ancient",
+      "entity": "enemyexpansion:goblin",
+      "total": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "name": "quest.vampires.marker_pickpocketer_mansion.rewards.0.name",
+      "auto_claim": true,
+      "permission_level": 4,
+      "command": "function vampires:marker_conjunctivius",
+      "translatable": true
+    },
+    {
+      "type": "questlog:item",
+      "name": "quest.vampires.marker_pickpocketer_mansion.rewards.1.name",
+      "item": "kubejs:grand_mansion_map",
+      "count": 1,
+      "translatable": true
+    }
+  ],
+  "chapter": "main",
+  "sort_order": 0,
+  "prerequisites": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "vampires:01_first_blood"
+    }
+  ],
+  "description_completed": "quest.vampires.marker_pickpocketer_mansion.description_completed",
+  "translatable": true
+}
