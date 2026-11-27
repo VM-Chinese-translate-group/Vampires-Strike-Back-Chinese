@@ -2,7 +2,7 @@
    <h1>Vampires Strike Back简体中文翻译</h1>
 </div>
 
-| CurseForge     | 加载器     | 原文整理目标       | 汉化维护状态 |
+| CurseForge     | 加载器     | 整合包版本       | 汉化维护状态 |
 | :------------- | :--------- | :----------------- | :----------- |
 | [链接](https://www.curseforge.com/minecraft/modpacks/vampires-strike-back) | Forge | MC 1.20.1 / VSB 1.10.0 | 维护中       |
 
