@@ -1,0 +1,42 @@
+{
+  "parent": "vampires:70_annihilator",
+  "display": {
+    "icon": {
+      "item": "cataclysm:astrape",
+      "nbt": "{Damage:0}",
+      "id": "cataclysm:astrape"
+    },
+    "title": {
+      "translate": "advancements.vampires.clawdian.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.clawdian.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "\"cataclysm:clawdian\"": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "cataclysm:clawdian"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "\"cataclysm:clawdian\""
+    ]
+  ],
+  "sends_telemetry_event": true
+}

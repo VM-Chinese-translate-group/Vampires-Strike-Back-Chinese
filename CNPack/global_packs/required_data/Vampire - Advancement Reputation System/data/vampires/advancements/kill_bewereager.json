@@ -1,40 +1,40 @@
 {
-    "parent": "vampires:kill_ghast",
-    "display": {
-        "title": {
-            "translate": "advancements.vampires.bewereager.title"
-        },
-        "description": {
-            "translate": "advancements.vampires.bewereager.description"
-        },
-        "icon": {
-            "item": "species:bewereager_head"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "vampires:kill_warlock",
+  "display": {
+    "icon": {
+      "item": "species:bewereager_head"
     },
-    "criteria": {
-        "species:bewereager": {
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "species:bewereager"
-                        }
-                    }
-                ]
+    "title": {
+      "translate": "advancements.vampires.bewereager.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.bewereager.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "species:bewereager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "species:bewereager"
             },
-            "trigger": "minecraft:player_killed_entity"
-        }
-    },
-    "requirements": [
-        [
-            "species:bewereager"
+            "entity": "this"
+          }
         ]
-    ],
-    "sends_telemetry_event": true
+      }
+    }
+  },
+  "requirements": [
+    [
+      "species:bewereager"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

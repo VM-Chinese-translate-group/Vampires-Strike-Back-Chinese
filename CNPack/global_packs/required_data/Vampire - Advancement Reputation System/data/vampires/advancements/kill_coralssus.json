@@ -1,0 +1,40 @@
+{
+  "parent": "vampires:kill_necromancer",
+  "display": {
+    "icon": {
+      "item": "cataclysm:coral_chunk"
+    },
+    "title": {
+      "translate": "advancements.vampires.coralssus.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.coralssus.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cataclysm:coralssus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "cataclysm:coralssus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cataclysm:coralssus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

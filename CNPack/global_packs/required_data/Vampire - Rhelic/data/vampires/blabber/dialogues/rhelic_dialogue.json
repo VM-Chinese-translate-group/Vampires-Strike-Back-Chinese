@@ -1,0 +1,241 @@
+{
+  "states": {
+    "rhelic_introduction": {
+      "text": {
+        "translate": "dialogue.vampires.rhelic.rhelic_introduction.text"
+      },
+      "choices": [
+        {
+          "next": "hi",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_introduction.choice.hi"
+          }
+        },
+        {
+          "next": "rhelic_who",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_introduction.choice.rhelic_who"
+          }
+        },
+        {
+          "next": "rhelic_where",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_introduction.choice.rhelic_where"
+          }
+        },
+        {
+          "next": "rhelic_buy",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_introduction.choice.rhelic_buy"
+          }
+        },
+        {
+          "next": "rhelic_end",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_introduction.choice.rhelic_end"
+          }
+        }
+      ]
+    },
+    "rhelic_end": {
+      "type": "end_dialogue"
+    },
+    "rhelic_who": {
+      "text": {
+        "translate": "dialogue.vampires.rhelic.rhelic_who.text"
+      },
+      "choices": [
+        {
+          "next": "rhelic_introduction",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_who.choice.rhelic_introduction"
+          }
+        },
+        {
+          "next": "rhelic_where",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_who.choice.rhelic_where"
+          }
+        }
+      ]
+    },
+    "rhelic_where": {
+      "text": {
+        "translate": "dialogue.vampires.rhelic.rhelic_where.text"
+      },
+      "choices": [
+        {
+          "next": "not_small",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_where.choice.not_small"
+          }
+        },
+        {
+          "next": "long_and_short",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_where.choice.long_and_short"
+          }
+        }
+      ]
+    },
+    "rhelic_buy": {
+      "text": "",
+      "choices": [
+        {
+          "next": "rhelic_introduction",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_buy.choice.rhelic_introduction"
+          }
+        }
+      ],
+      "action": {
+        "type": "blabber:command",
+        "value": "/openshop @p rhelic_shop"
+      }
+    },
+    "not_small": {
+      "text": {
+        "translate": "dialogue.vampires.rhelic.not_small.text"
+      },
+      "choices": [
+        {
+          "next": "rhelic_introduction",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.not_small.choice.rhelic_introduction"
+          }
+        },
+        {
+          "next": "infinite_library",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.not_small.choice.infinite_library"
+          }
+        }
+      ]
+    },
+    "infinite_library": {
+      "text": {
+        "translate": "dialogue.vampires.rhelic.infinite_library.text"
+      },
+      "choices": [
+        {
+          "next": "rhelic_introduction",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.infinite_library.choice.rhelic_introduction"
+          }
+        },
+        {
+          "next": "rhelic_why",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.infinite_library.choice.rhelic_why"
+          }
+        }
+      ]
+    },
+    "rhelic_why": {
+      "text": {
+        "translate": "dialogue.vampires.rhelic.rhelic_why.text"
+      },
+      "choices": [
+        {
+          "next": "rhelic_what",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_why.choice.rhelic_what"
+          }
+        }
+      ]
+    },
+    "rhelic_what": {
+      "text": {
+        "translate": "dialogue.vampires.rhelic.rhelic_what.text"
+      },
+      "choices": [
+        {
+          "next": "rhelic_introduction",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_what.choice.rhelic_introduction"
+          }
+        },
+        {
+          "next": "heart_crystals",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_what.choice.heart_crystals"
+          }
+        },
+        {
+          "next": "rhelic_buy",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.rhelic_what.choice.rhelic_buy"
+          }
+        }
+      ]
+    },
+    "heart_crystals": {
+      "text": {
+        "translate": "dialogue.vampires.rhelic.heart_crystals.text"
+      },
+      "choices": [
+        {
+          "next": "rhelic_introduction",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.heart_crystals.choice.rhelic_introduction"
+          }
+        },
+        {
+          "next": "rhelic_buy",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.heart_crystals.choice.rhelic_buy"
+          }
+        }
+      ]
+    },
+    "long_and_short": {
+      "text": {
+        "translate": "dialogue.vampires.rhelic.long_and_short.text"
+      },
+      "choices": [
+        {
+          "next": "rhelic_buy",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.long_and_short.choice.rhelic_buy"
+          }
+        }
+      ]
+    },
+    "hi": {
+      "text": {
+        "translate": "dialogue.vampires.rhelic.hi.text"
+      },
+      "choices": [
+        {
+          "next": "rhelic_who",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.hi.choice.rhelic_who"
+          }
+        },
+        {
+          "next": "rhelic_where",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.hi.choice.rhelic_where"
+          }
+        },
+        {
+          "next": "rhelic_buy",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.hi.choice.rhelic_buy"
+          }
+        },
+        {
+          "next": "rhelic_end",
+          "text": {
+            "translate": "dialogue.vampires.rhelic.hi.choice.rhelic_end"
+          }
+        }
+      ]
+    }
+  },
+  "layout": {
+    "type": "blabber:rpg"
+  },
+  "unskippable": false,
+  "start_at": "rhelic_introduction"
+}

@@ -1,40 +1,41 @@
 {
-    "parent": "vampires:50_destroyer",
-    "display": {
-        "title": {
-            "translate": "advancements.vampires.blaze.title"
-        },
-        "description": {
-            "translate": "advancements.vampires.blaze.description"
-        },
-        "icon": {
-            "item": "minecraft:blaze_powder"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "vampires:50_destroyer",
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_powder",
+      "id": "minecraft:blaze_powder"
     },
-    "criteria": {
-        "minecraft:blaze": {
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:blaze"
-                        }
-                    }
-                ]
+    "title": {
+      "translate": "advancements.vampires.blaze.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.blaze.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft:blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:blaze"
             },
-            "trigger": "minecraft:player_killed_entity"
-        }
-    },
-    "requirements": [
-        [
-            "minecraft:blaze"
+            "entity": "this"
+          }
         ]
-    ],
-    "sends_telemetry_event": true
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:blaze"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

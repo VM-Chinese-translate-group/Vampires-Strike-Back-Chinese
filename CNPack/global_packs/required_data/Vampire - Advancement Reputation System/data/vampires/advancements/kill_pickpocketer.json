@@ -1,40 +1,41 @@
 {
-    "parent": "vampires:kill_grenadier",
-    "display": {
-        "title": {
-            "translate": "advancements.vampires.pickpocketer.title"
-        },
-        "description": {
-            "translate": "advancements.vampires.pickpocketer.description"
-        },
-        "icon": {
-            "item": "jaams_weaponry:sharp_stone_blade"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "vampires:root",
+  "display": {
+    "icon": {
+      "item": "jaams_weaponry:sharp_stone_blade",
+      "nbt": "{Damage:0}"
     },
-    "criteria": {
-        "enemyexpansion:goblin": {
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "enemyexpansion:goblin"
-                        }
-                    }
-                ]
+    "title": {
+      "translate": "advancements.vampires.pickpocketer.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.pickpocketer.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enemyexpansion:goblin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "enemyexpansion:goblin"
             },
-            "trigger": "minecraft:player_killed_entity"
-        }
-    },
-    "requirements": [
-        [
-            "enemyexpansion:goblin"
+            "entity": "this"
+          }
         ]
-    ],
-    "sends_telemetry_event": true
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enemyexpansion:goblin"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

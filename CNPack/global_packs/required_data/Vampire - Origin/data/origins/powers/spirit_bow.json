@@ -1,0 +1,11 @@
+{
+	"name": "power.origins.spirit_bow.name",
+	"description": "power.origins.spirit_bow.description",
+	"type": "origins:starting_equipment",
+	"stack": {
+		"item": "archeryexp:wooden_bow",
+		"tag": "{display:{Name:'{\"translate\":\"item.vampire_origin.spirit_bow\"}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:infinity\",lvl:51},{id:\"archeryexp:headshot\",lvl:5s},{id:\"archeryexp:trajectory\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]} 1",
+		"slot": 1
+	},
+	"recurrent": true
+}

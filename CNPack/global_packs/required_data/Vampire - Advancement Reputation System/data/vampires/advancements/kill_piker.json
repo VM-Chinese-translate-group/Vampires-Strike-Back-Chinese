@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_crusher",
+  "display": {
+    "icon": {
+      "item": "jaams_weaponry:iron_spear",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.vampires.piker.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.piker.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goety:piker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goety:piker"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "goety:piker"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

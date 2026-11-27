@@ -1,0 +1,22 @@
+{
+  "name": "power.origins.spirit_resonance.name",
+  "description": "power.origins.spirit_resonance.description",
+  "hidden": false,
+  "type": "origins:multiple",
+
+  "sneaking_steps": {
+    "type": "origins:action_over_time",
+    "interval": 19,
+    "entity_action": {
+            "type": "origins:execute_command",
+            "command": "effect give @e[type=#vampires:humans,limit=5,sort=nearest] minecraft:glowing 1 0 true",
+            "permission_level": 4
+        },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        { "type": "origins:sneaking" }
+      ]
+    }
+  }
+}

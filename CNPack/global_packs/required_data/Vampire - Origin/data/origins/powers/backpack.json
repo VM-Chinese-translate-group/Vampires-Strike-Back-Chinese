@@ -1,0 +1,16 @@
+{
+    "name": "power.origins.backpack.name",
+    "description": "power.origins.backpack.description",
+    "hidden": false,
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:execute_command",
+        "command": "inventory_slots unlock @p 9",
+        "permission_level": 4
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "inventory_slots lock @p 9",
+        "permission_level": 4
+    }
+}

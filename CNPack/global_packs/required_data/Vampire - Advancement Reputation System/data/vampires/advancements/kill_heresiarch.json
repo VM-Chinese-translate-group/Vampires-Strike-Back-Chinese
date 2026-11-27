@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:90_omen",
+  "display": {
+    "icon": {
+      "item": "goety:malefic_helm",
+      "id": "goety:malefic_helm"
+    },
+    "title": {
+      "translate": "advancements.vampires.heresiarch.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.heresiarch.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goety:heresiarch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goety:heresiarch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "goety:heresiarch"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

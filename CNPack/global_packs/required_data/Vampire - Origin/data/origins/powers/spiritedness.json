@@ -1,0 +1,34 @@
+{
+    "name": "power.origins.spiritedness.name",
+    "description": "power.origins.spiritedness.description",
+    "hidden": true,
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 190,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 16
+        },
+        "start_value": 0
+    },
+    "passive_spiritness_accrual": {
+        "type": "origins:action_over_time",
+        "interval": 5,
+            "conditions": {
+                "type": "origins:on_block"
+            },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_resource",
+                    "change": 5
+                }
+            ]
+        }
+    }
+}

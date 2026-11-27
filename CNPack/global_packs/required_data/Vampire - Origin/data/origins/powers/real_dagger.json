@@ -1,0 +1,11 @@
+{
+	"name": "power.origins.real_dagger.name",
+	"description": "power.origins.real_dagger.description",
+	"type": "origins:starting_equipment",
+	"stack": {
+		"item": "mowziesmobs:naga_fang_dagger",
+		"tag": "{Enchantments:[{id:\"sortilege:soulbound\",lvl:1s},{id:\"sortilege:storytelling_curse\",lvl:1s},{id:\"allurement:reforming\",lvl:1s}]} 1",
+		"slot": 1
+	},
+	"recurrent": false
+}

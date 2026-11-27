@@ -1,0 +1,11 @@
+{
+    "name": "power.difficulty.easy_mode_activate.name",
+    "description": "power.difficulty.easy_mode_activate.description",
+    "hidden": false,
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:execute_command",
+        "command": "difficulty easy",
+        "permission_level": 4
+    }
+}

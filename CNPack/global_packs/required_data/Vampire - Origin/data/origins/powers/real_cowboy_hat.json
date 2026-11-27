@@ -1,0 +1,11 @@
+{
+    "name": "power.origins.real_cowboy_hat.name",
+    "description": "power.origins.real_cowboy_hat.description",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "irons_artifice:cowboy_hat",
+        "tag": "{Enchantments:[{id:\"sortilege:storytelling_curse\",lvl:1s},{id:\"allurement:reforming\",lvl:1s}]} 1",
+        "slot": 39
+    },
+    "recurrent": true
+}

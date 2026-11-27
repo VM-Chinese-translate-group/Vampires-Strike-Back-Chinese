@@ -1,0 +1,40 @@
+{
+  "parent": "vampires:kill_vindicator",
+  "display": {
+    "icon": {
+      "item": "mowziesmobs:bluff_rod"
+    },
+    "title": {
+      "translate": "advancements.vampires.bluff.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.bluff.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mowziesmobs:bluff": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "mowziesmobs:bluff"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mowziesmobs:bluff"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

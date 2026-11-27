@@ -1,0 +1,27 @@
+{
+    "name": "power.origins.no_fall_damage.name",
+    "description": "power.origins.no_fall_damage.description",
+    "hidden": false,
+    "type": "origins:multiple",
+    "reduced_kinetic_damage": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "name": "Reduced Fall Damage",
+            "value": -1,
+            "operation": "multiply_base"
+        },
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                "type": "origins:name",
+                "name": "fall"
+                },
+                {
+                "type": "origins:name",
+                "name": "flyIntoWall"
+                }
+            ]
+        }
+    }
+}

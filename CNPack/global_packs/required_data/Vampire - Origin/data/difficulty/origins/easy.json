@@ -1,0 +1,13 @@
+{
+	"loading_priority": 1,
+	"name": "origin.difficulty.easy.name",
+    "description": "origin.difficulty.easy.description",
+	"icon": {
+		"item": "oddaccessories:baby"
+	},
+	"powers": [
+		"difficulty:easy_mode_activate"
+	],
+	"order": 4,
+	"impact": 0
+}

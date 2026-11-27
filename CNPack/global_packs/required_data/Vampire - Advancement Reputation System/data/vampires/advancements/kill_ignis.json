@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_blaze",
+  "display": {
+    "icon": {
+      "item": "cataclysm:the_incinerator",
+      "id": "cataclysm:the_incinerator"
+    },
+    "title": {
+      "translate": "advancements.vampires.ignis.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.ignis.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cataclysm:ignis": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "cataclysm:ignis"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cataclysm:ignis"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

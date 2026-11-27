@@ -1,0 +1,40 @@
+{
+  "parent": "vampires:20_assassin",
+  "display": {
+    "icon": {
+      "item": "minecraft:candle"
+    },
+    "title": {
+      "translate": "advancements.vampires.wicked.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.wicked.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "species:wicked": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "species:wicked"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "species:wicked"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

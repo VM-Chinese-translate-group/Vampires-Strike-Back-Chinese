@@ -1,0 +1,28 @@
+{
+	"loading_priority": 3,
+	"name": "origin.origins.goblin.name",
+    "description": "origin.origins.goblin.description",
+	"powers": [
+		"origins:middle_of_the_road",
+		"origins:real_gun",
+		"origins:real_cowboy_hat",
+		"origins:real_dagger",
+		"origins:real_bullets",
+		"origins:backpack",
+		"origins:simple_all_talk",
+		"origins:simple_bullet_maker",
+		"origins:kill_artifice_roll",
+		"origins:bloodlust_alt",
+        "origins:super_scent",
+		"origins:kill_strength_speed_boost",
+		"origins:3_rolls",
+        "origins:way",
+        "origins:00_patrol",
+        "origins:goblin_skin"
+	],
+	"icon": {
+		"item": "irons_artifice:cowboy_hat"
+	},
+	"order": 4,
+	"impact": 2
+}

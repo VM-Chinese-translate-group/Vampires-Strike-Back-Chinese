@@ -20,10 +20,11 @@
   "rewards": [
     {
       "type": "questlog:command",
-      "name": "Burning Ashes",
+      "name": "quest.vampires.give_revenant_ashes.rewards.0.name",
       "auto_claim": true,
       "command": "function vampires:give_revenant_ashes",
-      "permission_level": 4
+      "permission_level": 4,
+      "translatable": true
     }
   ],
   "hidden": true,

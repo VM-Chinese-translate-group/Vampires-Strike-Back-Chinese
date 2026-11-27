@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:50_destroyer",
+  "display": {
+    "icon": {
+      "item": "alexscaves:diving_helmet",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.vampires.coral_golem.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.coral_golem.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cataclysm:the_prowler": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "cataclysm:the_prowler"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cataclysm:the_prowler"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

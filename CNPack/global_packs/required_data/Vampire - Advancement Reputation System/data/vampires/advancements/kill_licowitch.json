@@ -1,0 +1,40 @@
+{
+  "parent": "vampires:kill_storm_caster",
+  "display": {
+    "icon": {
+      "item": "alexscaves:licoroot"
+    },
+    "title": {
+      "translate": "advancements.vampires.licowitch.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.licowitch.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "raidsenhanced:golem_of_last_resort": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "raidsenhanced:golem_of_last_resort"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "raidsenhanced:golem_of_last_resort"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

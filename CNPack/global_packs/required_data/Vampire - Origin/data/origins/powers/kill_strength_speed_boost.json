@@ -1,0 +1,34 @@
+{
+    "name": "power.origins.kill_strength_speed_boost.name",
+    "description": "power.origins.kill_strength_speed_boost.description",
+    "hidden": false,
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:strength",
+                "duration": 140,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 140,
+                "amplifier": 3
+            },
+            {
+                "effect": "minecraft:dolphins_grace",
+                "duration": 140,
+                "amplifier": 0,
+                "show_icon": false
+            },
+            {
+                "effect": "afterimages:afterimage",
+                "duration": 140,
+                "amplifier": 0
+            }
+        ]
+    }
+}

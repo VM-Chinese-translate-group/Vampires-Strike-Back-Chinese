@@ -1,4 +1,10 @@
 {
+  "entity.species.birt": "Abyssal Eyeball",
+  "item.species.birt_egg": "Stun Egg",
+  "entity.species.birt_egg": "Stun Egg",
+  "item.species.birt_egg.desc.birtd": "Stunned (0:03)",
+  "item.species.birt_egg.desc.effect": "Prevents Movement",
+
   "item.species.smoke_bomb": "Sneak Bomb",
   "item.species.smoke_bomb.desc.invisibility": "Invisibility (0:15)",
   "item.species.smoke_bomb.desc.speed": "Speed III (0:02)",

@@ -1,0 +1,35 @@
+{
+    "loading_priority": 1,
+    "name": "origin.origins.soulbinder.name",
+    "description": "origin.origins.soulbinder.description",
+    "icon": {
+        "item": "kubejs:haunt_summon"
+    },
+    "powers": [
+        "origins:soft_skin",
+        "origins:slow_faller",
+        "origins:airy",
+        "origins:spiritedness",
+        "origins:spiritedness_jump",
+        "origins:spiritedness_boost",
+        "origins:spirit_drops",
+        "origins:spirit_bow",
+        "origins:spirit_resonance",
+        "origins:spirit_shock",
+        "origins:no_fall_damage",
+        "origins:no_helmet",
+        "origins:inflammable",
+        "origins:not_hungry",
+        "origins:healing_kill",
+        "origins:step_height_increase",
+        "origins:bad_omen_always",
+        "origins:3_rolls",
+        "origins:soulbinder_skin",
+        "origins:bloodlust_human",
+        "origins:way",
+        "origins:00_patrol",
+        "origins:no_block_drops"
+    ],
+    "order": 1,
+    "impact": 3
+}

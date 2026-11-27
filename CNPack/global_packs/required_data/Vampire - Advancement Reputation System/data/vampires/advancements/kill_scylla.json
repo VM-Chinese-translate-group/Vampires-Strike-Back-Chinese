@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_zapper",
+  "display": {
+    "icon": {
+      "item": "cataclysm:ceraunus",
+      "id": "cataclysm:ceraunus"
+    },
+    "title": {
+      "translate": "advancements.vampires.scylla.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.scylla.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cataclysm:scylla": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "cataclysm:scylla"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cataclysm:scylla"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

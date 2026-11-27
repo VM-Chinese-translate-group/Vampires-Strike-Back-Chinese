@@ -1,0 +1,40 @@
+{
+  "parent": "vampires:kill_aptrgangr",
+  "display": {
+    "icon": {
+      "item": "goety:grave_glove"
+    },
+    "title": {
+      "translate": "advancements.vampires.grave_golem.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.grave_golem.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goety:grave_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goety:grave_golem"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "goety:grave_golem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_pillager",
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.vampires.conquillager.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.conquillager.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goety:conquillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goety:conquillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "goety:conquillager"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

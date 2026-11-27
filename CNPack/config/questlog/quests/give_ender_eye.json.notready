@@ -22,10 +22,11 @@
   "rewards": [
     {
       "type": "questlog:command",
-      "name": "Theos Soul",
+      "name": "quest.vampires.give_ender_eye.rewards.0.name",
       "auto_claim": true,
       "command": "function vampires:give_ender_eye",
-      "permission_level": 4
+      "permission_level": 4,
+      "translatable": true
     }
   ],
   "hidden": true,

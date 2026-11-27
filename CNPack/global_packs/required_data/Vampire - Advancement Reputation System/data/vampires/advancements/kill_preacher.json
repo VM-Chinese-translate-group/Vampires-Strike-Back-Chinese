@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_conquillager",
+  "display": {
+    "icon": {
+      "item": "assassin_backstab:wood_dagger",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.vampires.preacher.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.preacher.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goety:preacher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goety:preacher"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "goety:preacher"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

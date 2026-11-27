@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_inquisitor",
+  "display": {
+    "icon": {
+      "item": "goety:pendant_of_hunger",
+      "id": "goety:pendant_of_hunger"
+    },
+    "title": {
+      "translate": "advancements.vampires.envioker.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.envioker.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goety:envioker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goety:envioker"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "goety:envioker"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

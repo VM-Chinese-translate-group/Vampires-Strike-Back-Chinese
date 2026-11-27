@@ -1,0 +1,40 @@
+{
+  "parent": "vampires:kill_wicked",
+  "display": {
+    "icon": {
+      "item": "artifacts:digging_claws"
+    },
+    "title": {
+      "translate": "advancements.vampires.underzealot.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.underzealot.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "alexscaves:underzealot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "alexscaves:underzealot"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "alexscaves:underzealot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

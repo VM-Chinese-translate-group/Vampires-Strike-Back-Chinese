@@ -10,7 +10,7 @@
   "tooltip.kubejs.mantlediver": "§e[右击]§r以潜入地幔，并显示§c城堡§r的位置。",
   "tooltip.kubejs.cinderous_soulcaller": "§e[右击]§r位于城堡中心的方块以召唤§c深渊领主§r。",
   "tooltip.kubejs.hold_shift": "按住§e[SHIFT]§r查看更多信息",
-  "tooltip.kubejs.scroll": "与§f界限结晶§r一同§e合成§r以§b复制§r法术！",
+  "tooltip.kubejs.scroll": "与§f3 个界限结晶§r一同§e合成§r以§b复制§r法术！",
   "tooltip.kubejs.flint": "与§c石质§r物品一同§e合成§r以§c修复§r它们！",
   "tooltip.kubejs.unscrappable": "§c不可拆解§r",
   "tooltip.kubejs.burning_ashes": "§6放入§e烈焰祭坛§6以召唤§c飞龙之塔§6的§c守卫者§6……§r",
@@ -34,10 +34,11 @@
   "inventory_free.unlock.tooltip2": "",
   "tooltip.kubejs.heart_piece": "需要4个碎片来§e合成§r一颗§d临时心之水晶！§r！",
   "tooltip.kubejs.unrepairable": "§c不可修复§r",
-  "message.kubejs.life_gained": "已获得生命值",
+  "message.kubejs.life_gained": "已获得1条生命",
   "tooltip.kubejs.nightmare_mode": "§c[右键点击]§r启用§c梦魇模式§r。\n\n启用后，将立即解锁所有与§6恶名§r相关的敌人生成。\n\n后果自负！！！",
   "tooltip.kubejs.scrappable": "§a可拆解§r",
   "tooltip.kubejs.iron_upgrade_tablet": "与皮革、木质和石质装备一同§e合成§r以将装备§b升级§r为铁材质！",
   "tooltip.kubejs.diamond_upgrade_tablet": "与铁质装备一同§e合成§r以将装备§b升级§r为钻石材质！",
-  "tooltip.kubejs.netherite_upgrade_tablet": "与钻石装备一同§e合成§r以将装备§b升级§r为下界合金材质！"
+  "tooltip.kubejs.netherite_upgrade_tablet": "与钻石装备一同§e合成§r以将装备§b升级§r为下界合金材质！",
+  "tooltip.kubejs.ruby": "与§f界限结晶§r一同§e合成§r以§c复制§r界限结晶！"
 }

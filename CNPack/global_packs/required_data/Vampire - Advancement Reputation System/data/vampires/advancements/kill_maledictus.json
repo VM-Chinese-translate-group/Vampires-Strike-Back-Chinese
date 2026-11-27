@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_illusioner",
+  "display": {
+    "icon": {
+      "item": "cataclysm:soul_render",
+      "id": "cataclysm:soul_render"
+    },
+    "title": {
+      "translate": "advancements.vampires.maledictus.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.maledictus.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cataclysm:maledictus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "cataclysm:maledictus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cataclysm:maledictus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

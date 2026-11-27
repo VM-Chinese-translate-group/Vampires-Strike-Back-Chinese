@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:200_oblivion",
+  "display": {
+    "icon": {
+      "item": "uniqueaccessories:devils_eyeball",
+      "id": "uniqueaccessories:devils_eyeball"
+    },
+    "title": {
+      "translate": "advancements.vampires.birt.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.birt.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "species:birt": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "species:birt"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "species:birt"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

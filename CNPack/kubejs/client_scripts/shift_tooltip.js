@@ -50,6 +50,11 @@ ItemEvents.tooltip(event => {
 
   // ====================
 
+  // Map Teleporter
+  event.addAdvanced(['kubejs:grand_mansion_map', 'kubejs:grand_mansion_map', 'kubejs:dragon_tower_map', 'kubejs:frosted_prison_map', 'kubejs:acrolopis_map'], (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.map_teleporter').gray())
+  })
+
   // Mantlediver
   event.addAdvanced(['sortilege:mantlediver'], (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.kubejs.mantlediver').gray())
@@ -151,6 +156,33 @@ ItemEvents.tooltip(event => {
     }
   })
 
+  // Absorption Heart Crystal
+  event.addAdvanced(['kubejs:absorption_heart_crystal'], (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
+    } else {
+      text.add(1, Text.translate('tooltip.kubejs.absorption_heart_crystal').gray())
+    }
+  })
+
+  // Boost Heart Crystal
+  event.addAdvanced(['minecells:boss_stem_cell'], (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
+    } else {
+      text.add(1, Text.translate('tooltip.kubejs.boost_heart_crystal').gray())
+    }
+  })
+
+  // Life Crystal
+  event.addAdvanced(['kubejs:life_crystal'], (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
+    } else {
+      text.add(1, Text.translate('tooltip.kubejs.life_crystal').gray())
+    }
+  })
+
   // Enchanted Book
   event.addAdvanced(['minecraft:enchanted_book'], (item, advanced, text) => {
     if (!event.shift) {
@@ -232,12 +264,21 @@ ItemEvents.tooltip(event => {
     }
   })
 
-  // Emerald
+  // Emerald Shard
   event.addAdvanced(['kubejs:emerald_shard'], (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
     } else {
       text.add(1, Text.translate('tooltip.kubejs.emerald_shard').gray())
+    }
+  })
+
+  // Emerald Shard
+  event.addAdvanced(['kubejs:ruby'], (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
+    } else {
+      text.add(1, Text.translate('tooltip.kubejs.ruby').gray())
     }
   })
 

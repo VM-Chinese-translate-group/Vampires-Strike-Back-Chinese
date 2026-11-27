@@ -1,0 +1,10 @@
+{
+    "name": "power.origins.metal_body.name",
+    "description": "power.origins.metal_body.description",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -14.0,
+        "operation": "addition"
+    }
+}

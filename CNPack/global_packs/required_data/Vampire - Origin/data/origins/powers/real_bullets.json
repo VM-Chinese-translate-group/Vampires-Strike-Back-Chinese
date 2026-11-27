@@ -1,0 +1,12 @@
+{
+	"name": "power.origins.real_bullets.name",
+	"description": "power.origins.real_bullets.description",
+	"hidden": true,
+	"type": "origins:starting_equipment",
+	"stack": {
+		"item": "irons_artifice:bullet",
+		"slot": 8,
+		"amount": 99
+	},
+	"recurrent": true
+}

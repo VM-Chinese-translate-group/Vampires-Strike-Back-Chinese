@@ -1,40 +1,41 @@
 {
-    "parent": "vampires:kill_pillager",
-    "display": {
-        "title": {
-            "translate": "advancements.vampires.shieldbearer.title"
-        },
-        "description": {
-            "translate": "advancements.vampires.shieldbearer.description"
-        },
-        "icon": {
-            "item": "shieldexp:iron_shield"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "vampires:kill_pickpocketer",
+  "display": {
+    "icon": {
+      "item": "shieldexp:iron_shield",
+      "nbt": "{Damage:0}"
     },
-    "criteria": {
-        "minecells:shieldbearer": {
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecells:shieldbearer"
-                        }
-                    }
-                ]
+    "title": {
+      "translate": "advancements.vampires.shieldbearer.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.shieldbearer.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecells:shieldbearer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecells:shieldbearer"
             },
-            "trigger": "minecraft:player_killed_entity"
-        }
-    },
-    "requirements": [
-        [
-            "minecells:shieldbearer"
+            "entity": "this"
+          }
         ]
-    ],
-    "sends_telemetry_event": true
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecells:shieldbearer"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

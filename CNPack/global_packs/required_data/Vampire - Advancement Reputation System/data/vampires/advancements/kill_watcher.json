@@ -1,0 +1,41 @@
+{
+  "parent": "vampires:kill_crone",
+  "display": {
+    "icon": {
+      "item": "alexscaves:occult_gem",
+      "id": "alexscaves:occult_gem"
+    },
+    "title": {
+      "translate": "advancements.vampires.watcher.title"
+    },
+    "description": {
+      "translate": "advancements.vampires.watcher.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "alexscaves:watcher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "alexscaves:watcher"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "alexscaves:watcher"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

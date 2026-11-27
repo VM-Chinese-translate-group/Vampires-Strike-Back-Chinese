@@ -1,0 +1,11 @@
+{
+	"name": "power.origins.real_gun.name",
+	"description": "power.origins.real_gun.description",
+	"type": "origins:starting_equipment",
+	"stack": {
+		"item": "irons_artifice:six_shooter",
+		"tag": "{Enchantments:[{id:\"sortilege:soulbound\",lvl:1s},{id:\"sortilege:storytelling_curse\",lvl:1s}]} 1",
+		"slot": 0
+	},
+	"recurrent": false
+}
