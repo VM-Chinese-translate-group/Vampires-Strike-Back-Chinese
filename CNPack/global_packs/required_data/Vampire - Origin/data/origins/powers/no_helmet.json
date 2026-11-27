@@ -1,0 +1,10 @@
+{
+  "name": "power.origins.no_helmet.name",
+  "description": "power.origins.no_helmet.description",
+  "type": "origins:restrict_armor",
+  "head": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
+  }
+}

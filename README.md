@@ -4,7 +4,7 @@
 
 | CurseForge     | 加载器     | 原文整理目标       | 汉化维护状态 |
 | :------------- | :--------- | :----------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/vampires-strike-back) | Forge | MC 1.20.1 / VSB 1.9.3 | 维护中       |
+| [链接](https://www.curseforge.com/minecraft/modpacks/vampires-strike-back) | Forge | MC 1.20.1 / VSB 1.10.0 | 维护中       |
 
 ### 📌 汉化相关
 

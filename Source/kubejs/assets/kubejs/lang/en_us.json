@@ -12,7 +12,7 @@
   "tooltip.kubejs.mantlediver": "§e[RIGHT-CLICK]§r to dive into the Mantle and locate the §cCitadel.§r",
   "tooltip.kubejs.cinderous_soulcaller": "§e[RIGHT-CLICK]§r in the center of the Citadel to summon the §cAbyssal Lord.§r",
   "tooltip.kubejs.hold_shift": "Hold §e[SHIFT]§r for more information",
-  "tooltip.kubejs.scroll": "§eCRAFT§r with §fLimitite§r to §bduplicate§r the spell!",
+  "tooltip.kubejs.scroll": "§eCRAFT§r with §f3 Limitite§r to §bduplicate§r the spell!",
   "tooltip.kubejs.flint": "§eCRAFT§r with §cStone§r items to §crepair§r them!",
   "tooltip.kubejs.unscrappable": "§cUnscrappable§r",
   "tooltip.kubejs.burning_ashes": "§6Place into the §eAltar of Fire §6to summon the §cGuardian §6of the §cDragon Tower...§r",
@@ -49,5 +49,6 @@
   "message.kubejs.summoned_skull": "Summoned a Skull!",
   "message.kubejs.summoned_wraith": "Summoned a Wraith!",
   "message.kubejs.summoned_ice_golem": "Summoned an Ice Golem!",
-  "message.kubejs.summoned_fire_hoglin": "Summoned a Fire Hoglin!"
+  "message.kubejs.summoned_fire_hoglin": "Summoned a Fire Hoglin!",
+  "tooltip.kubejs.ruby": "§eCRAFT§r with §f Limitite§r to §cduplicate§r the Limitite!"
 }

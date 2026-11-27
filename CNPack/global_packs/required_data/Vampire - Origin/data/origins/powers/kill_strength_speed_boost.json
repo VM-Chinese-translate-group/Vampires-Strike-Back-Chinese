@@ -19,6 +19,12 @@
                 "amplifier": 3
             },
             {
+                "effect": "minecraft:dolphins_grace",
+                "duration": 140,
+                "amplifier": 0,
+                "show_icon": false
+            },
+            {
                 "effect": "afterimages:afterimage",
                 "duration": 140,
                 "amplifier": 0

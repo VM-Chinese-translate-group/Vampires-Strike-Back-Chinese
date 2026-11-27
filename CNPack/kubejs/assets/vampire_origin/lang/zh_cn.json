@@ -44,7 +44,7 @@
     "power.origins.max_health_buff.name": "生命提升",
     "power.origins.max_health_buff.description": "击杀敌人可提升你的最大生命值（在阳光下失效）",
     "power.origins.middle_of_the_road.name": "折中之道",
-    "power.origins.middle_of_the_road.description": "你出生后会自带5颗心的生命值，以及一件很酷的兜帽。",
+    "power.origins.middle_of_the_road.description": "你出生时拥有 5 颗心的生命值。",
     "power.origins.not_hungry.name": "不再饥饿",
     "power.origins.not_hungry.description": "你无需进食，取而代之的是需要汲取人类的血液。",
     "power.origins.no_block_drops.name": "禁用方块掉落物",

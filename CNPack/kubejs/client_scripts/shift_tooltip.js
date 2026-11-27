@@ -264,12 +264,21 @@ ItemEvents.tooltip(event => {
     }
   })
 
-  // Emerald
+  // Emerald Shard
   event.addAdvanced(['kubejs:emerald_shard'], (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
     } else {
       text.add(1, Text.translate('tooltip.kubejs.emerald_shard').gray())
+    }
+  })
+
+  // Emerald Shard
+  event.addAdvanced(['kubejs:ruby'], (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, Text.translate('tooltip.kubejs.hold_shift').gray())
+    } else {
+      text.add(1, Text.translate('tooltip.kubejs.ruby').gray())
     }
   })
 
